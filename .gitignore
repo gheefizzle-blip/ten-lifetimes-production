@@ -1,0 +1,52 @@
+# ============================================================================
+# Ten Lifetimes — PUBLIC production repo.
+# Belt-and-suspenders: the repo is assembled from a docs-only tree, but these
+# rules guarantee no media or private assets are ever committed.
+# ============================================================================
+
+# --- Media: audio / video / images / project files ---
+*.mp3
+*.wav
+*.flac
+*.aif
+*.aiff
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.tif
+*.tiff
+*.bmp
+*.psd
+*.ai
+*.aep
+*.prproj
+*.zip
+*.7z
+*.rar
+
+# --- Private asset folders (reference photos, masters, master refs) ---
+01_Reference_Gary/
+02_Reference_Jen/
+03_Couple_Photos/
+16_Master_References/
+
+# --- Per-chapter media subfolders ---
+*/Stills/
+*/Motion/
+*/Final/
+*/References/
+
+# --- Tooling / environments / OS cruft ---
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
