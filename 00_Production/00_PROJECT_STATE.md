@@ -7,6 +7,7 @@
 
 - **Production version:** **PT-0.1** (planning) → next gate PT-0.5 (story + timeline locked)
 - **Last updated:** 2026-06-25 by Agent B (Production Supervisor)
+- **Public docs repo (system of record for docs/prompts):** `gheefizzle-blip/ten-lifetimes-production` (GitHub, PUBLIC, docs only — **no media**). NAS = private asset vault. Claude Code pushes doc updates.
 
 ---
 
