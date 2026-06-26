@@ -1,4 +1,4 @@
-# TEN LIFETIMES — PROJECT STATE (canonical)
+# TEN LIFETIMES — A Cinematic Short Film — PROJECT STATE (canonical)
 
 > **The single source of truth for where the production stands.** Read this first.
 > Per Director's architecture (2026-06-24): the project is organized around **authority**. These canonical files
@@ -28,9 +28,14 @@
 
 **Canonical state (root):**
 - `00_PROJECT_STATE.md` — this file
+- `00_PRODUCTION_DASHBOARD.md` — at-a-glance status (sequences + pipeline + blockers)
 - `01_Production_Bible.md` — the constitution (creative decisions only) · **§0a Canon Rule = systems of truth**
 - `MASTER_PRODUCTION_TIMELINE.md` — **THE foundational relational artifact** (TL-WO-002): every word → time/section/chapter/shot/prompt/render/clip/status. Effectively immutable; everything downstream references it.
 - `02_Directors_Timeline.md` — narrative/structural timeline (section map, edit model, decisions) feeding the master table
+- `Emotional_Storyboard.md` — **the layer between Timeline and Shot DB:** "what should the audience *feel*?" + **Memory** ("what they remember 30 min later")
+- `Transition_Bible.md` — named reusable chapter-to-chapter transitions `TS-###` (history transforms, love continuous)
+- `40_SEQUENCES\Seq01_Opening\` — **Sequence One (the benchmark)** — TL-WO-004 deliverable scaffolds (Cosmos→Egypt→Rome, 0:00–1:03.82)
+- **Bible §0b** (roles: Director/Supervisor/EP) · **§0c** (Three Recognition Rules) · Camera Bible **Presence**
 - `03_Shot_Database.md` — every shot TL-####
 - `07_Revision_Log.md` — major decisions
 - `Risk_Register.md` — production risk register
@@ -52,10 +57,13 @@
 
 ---
 
-## Roles
-- **EP / final authority:** Gary Spear — approvals land in `12_APPROVALS\`
-- **Director:** ChatGPT "Sam" — authors work orders, reviews land in `11_REVIEWS\`
-- **Production Supervisor:** Claude Code (Agent B) — executes work orders, maintains state
+## Roles (team — Bible §0b/§0d)
+- **EP / final authority:** Gary Spear — approvals → `12_APPROVALS\`
+- **Director:** ChatGPT "Sam" — creative authorship; reviews → `11_REVIEWS\`
+- **Production Supervisor:** Claude Code (Agent B) — execution, docs, assets, tracking
+- **VFX / Cinematic Review:** Gemini — reviews generated output only (GVR + continuity); **no creative authorship**; reviews → `11_REVIEWS\Gemini\`
+- Systems: Editorial = Premiere · Vault = NAS · Brain = GitHub · Governance = Continuum
+- **Voice:** ChatGPT writes · Gemini critiques · Claude executes · Gary approves.
 
 ## Acceptance criteria carried on EVERY work order
 1. **Reality Test** — could a frame be mistaken for a real film?
@@ -78,16 +86,20 @@
 
 **✅ TIMELINE v1.0 LOCKED by EP (Gary) 2026-06-25 → PT-0.5.** fps = **24** confirmed; chapter overlay approved as-is. TL-WO-001 CLOSED.
 
-**Next focus (toward PT-1.0):**
-1. **Director (Sam):** detail line-level chorus chapter-splits (Rome/Viking in S3, Frontier/Victorian in S6, WWII/Modern/Finale in S8) + fill the Beat/Emotion/Camera/VFX/Transition columns of the Master Timeline.
-2. **Master references** (blocker B-2) — select `16_Master_References\` so consistency work can begin.
-3. Resolve generation-tooling host (blocker B-1) before any image generation.
+**Active focus — TL-WO-004: PERFECT SEQUENCE ONE** (0:00.000–1:03.820 · Cosmos→Egypt→Rome) — the benchmark for the whole film. *"Don't generate Egypt — perfect Sequence One."*
+1. **Sequence One scaffolds READY in `40_SEQUENCES\Seq01_Opening\`** (12 TL-WO-004 deliverables; measured backbone locked). **→ Director (Sam) authors** the creative content (Storyboard spine, Narrative, Environment/Costume Direction, Camera).
+2. **✅ Master refs LOCKED (interim)** in `16_Master_References\` (B-2 resolved). *Recommended:* fresh purpose-shot portrait set before final renders.
+3. **B-1 — resolve generation-tooling host** (Nano Banana / Sora / Veo) — the only remaining gate before first stills. Supervisor builds the Prompt Package once direction is authored.
+4. (Parallel, low-priority) Director: line-level chorus chapter-splits + fill Master Timeline creative columns.
 
 ## Active blockers
-- **B-1 — Generation tooling not reachable from this CC session.** Only Playwright MCP is connected (gheehplaptop). Nano Banana / Sora / Veo bridges not visible. Confirm host (gheehplaptop vs GSA-1000) + reload. *Does not block TL-WO-001 docs/alignment.*
-- **B-2 — Master references not selected.** All consistency work provisional until `16_Master_References\` chosen.
+- **B-1 — PARTIALLY RESOLVED (2026-06-25, GSA-1000).** **Stills: Nano Banana MCP bridge is LIVE** in the CC session (`mcp__nanobanana__generate_image`) — verified responsive; supports **multi-image conditioning (≤3 inputs = our 3 master refs), 16:9/21:9, 4K, Google-Search grounding**. Output → `C:\Users\Gary\nanobanana-images`. Premiere Pro MCP also live (markers/assembly). **Still open: Veo/Sora (motion)** — no direct bridge; native web + manual download (or future n8n route), then Gemini GVR. *Stills generation is now tooling-unblocked; remaining gate = Director authoring + workflow approval.*
+- **B-2 — RESOLVED (interim, 2026-06-25).** Master set locked in `16_Master_References\` (3 Gary + 3 Jen, from existing snapshots). Generation unblocked. *Residual:* interim set is casual snapshots — a purpose-shot portrait set recommended before final-quality renders (strip Gary cap/glasses, Jen dyed hair/nose ring per Character Bible).
 
 ## Recent history
+- 2026-06-25 — **PRO-005: Gemini onboarded as VFX/Cinematic Review Authority** (Bible §0b team + §0d Charter, ratified by Gemini — review-only). Added **Production Departments** (CRE/VFX/EDL/PRO/CON/REL) + crosswalk; built **`00_PRODUCTION_DASHBOARD.md`** and **`11_REVIEWS\Gemini\`** GVR log. Charter-gate satisfied → Sequence One generation may proceed once B-1 resolved.
+- 2026-06-25 — **Director review of TL-WO-003A → ACCEPTED; reframed to SEQUENCE ONE.** Egypt → **Sequence One** (Cosmos→Egypt→Rome, 0:00–1:03.82) = the film's benchmark. **TL-WO-004 issued**; 12 deliverable scaffolds built in `40_SEQUENCES\Seq01_Opening\` (Storyboard spine + Narrative/Environment/Costume/Shot List/Prompt/Review). Canon additions: Bible **§0b roles**, **§0c Three Recognition Rules** (notices first / smiles second / pendant catches light first); Camera Bible **Presence**; Emotional Storyboard **Memory** field. TL-WO-003A superseded.
+- 2026-06-25 — **Director review of TL-WO-002 → ACCEPTED.** Rebranded **"A Cinematic Short Film."** Canon Rule gained 4th system (**Continuum = governance history**). New hierarchy layers created: **Emotional Storyboard** + **Transition Bible**; Camera Bible gained **Narrative-Camera language**. **TL-WO-003A issued** (Director's Creative Development — Chapter One/Egypt); Egypt Emotional Storyboard + TS-001 drafted. Generation gated on B-2.
 - 2026-06-25 — **TL-WO-002 COMPLETE + public sync.** `MASTER_PRODUCTION_TIMELINE.md` generated (320 words × 14 cols); Canon Rule added to Bible §0a. **TL-WO-003 (b+c) DONE:** doc path-cleanup + public GitHub sync (commit `ab83ee1`, 6 docs + master timeline, zero media). **TL-WO-003 (a) folder restructure DEFERRED** pending Director mapping (EP: use-don't-expand).
 - 2026-06-25 — **TL-WO-001 COMPLETED on GSA-1000, EP-LOCKED → PT-0.5.** Section boundaries measured from drums/percussion stems; Premiere markers (24fps), full 320-word Master Timeline, and 66 preliminary line-shots generated to `20_REFERENCE\`. Timeline → **v1.0-draft**; §3 estimates replaced with measured values; Shot DB → v0.2. EP decisions outstanding: fps + chorus chapter-mapping.
 - 2026-06-25 — **TL-WO-001 forced alignment EXECUTED on GSA-1000.** ffmpeg + stable-ts installed; `medium.en` align of known lyrics → vocal stem. 320 word timings + 66 line timings written to `20_REFERENCE\alignment\`. Duration confirmed 329.60s.

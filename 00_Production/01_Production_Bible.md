@@ -13,9 +13,9 @@
 
 | Field | Value |
 |---|---|
-| **Title** | Ten Lifetimes |
+| **Title** | Ten Lifetimes — A Cinematic Short Film |
 | **Artist** | Tommy Ransome & The Gary Spear Experience |
-| **Format** | Cinematic AI music video / short film |
+| **Format** | Cinematic short film (a narrative interpretation of the song — not a music video; visuals carry the story, the music is the score) |
 | **Runtime** | **5:29 (329.0 sec)** — exact lock pending audio measurement |
 | **Aspect ratio** | 16:9 (2.39:1 letterbox optional for "film" feel) |
 | **Master audio** | `D:\My_Music\Tommy Ransome & The Gary Spear Experience\TEN LIFETIMES\TEN LIFETIMES.mp3` |
@@ -32,12 +32,77 @@
 | System | Owns | Location |
 |---|---|---|
 | **GitHub** | Canonical **documentation** (Bible, Timeline, Shot DB, Work Orders, Prompts, Continuity, Revision history) | `gheefizzle-blip/ten-lifetimes-production` (PUBLIC, docs only) |
-| **NAS** | Canonical **assets** (Gary/Jen photos, music masters, stems, Premiere project, generated stills & video) | `D:\My_Music\Ten_Lifetimes\` (private vault) |
-| **Premiere** | Canonical **editorial timeline** (the cut itself) | `Ten Lifetimes.prproj` |
+| **NAS** | Canonical **creative assets** (Gary/Jen photos, music masters, stems, Premiere project, generated stills & video) | `D:\My_Music\Ten_Lifetimes\` (private vault) |
+| **Premiere** | Canonical **editorial assembly** (the cut itself) | `Ten Lifetimes.prproj` |
+| **Continuum** | Canonical **governance history** (work-order lifecycle, approvals, attestations, decision provenance) | Aegis Continuum system of record |
 
-A fact lives in exactly one of these. Documentation never holds assets; assets never hold canon docs; the cut is owned by Premiere, described by the Master Production Timeline. This prevents drift and ambiguity as the project scales.
+A fact lives in exactly one of these. Documentation never holds assets; assets never hold canon docs; the cut is owned by Premiere, described by the Master Production Timeline; governance provenance is owned by Continuum. This prevents drift and ambiguity as the project scales.
 
 The **`MASTER_PRODUCTION_TIMELINE.md`** is the relational index that binds all three: every lyric word → time → shot → prompt → render → editorial clip.
+
+---
+
+## 0b. Production Team & Authority (governance — formalized 2026-06-25)
+
+A multi-agent film studio. One responsibility each — **nobody overlaps** (this is why it scales).
+
+| Role | System | Responsibility |
+|---|---|---|
+| **Executive Producer** | Gary | Final creative & business approval — what becomes canon |
+| **Director** | ChatGPT "Sam" | Story, emotion, symbolism, pacing, cinematic language (**creative authorship**) |
+| **Production Supervisor** | Claude Code (Agent B) | Execution: work orders, documentation, prompts, asset tracking, GitHub, Continuum integration |
+| **Visual Effects Supervisor** | Gemini | Cinematic critique, video analysis, continuity review, Veo generation strategy (**review only — see §0d**) |
+| *Editorial* | Adobe Premiere | Final assembly & timing |
+| *Asset Vault* | NAS | All source & generated media |
+| *Production Brain* | GitHub | Canonical documentation |
+| *Governance* | Continuum | Decision history, approvals, lineage |
+
+**Creative voice stays singular:** **ChatGPT writes · Gemini critiques · Claude executes · Gary approves.** The Supervisor makes no creative decisions; the VFX Supervisor authors no story/symbol/character/emotion; the Director manages no files; approval is the EP's alone.
+
+**Production workflow:**
+`Director (ChatGPT) → Production (Claude Code) → Generation → Gemini Review → EP Approval → Canon`
+
+## 0c. The Three Recognition Rules (permanent — every lifetime)
+
+Established in Sequence One (Egypt) and **silently repeated across all ten lifetimes**. The audience should never consciously notice them — by the finale they should feel these have *always* been true.
+
+1. **Gary always notices Jen first** — not because she's prettier, because his soul recognizes her.
+2. **Jen always smiles second** — a tiny hesitation first, almost *"I know you…"* without knowing why.
+3. **The pendant always catches the light first** — the *light* finds it, not the camera; subconscious, never spotlit.
+
+> These are micro-choreography laws of every reunion. They join the existing character laws (recognizable gesture / same age / pendant present) in the Character Bible.
+
+## 0d. Gemini Production Charter (adopted & **ratified by Gemini** 2026-06-25)
+
+**Role:** Visual Effects Supervisor & Cinematic Review Authority.
+
+**Primary responsibilities** — review only:
+- Conduct **Daily Video Reviews (GVR)** of all generated clips.
+- Evaluate visual realism, camera movement, and lighting consistency.
+- Detect and flag AI artifacts and historical anachronisms.
+- Recommend **Veo/Sora** prompt optimizations and motion refinements.
+- Review assembled edits for pacing, flow, and visual continuity.
+
+**Authority & boundaries:** Gemini provides visual & cinematic review **only**, and is **strictly prohibited from altering or authoring** story, symbolism, character arcs, or emotional direction. This preserves a single creative voice (the Director). Gemini's Veo/Sora recommendations are translated into VFX work orders by the Supervisor (Claude); the Director's creative intent governs. *(In Gemini's words: "Sam owns the soul of the film; I protect its cinematic reality.")*
+
+**Workflow:** `Director (ChatGPT) → Production (Claude Code) → Generation → Gemini Review → EP Approval → Canon`.
+
+**Review artifacts:**
+- `GVR-###` — **Gemini Video Review** (per generated clip): facial consistency · lighting continuity · historical authenticity · camera motion · AI artifacts · emotional impact · suggested retakes.
+- **Gemini Continuity Review** — on the *assembled edit*: emotional-arc flow, pacing, transition smoothness, sustained engagement.
+- Reviews land in `11_REVIEWS\Gemini\`; verdicts route to EP for approval. No-self-validation holds (the generator does not review its own output).
+
+> **Gate:** per Director, no Sequence One generation begins until this charter is canonized (now in effect).
+
+## 0e. Operation Report Standard (PRO-006, adopted 2026-06-25)
+
+So all agents share one operational audit trail readable from the public repo: **every work order / production operation produces a public Markdown completion report.**
+
+**Every operation produces:** (1) a work-order file, (2) a completion/operation report, (3) canon updates, (4) public GitHub sync — **unless held by the EP** (then the report states why).
+
+- Reports live in **`11_Operation_Reports/`** (public mirror; NAS `11_OPERATION_REPORTS\`), named `YYYY-MM-DD_<WO-ID>_<Short_Title>_REPORT.md`. Template: **`60_TEMPLATES\Operation_Report_Template.md`**.
+- **Rules:** ASCII-only; **no private media** (photos/audio/generated assets) committed; NAS paths may be referenced but personal media never exposed; every report identifies files **created / modified / deleted** and **whether GitHub was synced** (if deferred, why); every report states **open blockers** and **next recommended action**; ends with a **Supervisor Attestation**.
+- **Goal:** ChatGPT and Gemini can understand a completed operation by reading its report alone.
 
 ---
 
