@@ -1,6 +1,6 @@
 # ASSET DOSSIER — TL-Seq1_Egypt_Jen_hero_v1  (ARCHIVED — environment drift)
 
-> The Dossier for `TL-Seq1_Egypt_Jen_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. Kept, not deleted.
+> The Dossier for `TL-Seq1_Egypt_Jen_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`. Kept, not deleted.
 
 ## Intent / Narrative Purpose
 - (Intended: Jen as a real woman on a quiet morning road, faint recognition.) The render FAILED this Intent — it drifted into temple spectacle, contradicting "no spectacle." Intent vs failure is why it is kept.
@@ -50,6 +50,16 @@ DOF, film grain, warm-gold grade.
 ## Evolutionary tree (lineage)
 - Parent: original  ·  Children: TL-Seq1_Egypt_Jen_hero_v2  ·  Siblings: Jen_hero_v2
 - Superseded By: TL-Seq1_Egypt_Jen_hero_v2 (the change: explicit quiet-Nile-path + temple/spectacle negatives)
+
+## Review (three questions)
+- Q1 Technical (render matches prompt?): YES — faithful to an under-constrained prompt (no environment limits).
+- Q2 Creative (prompt implements Intent?): NO — drifted into temple spectacle vs the quiet-path Intent.
+- Q3 Institutional (reuse this approach?): NO — see lesson.
+
+## Living fields
+- Creative Discovery: none recorded.
+- Studio Standard: Deprecated (archived; the LESSON is the durable standard).
+- Knowledge Reused In: none yet — "constrain the environment positively AND negatively in historical chapters" applies to every historical sequence.
 
 ## THE LESSON
 - Primary Category: Environment

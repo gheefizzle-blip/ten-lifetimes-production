@@ -32,7 +32,7 @@
 ## Generated stills / clips
 *(Logged here as produced — filename, shot ID, chapter, tool, status.)*
 
-> **Every asset below has a companion `.md` provenance file (born-with-asset). Standard: `Asset_Provenance_Standard.md`; template: `60_TEMPLATES\Asset_Provenance_Template.md`.**
+> **Every asset below has a companion Dossier `.md` (born-with-asset; the Dossier IS the asset's identity). System: `Creative_Provenance_Standard.md`; template: `60_TEMPLATES\Asset_Dossier_Template.md`.**
 
 | Asset (+ companion .md) | Beat | Disposition | Location (under `04_Egypt\Stills\`) | Tool / res | Date |
 |---|---|---|---|---|---|

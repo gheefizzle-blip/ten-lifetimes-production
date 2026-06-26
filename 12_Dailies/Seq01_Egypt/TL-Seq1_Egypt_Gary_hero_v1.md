@@ -1,6 +1,6 @@
 # ASSET DOSSIER — TL-Seq1_Egypt_Gary_hero_v1
 
-> The Dossier for `TL-Seq1_Egypt_Gary_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+> The Dossier for `TL-Seq1_Egypt_Gary_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`.
 
 ## Intent / Narrative Purpose
 - The thousand-yard stare of a man who has walked this lonely road across many lifetimes — searching without knowing why, familiar with solitude, NOT despairing. The audience should begin searching WITH him without realizing it. (CRE-001, Egypt opening.)
@@ -55,10 +55,19 @@ Looks like a real feature film.
 - Parent: original  ·  Children: none  ·  Siblings: none (sole Egypt Gary hero so far)
 - Superseded By: n/a (current Egypt look-lock candidate)
 
-## Review history
+## Review — answer all THREE questions (write verdicts in here)
+- Q1 Technical (render matches prompt?): Pending
+- Q2 Creative (prompt implements the Intent?): Pending
+- Q3 Institutional (future productions reuse this approach?): Pending
 - Director (Sam): Pending
 - Gemini (GVR-001): Pending
+- Continuity Decision triggered: none
 - EP (Gary): Pending
+
+## Living fields
+- Creative Discovery: none recorded yet (Director/Gemini to note during GVR)
+- Studio Standard: Pending
+- Knowledge Reused In: none yet
 
 ## Notes
 - Strongest of the first pass; reads as a real period film still (no spectacle, warm-gold dawn, pendant present, contemplative). Held unchanged through the VFX-002 retake pass as the Egypt look-lock candidate.

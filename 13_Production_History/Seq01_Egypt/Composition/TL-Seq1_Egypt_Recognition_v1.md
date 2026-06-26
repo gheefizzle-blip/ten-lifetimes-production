@@ -1,6 +1,6 @@
 # ASSET DOSSIER — TL-Seq1_Egypt_Recognition_v1  (ARCHIVED — staging/eye-line)
 
-> The Dossier for `TL-Seq1_Egypt_Recognition_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. Kept, not deleted.
+> The Dossier for `TL-Seq1_Egypt_Recognition_v1.png`. Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`. Kept, not deleted.
 
 ## Intent / Narrative Purpose
 - (Intended: the recognition hinge — he sees her first, she hesitates then smiles, pendant catches light.) The render FAILED the gaze geometry (he looks up/away, they read side-by-side), losing the beat. Intent vs failure is why it is kept.
@@ -50,6 +50,16 @@ sun... 50mm two-shot... warm-gold grade.
 ## Evolutionary tree (lineage)
 - Parent: original  ·  Children: TL-Seq1_Egypt_Recognition_v2 (-> v3)  ·  Siblings: Recognition_v2, Recognition_v3
 - Superseded By: TL-Seq1_Egypt_Recognition_v2 -> v3 (the change: explicit eye-line geometry)
+
+## Review (three questions)
+- Q1 Technical (render matches prompt?): YES — faithful to a prompt that named emotion but not gaze geometry.
+- Q2 Creative (prompt implements Intent?): NO — eye-line wrong; the recognition beat is lost.
+- Q3 Institutional (reuse this approach?): NO — see lesson.
+
+## Living fields
+- Creative Discovery: none recorded.
+- Studio Standard: Deprecated (archived; the LESSON is the durable standard).
+- Knowledge Reused In: none yet — "specify gaze geometry for relational shots" applies to every two-shot in the film.
 
 ## THE LESSON
 - Primary Category: Composition

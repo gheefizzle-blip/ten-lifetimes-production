@@ -1,6 +1,6 @@
 # ASSET DOSSIER — TL-Seq1_Egypt_Jen_hero_v2
 
-> The Dossier for `TL-Seq1_Egypt_Jen_hero_v2.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+> The Dossier for `TL-Seq1_Egypt_Jen_hero_v2.png`. Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`.
 
 ## Intent / Narrative Purpose
 - Jen as a real woman on a quiet morning road (NOT spectacle), at first light — the faint beginning of recognition, as though she has always been walking toward him. Warm, genuine, present. (CRE-001, Egypt.)
@@ -49,10 +49,19 @@ grand temple, Karnak, towering columns, hypostyle hall, pyramids, crowds, touris
 - Parent: TL-Seq1_Egypt_Jen_hero_v1 (retake)  ·  Children: none  ·  Siblings: Jen_hero_v1
 - Supersedes: TL-Seq1_Egypt_Jen_hero_v1  ·  Superseded By: n/a
 
-## Review history
+## Review — answer all THREE questions (write verdicts in here)
+- Q1 Technical (render matches prompt?): Pending
+- Q2 Creative (prompt implements the Intent?): Pending
+- Q3 Institutional (future productions reuse this approach?): Pending
 - Director (Sam): Pending
 - Gemini (GVR-002): Pending
+- Continuity Decision triggered: none
 - EP (Gary): Pending
+
+## Living fields
+- Creative Discovery: none recorded yet (Director/Gemini to note during GVR)
+- Studio Standard: Pending
+- Knowledge Reused In: none yet
 
 ## Notes
 - Retake of Jen v1. v1 drifted into a grand temple ("spectacle"); v2 returns her to Sam's quiet Nile dawn path via positive description + temple/columns/spectacle negatives. Tighter face match at 4k; period-correct linen; silver pendant visible.

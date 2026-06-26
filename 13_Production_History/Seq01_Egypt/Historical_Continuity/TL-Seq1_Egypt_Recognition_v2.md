@@ -1,6 +1,6 @@
 # ASSET DOSSIER — TL-Seq1_Egypt_Recognition_v2  (ARCHIVED — the canonical glasses lesson)
 
-> The Dossier for `TL-Seq1_Egypt_Recognition_v2.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. This asset is KEPT, not deleted: it is the reference example that produced continuity decision CD-001.
+> The Dossier for `TL-Seq1_Egypt_Recognition_v2.png`. Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`. This asset is KEPT, not deleted: it is the reference example that produced continuity decision CD-001.
 
 ## Intent / Narrative Purpose
 - (Same as the recognition hinge: Gary recognizes first/no smile, Jen hesitates then a questioning smile, pendant catches light, audience feels relief.) The render achieved the GAZE intent but FAILED the no-anachronism criterion — see the lesson below. Intent vs failure is the point of keeping it.
@@ -52,6 +52,16 @@ both looking at camera, looking away from each other, man smiling, big grin, rom
 - Director (Sam): n/a (caught pre-GVR)
 - Gemini: n/a
 - EP (Gary): flagged glasses on review; ratified the period rule
+
+## Review (three questions)
+- Q1 Technical (render matches prompt?): YES — the prompt did not forbid eyewear, so the render was faithful to a flawed prompt.
+- Q2 Creative (prompt implements Intent?): PARTIAL — gaze/recognition landed; period authenticity failed (glasses).
+- Q3 Institutional (reuse this approach?): NO — but the lesson IS reusable (CD-001).
+
+## Living fields
+- Creative Discovery: none recorded.
+- Studio Standard: Deprecated (the asset is archived; its LESSON, CD-001, is the durable standard).
+- Knowledge Reused In: none yet — CD-001 (no pre-WWII glasses) applies forward to Rome, Viking, Medieval, Renaissance, Frontier, Victorian.
 
 ## THE LESSON
 - Primary Category: Historical Continuity

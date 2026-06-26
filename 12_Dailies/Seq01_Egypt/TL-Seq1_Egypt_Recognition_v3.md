@@ -1,6 +1,6 @@
 # ASSET DOSSIER — TL-Seq1_Egypt_Recognition_v3
 
-> The Dossier for `TL-Seq1_Egypt_Recognition_v3.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+> The Dossier for `TL-Seq1_Egypt_Recognition_v3.png`. Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`.
 
 ## Intent / Narrative Purpose
 - THE emotional hinge of Sequence One: soul-recognition, not romance. Gary sees her first and goes still — he does NOT smile; Jen hesitates a half-beat, then a gentle, almost questioning smile ("I know you..."); the silver pendant catches the light first. The audience should feel RELIEF, not excitement — the search they didn't know they were part of has found its destination. (CRE-001 + the Three Recognition Rules.)
@@ -50,10 +50,19 @@ glasses, eyeglasses, spectacles, reading glasses, eyewear, modern accessories, b
 - Children: none  ·  Siblings: Recognition_v1, Recognition_v2
 - Supersedes: Recognition_v1, Recognition_v2  ·  Superseded By: n/a
 
-## Review history
+## Review — answer all THREE questions (write verdicts in here)
+- Q1 Technical (render matches prompt?): Pending
+- Q2 Creative (prompt implements the Intent?): Pending
+- Q3 Institutional (future productions reuse this approach?): Pending
 - Director (Sam): Pending
 - Gemini (GVR-003): Pending
+- Continuity Decision triggered: none (inherits CD-001 compliance from v2->v3)
 - EP (Gary): Pending
+
+## Living fields
+- Creative Discovery: none recorded yet (Director/Gemini to note during GVR)
+- Studio Standard: Pending  (strong candidate: if Accepted, it becomes the reference for every chapter's recognition beat)
+- Knowledge Reused In: none yet
 
 ## Notes
 - The emotional hinge of Sequence One. Two corrections stacked across the family tree: v1->v2 fixed the gaze (he looks first / no smile; she hesitates then a small questioning smile, per CRE-001); v2->v3 removed an anachronistic eyeglasses artifact (CD-001). Pendant catches the light. Encodes the Three Recognition Rules.
