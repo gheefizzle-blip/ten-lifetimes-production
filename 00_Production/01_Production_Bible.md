@@ -120,6 +120,8 @@ So all agents share one operational audit trail readable from the public repo: *
 9. **Final approval**.
 → repeat for every sequence.
 
+**Sequence Retrospective (craftsmanship, not governance) — at the close of *each sequence*, not each WO:** What surprised us? · What worked? · What failed? · What would we never do again? · What becomes studio standard? Captured in the sequence's final operation report (and any standard it mints feeds the Camera/Character/Lighting bibles).
+
 > Hierarchy parallel (Hollywood ↔ ours): Writer/Director → Production Supervisor → Generation → Gemini Dailies → Premiere → Executive Producer.
 > **First-minute contract:** by the Chorus 1 downbeat (1:03.820), the audience should already believe they're watching a real cinematic love story — that emotional contract carries the whole film.
 
@@ -127,7 +129,9 @@ So all agents share one operational audit trail readable from the public repo: *
 
 The infrastructure phase is **complete and frozen.** The project has moved from *pre-production* to **Creative Production** — creative work is now the default; infrastructure changes require justification.
 
-> **The Director's Rule:** *No new governance, infrastructure, or production documents shall be created during Creative Production unless they solve a demonstrated production problem.*
+> **The Director's Rule:** *During Creative Production, no new governance, infrastructure, documentation, workflow, or organizational artifact may be introduced unless it removes a demonstrated production blocker or measurably improves the quality of the finished film.*
+>
+> This binds everyone, including the Director. It protects momentum and creativity. Every change — and every operation report — is judged by one standard: **Did it make the film better?**
 
 This keeps the film the priority and prevents documentation from expanding just because a good idea appears. PRO-009 is the final infrastructure operation that enacts this freeze.
 

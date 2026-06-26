@@ -62,4 +62,6 @@ Notes:      <constraints / safety>
 
 | **PRO-009** | **Creative Production transition (infrastructure FREEZE)** | Director (Sam) → Claude Code | **COMPLETE — FINAL INFRA WO** | Enacts the phase change pre-production → **Creative Production**. Expanded the report reflection block to **Lessons Learned / Creative Impact / Pipeline Impact / Recommendations / Would We Do This Again?** (Bible §0e + template + backfilled PRO-005/006/007/008). Added Bible **§0g** + **The Director's Rule** (no new infra unless it solves a demonstrated production problem). Phase relabeled in PROJECT_STATE + Dashboard. **Infrastructure is now frozen; next WO is CRE-001 (Director).** | 2026-06-26 |
 
-*(Infrastructure FROZEN after PRO-009 per Bible §0g. New work orders below should be CRE/VFX/EDL or a justified infra exception.)*
+| **PRO-010** | **Milestone: Studio Operational** | EP (Gary) + Director (Sam) + Gemini → Claude Code | **COMPLETE — milestone recorded** | Recorded the **Studio Operational** milestone (Ready for Principal Photography) in PROJECT_STATE / Dashboard / Revision Log. Finalized **The Director's Rule** to its binding wording (judged by: did it make the film better?). Added the **Sequence Retrospective** craftsmanship practice (sequence-level, Bible §0f). Closing administrative act of the freeze. | 2026-06-26 |
+
+*(Infrastructure FROZEN per Bible §0g. The next work order is **CRE-001** (Director). Further PRO/infra WOs require a demonstrated blocker or measurable film-quality gain.)*

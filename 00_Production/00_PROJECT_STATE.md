@@ -5,7 +5,8 @@
 > (`00_PROJECT_STATE`, `01_Production_Bible`, `02_Directors_Timeline`, `03_Shot_Database`) hold the state;
 > everything else is **evidence supporting** it.
 
-- **Phase:** **CREATIVE PRODUCTION** (infrastructure frozen 2026-06-25 — see Bible §0g, The Director's Rule). Creative work is the default; infra changes need a demonstrated production problem.
+- **🎬 MILESTONE: STUDIO OPERATIONAL — Ready for Principal Photography** (2026-06-26). Governance frozen · roles frozen · production pipeline operational · review pipeline (Gemini GVR) operational · documentation operational · creative authority defined · generation tooling available (stills) · asset management operational.
+- **Phase:** **CREATIVE PRODUCTION** (infrastructure frozen 2026-06-25 — see Bible §0g, The Director's Rule). Creative work is the default; infra changes need a demonstrated production problem or measurable film-quality gain.
 - **Production version:** **PT-0.5** (timeline locked, 2026-06-25) → next gate PT-1.0 (story/characters/picture)
 - **Last updated:** 2026-06-25 by Agent B (Production Supervisor)
 - **Public docs repo (system of record for docs/prompts):** `gheefizzle-blip/ten-lifetimes-production` (GitHub, PUBLIC, docs only — **no media**). NAS = private asset vault. Claude Code pushes doc updates.
