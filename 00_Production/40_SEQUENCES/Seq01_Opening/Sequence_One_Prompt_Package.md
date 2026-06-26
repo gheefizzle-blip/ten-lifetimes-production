@@ -2,11 +2,17 @@
 
 > **Scaffold — Supervisor builds once the Storyboard/Direction docs are authored.** ⚠️ **GATED on B-1 (generation-tooling host).** Prompts are translated from the Director's creative direction, not invented.
 
-## Per-shot prompt rows (filled by Supervisor from authored direction)
-| Shot | Tool [hero=Nano Banana→Sora] | Master refs | Prompt | Prompt ID | Status |
-|---|---|---|---|---|---|
-| TL-0010 | — | `16_Master_References\` | *(from Storyboard once authored)* | — | PLANNED |
-| … | — | — | — | — | PLANNED |
+## Hero stills - first pass (VFX-001, 2026-06-26, Nano Banana Gemini-3-Pro-Image)
+Params: model_tier `pro`, 16:9, resolution 2k, thinking_level high, grounding on. Output (local, not committed): `C:\Users\Gary\nanobanana-images\`.
+
+| Prompt ID | Shot/beat | Master refs (conditioning) | Render ID (file) | Status |
+|---|---|---|---|---|
+| PR-S1-001 | Gary - Egypt lonely walk (hero, pre-recognition) | Gary_01/02/03 | `TL-Seq1_Egypt_Gary_hero_v1.png` | STILL_GEN - awaiting GVR/review |
+| PR-S1-002 | Jen - Egypt, walking toward (hero) | Jen_01/02/03 | `TL-Seq1_Egypt_Jen_hero_v1.png` | STILL_GEN - awaiting GVR/review |
+| PR-S1-003 | Recognition two-shot (the sequence's defining frame) | Gary_01 + Jen_01 | `TL-Seq1_Egypt_Recognition_v1.png` | STILL_GEN - awaiting GVR/review |
+
+> Full prompt text for each is recorded in the VFX-001 operation report. These are a **look-establishing pass** for Director review + Gemini GVR + EP approval -> then LOCK the visual language (Production Loop step 5) before supporting stills.
+> **Supervisor notes for iteration:** (a) recognition two-shot did not fully capture the eye-contact choreography (he looks first / she hesitates then smiles) - they read side-by-side; needs staging retake. (b) Jen hero leans toward temple "spectacle" vs Sam's "quiet path, no spectacle." (c) pendant present but not yet the "catches the light first" beat.
 
 ## Build rules
 - Every human shot cites the locked master refs; **strip modern styling** (Gary cap/glasses, Jen dyed hair/nose ring).

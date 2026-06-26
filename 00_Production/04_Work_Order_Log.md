@@ -64,4 +64,7 @@ Notes:      <constraints / safety>
 
 | **PRO-010** | **Milestone: Studio Operational** | EP (Gary) + Director (Sam) + Gemini → Claude Code | **COMPLETE — milestone recorded** | Recorded the **Studio Operational** milestone (Ready for Principal Photography) in PROJECT_STATE / Dashboard / Revision Log. Finalized **The Director's Rule** to its binding wording (judged by: did it make the film better?). Added the **Sequence Retrospective** craftsmanship practice (sequence-level, Bible §0f). Closing administrative act of the freeze. | 2026-06-26 |
 
-*(Infrastructure FROZEN per Bible §0g. The next work order is **CRE-001** (Director). Further PRO/infra WOs require a demonstrated blocker or measurable film-quality gain.)*
+| **CRE-001** | **Sequence One - Director's Narrative** | Director (Sam) | **AUTHORED** | The creative payload (Cosmos→Egypt→Rome, 0:00-1:03.82) preserved verbatim at `40_SEQUENCES\Seq01_Opening\Sequence_One_Narrative.md`. The film's soul; everything below executes it. | 2026-06-26 |
+| **VFX-001** | **Sequence One hero stills (Egypt) - first pass** | Claude Code (exec) → Gemini GVR → EP | **IN PROGRESS** (generated; awaiting review) | Translated CRE-001 into 3 hero-still prompts; generated via Nano Banana (G3 Pro, 16:9, 2k, grounded): Gary Egypt hero, Jen Egypt hero, recognition two-shot. **Validated: face-from-master-refs holds; period look + photoreal achievable.** Routed to Director review + **GVR-001/002/003 (Gemini)** + EP approval → then LOCK the look (Production Loop step 5). Stills local, not committed. | 2026-06-26 |
+
+*(First generation begun. The Production Loop is live: build → Director review → Gemini GVR → EP approval → lock look → supporting → motion → Gemini motion → final.)*

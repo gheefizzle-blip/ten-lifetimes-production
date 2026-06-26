@@ -34,4 +34,8 @@
 
 | File | Shot ID | Chapter | Tool | Status | Date |
 |---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| TL-Seq1_Egypt_Gary_hero_v1.png | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image) | STILL_GEN (local, awaiting GVR) | 2026-06-26 |
+| TL-Seq1_Egypt_Jen_hero_v1.png | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image) | STILL_GEN (local, awaiting GVR) | 2026-06-26 |
+| TL-Seq1_Egypt_Recognition_v1.png | (recognition) | Egypt | Nano Banana (G3 Pro Image) | STILL_GEN (local, awaiting GVR) | 2026-06-26 |
+
+> Generated stills live local at `C:\Users\Gary\nanobanana-images\` until approved; approved -> move to NAS chapter `Stills\` (never committed to GitHub).
