@@ -40,7 +40,7 @@
 - None. (Stills generation deferred to Director authoring + EP approval.)
 
 ## Public Repo Commit
-- Synced together with PRO-006 (see that report). Until that push, NAS-only.
+- `d624322` (branch main, `gheefizzle-blip/ten-lifetimes-production`), 2026-06-25 PRO-005/PRO-006 catch-up batch. Zero media.
 
 ## Open Blockers
 - B-1 (motion): Veo/Sora have NO direct MCP bridge -> native web + manual download, then Gemini GVR.

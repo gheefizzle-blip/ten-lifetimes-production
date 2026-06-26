@@ -37,7 +37,7 @@
 - None.
 
 ## Public Repo Commit
-- Pushed 2026-06-25 in the PRO-005/PRO-006 catch-up batch to `gheefizzle-blip/ten-lifetimes-production` (branch main). See `git log` for the hash. Zero media (verified `git ls-files`).
+- `d624322` (branch main, `gheefizzle-blip/ten-lifetimes-production`), 2026-06-25 PRO-005/PRO-006 catch-up batch. Zero media (verified `git ls-files`). *(This report's own hash-stamp lands in the immediately following commit.)*
 
 ## Open Blockers
 - B-1 (motion): Veo/Sora no direct bridge (web + download + GVR). Stills: RESOLVED (Nano Banana MCP live).
