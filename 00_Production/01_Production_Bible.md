@@ -18,10 +18,26 @@
 | **Format** | Cinematic AI music video / short film |
 | **Runtime** | **5:29 (329.0 sec)** — exact lock pending audio measurement |
 | **Aspect ratio** | 16:9 (2.39:1 letterbox optional for "film" feel) |
-| **Master audio** | `D:\My Music\Tommy Ransome & The Gary Spear Experience\TEN LIFETIMES\TEN LIFETIMES.mp3` |
+| **Master audio** | `D:\My_Music\Tommy Ransome & The Gary Spear Experience\TEN LIFETIMES\TEN LIFETIMES.mp3` |
 | **Stems** | same folder — `TEN LIFETIMES Stems (1)\` (isolated tracks for precise timing) |
 | **Edit project** | `Ten Lifetimes.prproj` (Adobe Premiere Pro) — same folder |
-| **Project root** | `D:\My Music\Ten Lifetimes\` (NAS `gary_spear` share, reachable all devices) |
+| **Project root** | `D:\My_Music\Ten_Lifetimes\` (NAS `gary_spear` share, reachable all devices) |
+
+---
+
+## 0a. Canon Rule — Systems of Truth (governance)
+
+> Adopted 2026-06-25 (Director Sam → EP Gary). Now that documentation is public, each system owns **exactly one** type of truth — no overlap.
+
+| System | Owns | Location |
+|---|---|---|
+| **GitHub** | Canonical **documentation** (Bible, Timeline, Shot DB, Work Orders, Prompts, Continuity, Revision history) | `gheefizzle-blip/ten-lifetimes-production` (PUBLIC, docs only) |
+| **NAS** | Canonical **assets** (Gary/Jen photos, music masters, stems, Premiere project, generated stills & video) | `D:\My_Music\Ten_Lifetimes\` (private vault) |
+| **Premiere** | Canonical **editorial timeline** (the cut itself) | `Ten Lifetimes.prproj` |
+
+A fact lives in exactly one of these. Documentation never holds assets; assets never hold canon docs; the cut is owned by Premiere, described by the Master Production Timeline. This prevents drift and ambiguity as the project scales.
+
+The **`MASTER_PRODUCTION_TIMELINE.md`** is the relational index that binds all three: every lyric word → time → shot → prompt → render → editorial clip.
 
 ---
 

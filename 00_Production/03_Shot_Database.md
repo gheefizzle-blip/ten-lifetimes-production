@@ -3,8 +3,9 @@
 > Every shot in the film as a uniquely-ID'd, searchable record. Eventually ~80–120 entries.
 > Each shot traces up to the Timeline (when) and the Bible (why).
 
-- **Version:** v0.1 (schema + seed shots; populated as the Timeline locks)
-- **Last updated:** 2026-06-24 by Agent B
+- **Version:** v0.2 (preliminary shots assigned from measured Timeline — TL-WO-001)
+- **Last updated:** 2026-06-25 by Agent B
+- **Preliminary per-line shot list:** `20_REFERENCE\shot_database_prelim.md` (66 lyric-line shots TL-0010–TL-0660 + 3 intro). One shot per lyric line; Director subdivides during generation.
 
 ---
 
@@ -80,22 +81,25 @@
 
 ---
 
-## Chapter shot allocation (target 7 stills/chapter → ~70 + cosmos/bridge/finale)
+## Chapter shot allocation — MEASURED (TL-WO-001, supersedes v0.1 guess)
 
-| Chapter | ID block | Planned | Generated | Approved |
-|---|---|---|---|---|
-| Cosmos / Intro | TL-0001–0009 | 3 | 0 | 0 |
-| Egypt | TL-0010–0079 | 0/7 | 0 | 0 |
-| Rome | TL-0080–0149 | 0/7 | 0 | 0 |
-| Viking | TL-0150–0219 | 0/7 | 0 | 0 |
-| Medieval | TL-0220–0289 | 0/7 | 0 | 0 |
-| Renaissance | TL-0290–0359 | 0/7 | 0 | 0 |
-| Frontier | TL-0360–0429 | 0/7 | 0 | 0 |
-| Victorian | TL-0430–0499 | 0/7 | 0 | 0 |
-| WWII | TL-0500–0569 | 0/7 | 0 | 0 |
-| Modern | TL-0570–0639 | 0/7 | 0 | 0 |
-| Future | TL-0640–0709 | 0/7 | 0 | 0 |
-| Bridge | TL-0710–0799 | 0 | 0 | 0 |
-| Finale / Real ending | TL-0800–0899 | 0 | 0 | 0 |
+Derived from the measured timeline: one preliminary shot per lyric line, numbered sequentially by 10 in timeline order. (The old v0.1 70-wide blocks assumed ~7 shots/chapter but the verse/chorus sections carry 8–10 lyric lines each, so ranges are now measured, not pre-allocated.)
+
+| Chapter (overlay) | Shot ID range | Lines | Section |
+|---|---|---|---|
+| Cosmos / Intro | TL-0001 – TL-0003 | 3 intro | S0 |
+| Egypt | TL-0010 – TL-0080 | 8 | S1 |
+| Rome | TL-0090 – TL-0120 | 4 | S2 |
+| Rome → Viking | TL-0130 – TL-0220 | 10 | S3 |
+| Medieval | TL-0230 – TL-0300 | 8 | S4 |
+| Renaissance | TL-0310 – TL-0340 | 4 | S5 |
+| Frontier → Victorian | TL-0350 – TL-0420 | 8 | S6 |
+| Bridge | TL-0430 – TL-0500 | 8 | S7 |
+| WWII → Modern → Finale | TL-0510 – TL-0590 | 9 | S8 |
+| Future → morph → Real | TL-0600 – TL-0660 | 7 | S9 |
+
+> **Insert room:** subdivide any line-shot during generation as `TL-####a/b` or `+1..+9` (e.g. TL-0150 → TL-0151, TL-0152).
+>
+> ⚠️ **Reserved decision (Timeline §2):** the chorus/finale sections collapse multiple chapters into one section (S3 = Rome→Viking, S6 = Frontier→Victorian, S8 = WWII→Modern→Finale, S9 = Future→Real). Several historical chapters (Viking, Frontier, WWII, Modern) have **no dedicated solo section** — they live inside the choruses/montage. **Director + EP must ratify how the 10 historical chapters map onto the measured sections before generation.**
 
 *(Generation order per Bible §13: Modern → Future → Victorian → Frontier → Renaissance → Medieval → Viking → Rome → Egypt, then Bridge & Finale.)*
