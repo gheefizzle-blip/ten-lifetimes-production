@@ -46,7 +46,7 @@
 ### CRE-002 — Sequence One Hero Stills (Director's Shooting Order; one-at-a-time, generate→review→approve→next)
 | Asset (+ Dossier) | HERO | Beat | Disposition | Location | Date |
 |---|---|---|---|---|---|
-| **TL-0001_Cosmos_BeforeTime_v2** | 01 | "Before Time" (Cosmos) | **WORKING — awaiting Director review** (then GVR-004, EP) | `00_Cosmos\Stills\Working\` | 2026-06-26 |
+| **TL-0001_Cosmos_BeforeTime_v2** | 01 | "Before Time" (Cosmos) | **REVIEW QUEUE — published for Director review** (then Gemini, EP, LOCK) | NAS `00_Cosmos\Stills\Working\` → public `12_Review_Queue/Seq01_Hero01/` | 2026-06-26 |
 | TL-0001_Cosmos_BeforeTime_v1 | 01 | "Before Time" (Cosmos) | ARCHIVED — Rendering Artifact (border/matte) → v2 | `00_Cosmos\Stills\Production_History\Rendering_Artifact\` | 2026-06-26 |
 | _HERO 02 (TL-0010 "The Long Road")_ | 02 | Egypt | not started (gated on HERO 01 approval) | — | — |
 | _HERO 03 (TL-0070 "The First Recognition")_ | 03 | Egypt | not started | — | — |

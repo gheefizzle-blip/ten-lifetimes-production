@@ -53,10 +53,23 @@
 # --- EXCEPTION: Production_History is the public ILM-style learning archive ---
 # EP decision 2026-06-26 (full archive): superseded/rejected renders are KEPT and
 # published with their .md provenance as institutional memory for Continuum.
-# These two folders are the ONLY places media is permitted; all else stays on the NAS.
 !13_Production_History/**/*.png
 !13_Production_History/**/*.jpg
 !13_Production_History/**/*.jpeg
+
+# --- GitHub Asset Canon (Director, 2026-06-26): GitHub is the FULL production history. ---
+# All GENERATED assets + Dossiers are public across these stage folders. NON-generated
+# source assets (real source photos, music masters, stems, .prproj) stay NAS-private
+# (still covered by the media rules above). Review Queue = visible dailies, not canon.
+!12_Review_Queue/**/*.png
+!12_Review_Queue/**/*.jpg
+!12_Review_Queue/**/*.jpeg
+!14_Selected/**/*.png
+!14_Selected/**/*.jpg
+!14_Selected/**/*.jpeg
+!15_Final/**/*.png
+!15_Final/**/*.jpg
+!15_Final/**/*.jpeg
 
 # --- Tooling / environments / OS cruft ---
 .venv/

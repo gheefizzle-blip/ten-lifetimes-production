@@ -45,8 +45,9 @@
 - Created: <date>  ·  Reviewed: <date / pending>  ·  Disposition set: <date / pending>
 
 ## Disposition
-- Status: <Working | Selected | Approved | Final | Archived (Production_History)>
+- Status: <Working | Review Queue | Selected | Approved | Final | Archived (Production_History)>
 - Current location: <path>
+- Review Queue (public): <12_Review_Queue/Seq<NN>_Hero<NN>/ while under review, or n/a>
 
 ## Review — answer all THREE questions (write verdicts in HERE)
 - Q1 Technical (did the render match the prompt?): <Pending | verdict>

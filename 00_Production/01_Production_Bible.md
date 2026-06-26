@@ -31,8 +31,8 @@
 
 | System | Owns | Location |
 |---|---|---|
-| **GitHub** | Canonical **documentation** (Bible, Timeline, Shot DB, Work Orders, Prompts, Continuity, Revision history) | `gheefizzle-blip/ten-lifetimes-production` (PUBLIC, docs only) |
-| **NAS** | Canonical **creative assets** (Gary/Jen photos, music masters, stems, Premiere project, generated stills & video) | `D:\My_Music\Ten_Lifetimes\` (private vault) |
+| **GitHub** | Canonical **production history** — documentation **AND all generated assets + their Dossiers** (Review Queue, Dailies, Production History, Selected, Final). **Revised 2026-06-26 (Director Sam → EP Gary): GitHub is the full record, not docs-only.** | `gheefizzle-blip/ten-lifetimes-production` (PUBLIC) |
+| **NAS** | **Local working mirror** for generation + Premiere/Adobe performance, AND the canonical home for **source-only assets that are NOT generated** (Gary/Jen source photos, music masters, stems, `.prproj`). No *generated* asset stays NAS-only once it has a Dossier. | `D:\My_Music\Ten_Lifetimes\` (working mirror) |
 | **Premiere** | Canonical **editorial assembly** (the cut itself) | `Ten Lifetimes.prproj` |
 | **Continuum** | Canonical **governance history** (work-order lifecycle, approvals, attestations, decision provenance) | Aegis Continuum system of record |
 
@@ -126,7 +126,7 @@ So all agents share one operational audit trail readable from the public repo: *
 9. **Final approval**.
 → repeat for every sequence.
 
-**Per-hero approval gates (Director, CRE-002, 2026-06-26):** within step 1, each hero still is its OWN micro-production with its own LOCK — `Hero → Director → Gemini → EP → LOCK`, then (and only then) the next hero. Think in **approval gates, not in "a batch of six."** No batch generation. Each approved frame informs the next, which is how the sequence acquires one consistent cinematic language and avoids downstream drift. A hero is not "done" until **LOCKED.**
+**Per-hero approval gates (Director, CRE-002, 2026-06-26):** within step 1, each hero still is its OWN micro-production with its own LOCK — `Generate → Dossier → Publish to Review Queue → Director → Gemini → EP → LOCK → move (Selected | Production_History)`, then (and only then) the next hero. Think in **approval gates, not in "a batch of six."** No batch generation. **Reviewers evaluate the published FRAME in the Review Queue (`12_Review_Queue/Seq<NN>_Hero<NN>/`), never a description** — see Creative Provenance Standard "The Review Queue." Each approved frame informs the next, which is how the sequence acquires one consistent cinematic language and avoids downstream drift. A hero is not "done" until **LOCKED.**
 
 **Sequence Retrospective (craftsmanship, not governance) — at the close of *each sequence*, not each WO:** What surprised us? · What worked? · What failed? · What would we never do again? · What becomes studio standard? Captured in the sequence's final operation report (and any standard it mints feeds the Camera/Character/Lighting bibles).
 

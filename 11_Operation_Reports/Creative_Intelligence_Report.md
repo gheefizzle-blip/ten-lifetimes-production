@@ -1,6 +1,6 @@
 # TEN LIFETIMES — Creative Intelligence Report
 
-> **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier under each chapter's `Stills\` tree.
+> **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier across all GitHub stage folders: `12_Review_Queue/`, `12_Dailies/`, `13_Production_History/`, `14_Selected/`, `15_Final/`.
 
 - Generated: 2026-06-26 (instance #2 + forward-looking sections added per Director, PRO-013)
 - Corpus: **6 Dossiers**, 1 sequence (Sequence One), 1 chapter generated (Egypt). Sample is small — read trends as directional, not statistical.

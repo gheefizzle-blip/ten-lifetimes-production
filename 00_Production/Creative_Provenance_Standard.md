@@ -35,6 +35,23 @@ Each Dossier carries short **Director Notes**: terse guardrails for whoever revi
 
 These are three different evaluations. Gemini owns 1-2 (graded against Intent — a technical-pass / intent-fail is flagged for revision); Q3 feeds **Studio Standard**. Verdicts are written INTO the Dossier so reasoning stays locked to the image.
 
+## GitHub Asset Canon + the Review Queue (Director, 2026-06-26)
+A demonstrated blocker surfaced: the Director cannot direct an asset he cannot see, and **no creative authority approves a description.** The fix is also a canon correction:
+- **GitHub is the canonical production-history repository for ALL generated assets and their Dossiers** (Review Queue, Dailies, Production History, Selected, Final). **The NAS is the local working mirror** for Premiere / Adobe / generation performance — NOT the only record.
+- **No generated asset may remain NAS-only once it has a Dossier.** Every asset is published to GitHub with its Dossier **before** Director / Gemini / EP review, so all three evaluate the **same pixels, independently** (no reviewer inherits another's opinion).
+
+**Public folder model (per sequence):**
+- **`12_Review_Queue/Seq<NN>_Hero<NN>/`** — image + Dossier under review. Dailies / unapproved footage, explicitly **NOT canon.**
+- **`12_Dailies/Seq<NN>_<Chapter>/`** — review/working selects (the earlier VFX-001/002 Egypt selects live here).
+- **`13_Production_History/Seq<NN>_<Chapter>/<Category>/`** — superseded/rejected, kept + classified.
+- **`14_Selected/Seq<NN>/`** — LOCKED selects (Director + Gemini + EP approved).
+- **`15_Final/Seq<NN>/`** — final approved production assets (the deliverable cut).
+
+**Lifecycle:** `Created → Review Queue → Director → Gemini → EP → LOCK → Selected → Final` (or → Production_History if rejected/superseded). Every move updates the Dossier lifecycle **and** the Asset Register. NAS mirror: `Stills/Working/` ↔ Review Queue · `Stills/Selected/` ↔ Selected · chapter `Final/` ↔ Final · `Stills/Production_History/` ↔ Production_History.
+
+## Supervisor conduct — observe, don't opine (Director, 2026-06-26)
+The Supervisor (Claude Code) announces readiness — *"HERO-01 ready for Director review"* — and may report **objective, measurable observations** (e.g. *"modern eyeglasses detected"*, *"a distant landform is present vs the 'no land features' brief"*, *"rendered with a border"*). The Supervisor does **NOT** offer **subjective cinematic judgments** (*"distracting"*, *"too much sunrise"*, *"beautiful"*) before the Director and Gemini have seen the frame. Each authority evaluates independently, then compares — agreement is signal, disagreement is signal. Same role boundary as Creative Discovery and Director Notes.
+
 ## Evolutionary tree — version control of creative decisions
 Every Dossier records **Parent / Children / Siblings** (+ Supersedes / Superseded By) so the studio can A/B on the fly — *which single change caused the improvement?* (e.g. Recognition_v3 vs v2 = the eyewear negative prompt, CD-001).
 
