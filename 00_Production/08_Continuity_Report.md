@@ -10,6 +10,13 @@
 5. **No anachronisms** in historical chapters.
 6. **Color grade** matches the chapter's assigned palette (Bible §7).
 
+## Continuity Decisions ledger (CD-###)
+> Named, durable rulings that resolve a continuity problem. Each is triggered by evidence (often an archived asset) and linked from that asset's provenance `.md`. Append-only.
+
+| CD ID | Date | Decision | Trigger / evidence | Decided by | Encoded in |
+|---|---|---|---|---|---|
+| **CD-001** | 2026-06-26 | **Gary eyewear period cutoff** — NO glasses on Gary in any pre-WWII chapter (Egypt/Rome/Viking/Medieval/Renaissance/Frontier/Victorian); glasses only WWII/Modern/Future. | `Recognition_v2` still: Nano Banana preserved modern eyeglasses from the reference photo (anachronism). | EP (Gary) | Character Bible (PERIOD RULE), Seq One Prompt Package (standing negative prompt), Revision Log |
+
 ## Continuity checks per generated chapter
 *(Filled as chapters are produced — pass/fail against the 6 rules, with notes.)*
 

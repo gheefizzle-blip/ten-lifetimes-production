@@ -32,13 +32,15 @@
 ## Generated stills / clips
 *(Logged here as produced — filename, shot ID, chapter, tool, status.)*
 
-| File | Shot ID | Chapter | Tool | Status | Date |
-|---|---|---|---|---|---|
-| **TL-Seq1_Egypt_Gary_hero_v1.png** | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image, 2k) | **SELECT — awaiting GVR-001** | 2026-06-26 |
-| **TL-Seq1_Egypt_Jen_hero_v2.png** | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image, 4k) | **SELECT — awaiting GVR-002** (v1 superseded: temple spectacle) | 2026-06-26 |
-| **TL-Seq1_Egypt_Recognition_v3.png** | (recognition) | Egypt | Nano Banana (G3 Pro Image, 4k) | **SELECT — awaiting GVR-003** (v1/v2 superseded: gaze + glasses) | 2026-06-26 |
-| TL-Seq1_Egypt_Jen_hero_v1.png | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image, 2k) | SUPERSEDED by v2 (drifted to temple spectacle) | 2026-06-26 |
-| TL-Seq1_Egypt_Recognition_v1.png | (recognition) | Egypt | Nano Banana (G3 Pro Image, 2k) | SUPERSEDED by v3 (gaze choreography off) | 2026-06-26 |
-| TL-Seq1_Egypt_Recognition_v2.png | (recognition) | Egypt | Nano Banana (G3 Pro Image, 4k) | SUPERSEDED by v3 (anachronistic eyeglasses) | 2026-06-26 |
+> **Every asset below has a companion `.md` provenance file (born-with-asset). Standard: `Asset_Provenance_Standard.md`; template: `60_TEMPLATES\Asset_Provenance_Template.md`.**
 
-> Generated stills live on the **NAS vault** at `D:\My_Music\Ten_Lifetimes\04_Egypt\Stills\` (chapter `Stills\`); approved -> chapter `Final\`. **GitHub exposure for Gemini review: EP-authorized (2026-06-26)** — selects mirrored to public repo `12_Dailies\Seq01_Egypt\`. Mechanics confirmed: repo `.gitignore` firewalls all media EXCEPT a deliberate `!12_Dailies/**/*.png|jpg|jpeg` exception, so only review dailies are public; all other chapter media stays NAS-only. Replace superseded dailies in the repo when a select is retaken (keep the repo == current selects).
+| Asset (+ companion .md) | Beat | Disposition | Location (under `04_Egypt\Stills\`) | Tool / res | Date |
+|---|---|---|---|---|---|
+| **TL-Seq1_Egypt_Gary_hero_v1** | Egypt hero | **SELECT** — awaiting GVR-001 | `Selected\` | NB G3 Pro, 2k | 2026-06-26 |
+| **TL-Seq1_Egypt_Jen_hero_v2** | Egypt hero | **SELECT** — awaiting GVR-002 | `Selected\` | NB G3 Pro, 4k | 2026-06-26 |
+| **TL-Seq1_Egypt_Recognition_v3** | recognition | **SELECT** — awaiting GVR-003 | `Selected\` | NB G3 Pro, 4k | 2026-06-26 |
+| TL-Seq1_Egypt_Jen_hero_v1 | Egypt hero | ARCHIVED — Environment drift (temple spectacle) → v2 | `Production_History\Environment\` | NB G3 Pro, 2k | 2026-06-26 |
+| TL-Seq1_Egypt_Recognition_v1 | recognition | ARCHIVED — Composition (gaze/eye-line) → v2/v3 | `Production_History\Composition\` | NB G3 Pro, 2k | 2026-06-26 |
+| TL-Seq1_Egypt_Recognition_v2 | recognition | ARCHIVED — Historical Continuity (glasses, **CD-001**) → v3 | `Production_History\Historical_Continuity\` | NB G3 Pro, 4k | 2026-06-26 |
+
+> **Storage model (Asset Provenance Standard):** generated stills live on the **NAS vault** under `04_Egypt\Stills\` in `Working\` / `Selected\` / `Production_History\<Category>\`; approved finals → chapter `Final\`. **Nothing is deleted — superseded/rejected assets are KEPT and classified** (each carries its own `.md` lesson). **GitHub exposure for Gemini review: EP-authorized (2026-06-26)** — selects mirrored to public `12_Dailies\Seq01_Egypt\`; `.gitignore` firewalls all media EXCEPT a deliberate `!12_Dailies/**` exception. (Whether Production_History `.md` provenance and/or archived images also publish to GitHub for Continuum is an OPEN EP decision — see VFX-002 follow-up.)

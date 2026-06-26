@@ -45,11 +45,18 @@
 
 # --- EXCEPTION: review dailies are intentionally PUBLIC for Gemini GVR ---
 # EP decision 2026-06-26: generated review stills are committed to 12_Dailies/
-# so the VFX reviewer (Gemini) can access them from the repo. This is the ONLY
-# place media is permitted; everything else above remains firewalled to the NAS.
+# so the VFX reviewer (Gemini) can access them from the repo.
 !12_Dailies/**/*.png
 !12_Dailies/**/*.jpg
 !12_Dailies/**/*.jpeg
+
+# --- EXCEPTION: Production_History is the public ILM-style learning archive ---
+# EP decision 2026-06-26 (full archive): superseded/rejected renders are KEPT and
+# published with their .md provenance as institutional memory for Continuum.
+# These two folders are the ONLY places media is permitted; all else stays on the NAS.
+!13_Production_History/**/*.png
+!13_Production_History/**/*.jpg
+!13_Production_History/**/*.jpeg
 
 # --- Tooling / environments / OS cruft ---
 .venv/
