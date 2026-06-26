@@ -1,42 +1,51 @@
 # TEN LIFETIMES — Creative Intelligence Report
 
-> **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier under each chapter's `Stills\` tree. Snapshot below is the FIRST instance.
+> **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier under each chapter's `Stills\` tree.
 
-- Generated: 2026-06-26 (instance #1, by the Supervisor)
+- Generated: 2026-06-26 (instance #2, weekly regen)
 - Corpus: **6 Dossiers**, 1 sequence (Sequence One), 1 chapter generated (Egypt). Sample is small — read trends as directional, not statistical.
 - Coverage: 3 Selected (awaiting GVR) · 3 Production_History (archived, classified).
 
 ## Top Prompt Improvements
-| Change | From -> To | Effect |
+| Change | From → To | Effect |
 |---|---|---|
-| Added `glasses/eyeglasses/spectacles/eyewear` negatives + bare-face master ref | Recognition v2 -> v3 | Removed anachronistic eyeglasses (CD-001) |
-| Stated **gaze geometry** explicitly ("he looks DIRECTLY at her; eye-line connects") | Recognition v1 -> v2 | Fixed side-by-side default; recognition beat lands |
-| Constrained environment positively + negatively ("quiet Nile path"; NO temple/columns/spectacle) | Jen v1 -> v2 | Removed temple spectacle; returned to Director's Intent |
+| Added explicit gaze geometry: "he looks DIRECTLY AT the woman", "connected by a direct eye-line", negatives (both looking at camera, looking away from each other, man smiling) | TL-Seq1_Egypt_Recognition_v1 → v2 | Fixed side-by-side default staging; recognition beat lands as intended |
+| Added `glasses, eyeglasses, spectacles, eyewear` to negative prompt + conditioned on bare-face master ref (Gary_Master_02_Bareface) | TL-Seq1_Egypt_Recognition_v2 → v3 | Removed anachronistic eyeglasses artifact; historical immersion restored (CD-001) |
+| Added quiet-Nile-path positive description + negatives: `grand temple, Karnak, towering columns, hypostyle hall, pyramids, crowds, spectacle, monuments` | TL-Seq1_Egypt_Jen_hero_v1 → v2 | Removed temple spectacle; returned environment to Director's quiet-path Intent (CRE-001) |
 
 ## Most Common Continuity Errors
-| Error type | Count | Decision |
-|---|---|---|
-| Modern eyewear preserved from reference photo | 1 | **CD-001** (no pre-WWII glasses) |
-> N=1 true continuity error so far. The other two archivals were Creative-Direction class (Environment drift, Composition/eye-line), not strict continuity.
+| Error type | Category | Count | Severity | Preventable? | Decision |
+|---|---|---|---|---|---|
+| Modern eyewear carried from reference photos into ancient-Egypt frame | Historical_Continuity | 1 | Moderate | YES | **CD-001** (Gary bare-eyed in all pre-WWII chapters; glasses WWII+ only) |
+| Eye-line geometry wrong — side-by-side staging instead of mutual gaze | Composition | 1 | Major | YES | n/a (corrective rule encoded in Prompt Package) |
+| Environment drift to grand temple — contradicts Director's no-spectacle intent | Environment | 1 | Major | YES | n/a (corrective rule encoded in Prompt Package) |
+
+> N=3 archived assets total. Only 1 is a strict Historical_Continuity failure (CD-001); the other two are Creative-Direction class (Composition/gaze, Environment/spectacle).
 
 ## Highest-Rated Intent Matches
-- **Pending** — no Gemini GVR scores recorded yet. Once GVR-001/002/003 land, this ranks Selected assets by emotional-impact-vs-Intent. (Informal Supervisor note from VFX-001: the Gary hero v1 read strongest on first pass; not a scored verdict.)
+- **Pending — no GVR scores recorded yet.** GVR-001 (Gary_hero_v1), GVR-002 (Jen_hero_v2), and GVR-003 (Recognition_v3) are all queued but not yet scored by Gemini. Once landed, this section will rank Selected assets by emotional-impact-vs-Intent score. (Informal Supervisor note from VFX-001: Gary_hero_v1 read strongest on first pass — not a scored verdict.)
 
 ## Prompt Patterns That Failed
-| Pattern | Failure mode | Fix now standard |
-|---|---|---|
-| Character described, environment unconstrained | Model invents grand/monumental settings | Describe environment + negative-prompt spectacle (historical chapters) |
-| Emotion named, gaze geometry unstated | Side-by-side two-shot, no eye contact | State who-looks-at-whom + eye-line for relational shots |
-| Period subject, modern accessories not suppressed | Glasses/jewelry/styling carried from refs | Negative-prompt era-inappropriate accessories; prefer bare-face ref |
+| Root Cause | Failure Mode | Asset(s) | Fix Now Standard |
+|---|---|---|---|
+| Emotion named, gaze geometry unstated | Model defaulted to side-by-side two-shot; recognition beat lost | TL-Seq1_Egypt_Recognition_v1 | State who-looks-at-whom + eye-line explicitly for all relational/two-shot frames |
+| Character described, environment under-constrained, no spectacle negatives | Model invented grand monumental temple setting, contradicting Director's quiet-path intent | TL-Seq1_Egypt_Jen_hero_v1 | Describe environment positively AND negatively for all historical chapters |
+| Period subject, modern accessories not negatively suppressed | Model preserved modern eyeglasses from reference photographs into ancient-Egypt frame | TL-Seq1_Egypt_Recognition_v2 | Negative-prompt era-inappropriate accessories; prefer bare-face reference for pre-WWII Gary |
 
 ## Studio Standards Established
-- **CD-001** — Gary bare-eyed in all pre-WWII chapters (glasses WWII+ only).
-- Standing prompt rules (now in the Prompt Package / Character Bible): eyewear negatives for Gary; gaze geometry for two-shots; environment positive+negative for historical chapters.
-- Asset Studio-Standard = **Accepted**: none yet (all 3 Selected are Pending GVR). Recognition_v3 is the leading candidate.
+- **CD-001** — Gary bare-eyed in all pre-WWII chapters (glasses WWII+ only). Source: TL-Seq1_Egypt_Recognition_v2 lesson, ratified by EP (Gary). Applies forward to Rome, Viking, Medieval, Renaissance, Frontier, Victorian.
+- **Standing prompt rules** now encoded in Prompt Package / Character Bible:
+  - Eyewear negatives (`glasses, eyeglasses, spectacles, eyewear`) for all pre-WWII Gary generations.
+  - Gaze geometry (who looks at whom, eye-line direction) required for all relational/two-shot frames.
+  - Environment described positively + negatively (spectacle suppression) for all historical chapters.
+- **Assets with Studio Standard = Accepted:** none yet — all 3 Selected assets are Pending GVR. TL-Seq1_Egypt_Recognition_v3 is the leading candidate (encodes CD-001 compliance + the Three Recognition Rules; if Accepted, becomes the reference frame for every chapter's recognition beat).
 
 ## Knowledge Reused
-- **0 reuses recorded** — Egypt is the first sequence generated.
-- **Queued to reuse** (will populate each Dossier's `Knowledge Reused In` as chapters are produced): CD-001 + the three prompt rules apply forward to Rome, Viking, Medieval, Renaissance, Frontier, Victorian.
+- **0 reuses recorded** — Egypt is the first sequence generated; `Knowledge Reused In` is empty across all 6 Dossiers.
+- **Queued to reuse** (will populate each Dossier's `Knowledge Reused In` as future chapters are produced):
+  - CD-001 (Gary eyewear cutoff) → Rome, Viking, Medieval, Renaissance, Frontier, Victorian.
+  - Gaze-geometry rule → every two-shot in the film.
+  - Environment positive+negative rule → every historical chapter.
 
 ---
 > Method note: this report is derived purely from Dossier fields (Intent, prompt/negative, evolutionary tree, review, archive lesson, living fields). As the corpus grows, the tables sharpen — eventually showing where the pipeline struggles (e.g. eyewear N, character-drift N) so prompt/ref fixes can target the real failure modes.
