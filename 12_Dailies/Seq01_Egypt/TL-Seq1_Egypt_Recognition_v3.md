@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — TL-Seq1_Egypt_Recognition_v3
+# ASSET DOSSIER — TL-Seq1_Egypt_Recognition_v3
 
-> Companion to `TL-Seq1_Egypt_Recognition_v3.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+> The Dossier for `TL-Seq1_Egypt_Recognition_v3.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+
+## Intent / Narrative Purpose
+- THE emotional hinge of Sequence One: soul-recognition, not romance. Gary sees her first and goes still — he does NOT smile; Jen hesitates a half-beat, then a gentle, almost questioning smile ("I know you..."); the silver pendant catches the light first. The audience should feel RELIEF, not excitement — the search they didn't know they were part of has found its destination. (CRE-001 + the Three Recognition Rules.)
 
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Recognition_v3
@@ -41,8 +44,11 @@ glasses, eyeglasses, spectacles, reading glasses, eyewear, modern accessories, b
 ## Disposition
 - Status: Selected
 - Current location: 04_Egypt\Stills\Selected\
-- Derived From: TL-Seq1_Egypt_Recognition_v2 (glasses removed) <- TL-Seq1_Egypt_Recognition_v1 (gaze fixed)
-- Superseded By: n/a
+
+## Evolutionary tree (lineage)
+- Parent: TL-Seq1_Egypt_Recognition_v2 (glasses removed)  ·  Grandparent: Recognition_v1 (gaze fixed)
+- Children: none  ·  Siblings: Recognition_v1, Recognition_v2
+- Supersedes: Recognition_v1, Recognition_v2  ·  Superseded By: n/a
 
 ## Review history
 - Director (Sam): Pending

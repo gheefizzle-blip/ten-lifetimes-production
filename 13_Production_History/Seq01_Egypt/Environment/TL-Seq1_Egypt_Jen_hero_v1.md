@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — TL-Seq1_Egypt_Jen_hero_v1  (ARCHIVED — environment drift)
+# ASSET DOSSIER — TL-Seq1_Egypt_Jen_hero_v1  (ARCHIVED — environment drift)
 
-> Companion to `TL-Seq1_Egypt_Jen_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. Kept, not deleted.
+> The Dossier for `TL-Seq1_Egypt_Jen_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. Kept, not deleted.
+
+## Intent / Narrative Purpose
+- (Intended: Jen as a real woman on a quiet morning road, faint recognition.) The render FAILED this Intent — it drifted into temple spectacle, contradicting "no spectacle." Intent vs failure is why it is kept.
 
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Jen_hero_v1
@@ -43,8 +46,10 @@ DOF, film grain, warm-gold grade.
 ## Disposition
 - Status: Archived (Production_History)
 - Current location: 04_Egypt\Stills\Production_History\Environment\
-- Derived From: original
-- Superseded By: TL-Seq1_Egypt_Jen_hero_v2
+
+## Evolutionary tree (lineage)
+- Parent: original  ·  Children: TL-Seq1_Egypt_Jen_hero_v2  ·  Siblings: Jen_hero_v2
+- Superseded By: TL-Seq1_Egypt_Jen_hero_v2 (the change: explicit quiet-Nile-path + temple/spectacle negatives)
 
 ## THE LESSON
 - Primary Category: Environment

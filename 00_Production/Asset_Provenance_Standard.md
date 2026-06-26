@@ -1,18 +1,37 @@
-# TEN LIFETIMES — Asset Provenance Standard
+# TEN LIFETIMES — Asset Provenance Standard (the Dossier system)
 
-> **Authored by the Director (Sam), adopted by EP (Gary) 2026-06-26. Implemented by the Supervisor (Claude Code).**
-> The repository is not a source-code repo to be kept lean. It is a **Production Journal / creative-provenance system**. We do not delete generated assets — we classify, annotate, and learn from them. Every mistake that teaches the studio something becomes an asset, not waste.
+> **Authored by the Director (Sam) + VFX Supervisor (Gemini), adopted by EP (Gary) 2026-06-26. Implemented by the Supervisor (Claude Code).**
+> The repository is not a source-code repo to be kept lean. It is a **Production Journal / creative-intelligence library**. We do not delete generated assets — we classify, annotate, and learn from them. Every mistake that teaches the studio something becomes an asset, not waste.
 
-## The core rule — metadata is BORN WITH the asset
+## Asset-as-Object — the Dossier IS the asset's identity
 
-**No generated asset exists without its companion `.md`.** The image and its metadata file are created **together**, at generation time, and never separate:
+Each generated asset is a **linked pair**: the image (`Asset ID`) + its **Dossier** (the companion `.md`). The Dossier is not "metadata about" the file — it is the asset's identity and birth certificate. **Rule (Gemini, 2026-06-26): if an asset has no Dossier, it does not exist in the production ecosystem.** We never refer to a filename in a vacuum.
 
 ```
-TL-Seq1_Egypt_Gary_hero_v1.png      <- the asset
-TL-Seq1_Egypt_Gary_hero_v1.md       <- its birth certificate (provenance)
+TL-Seq1_Egypt_Gary_hero_v1.png      <- the image
+TL-Seq1_Egypt_Gary_hero_v1.md       <- the DOSSIER (identity + provenance + intent + lineage + reviews)
 ```
 
-The `.md` captures, while the context is still live: the **exact prompt + negative prompt**, model/version, parameters, master references used, and lineage. This is non-negotiable — reconstructing a prompt from memory later is exactly the failure this standard prevents. Template: `60_TEMPLATES\Asset_Provenance_Template.md`.
+## The core rule — the Dossier is BORN WITH the asset (atomic & automated)
+
+**No generated asset exists without its Dossier.** The image and its Dossier are created **together, in the same action, at generation time** — the birth is atomic. The Supervisor (Claude Code) writes the Dossier the moment the image is generated; it is never reconstructed from memory later (that loss is exactly what this standard prevents). The Dossier captures, while context is live: **Intent**, the **exact prompt + negative prompt**, model/version, parameters, master references, and **lineage**. Template: `60_TEMPLATES\Asset_Provenance_Template.md`.
+
+## Intent / Narrative Purpose — the review North-Star
+
+Every Dossier states the asset's **Intent**: what it must achieve narratively/emotionally (e.g. *the thousand-yard stare of a man who has walked this road before*). **Gemini grades every render against its Intent field, not just its technical quality.** A technically flawless render that misses its narrative purpose is flagged for revision. Intent is set at birth (translated from the Director's CRE narrative) and never silently changed.
+
+## Evolutionary tree — version control of creative decisions
+
+Every Dossier records its place in the asset family so the studio can A/B test on the fly — *which prompt change caused the improvement?*
+- **Parent:** the asset this one was derived from (e.g. Recognition_v3's parent is v2).
+- **Children:** assets derived from this one.
+- **Siblings:** alternate renders of the same beat/shot.
+- **Supersedes / Superseded By:** the disposition link.
+Example the system was built to answer: *why is Recognition_v3 better than v2?* The Dossiers show the single change — the eyewear negative prompt (CD-001).
+
+## Motion provenance chain (forward-looking)
+
+When a still is promoted to motion (Sora/Veo), the **still hero is the Parent** of the motion clip's Dossier — an unbroken chain from the first "break of light" still to the final animated transition. Motion Dossiers carry the same Intent/lineage/review fields.
 
 ## The generation workflow (replaces "generate -> register")
 

@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — <ASSET_ID>
+# ASSET DOSSIER — <ASSET_ID>
 
-> Companion file to `<ASSET_ID>.png`. Born with the asset (see `20_REFERENCE\Asset_Provenance_Standard.md`). The image stays untouched; THIS file is the knowledge. ASCII-only; no media embedded.
+> The DOSSIER for `<ASSET_ID>.png` — the asset's identity, born with it (see `20_REFERENCE\Asset_Provenance_Standard.md`). No Dossier = the asset does not exist in our ecosystem. The image stays untouched; THIS file is the knowledge. ASCII-only; no media embedded.
+
+## Intent / Narrative Purpose  (the North-Star Gemini grades against)
+- <What must this asset achieve narratively/emotionally? e.g. "convey the thousand-yard stare of a man who has walked this road before; lonely but not despairing." Translated from the Director's CRE narrative; not silently changed.>
 
 ## Identity
 - Asset ID: <e.g. TL-Seq1_Egypt_Gary_hero_v1>
@@ -38,15 +41,21 @@
 - Reviewed: <date / pending>
 - Disposition set: <date / pending>
 
+## Evolutionary tree (lineage)
+- Parent: <asset this was derived from, or "original">
+- Children: <assets derived from this, or none>
+- Siblings: <alternate renders of the same beat, or none>
+- Supersedes / Superseded By: <Asset IDs, or n/a>
+- (motion) Still Parent: <hero still Asset ID, when this is a motion clip>
+
 ## Disposition
 - Status: <Working | Selected | Approved | Final | Archived (Production_History)>
 - Current location: <path>
-- Derived From: <parent Asset ID, or "original">
-- Superseded By: <Asset ID, or n/a>
 
-## Review history
+## Review history (write verdicts in HERE after each review — reasoning stays locked to the image)
 - Director (Sam): <Pending | verdict + date>
-- Gemini (GVR-###): <Pending | verdict + date>
+- Gemini (GVR-###): <Pending | verdict + scores (facial consistency / lighting / historical authenticity / camera / AI artifacts / emotional impact vs Intent) + retake? + date>
+- Continuity Decision triggered: <CD-### or none>
 - EP (Gary): <Pending | verdict + date>
 
 ## IF ARCHIVED — the lesson (fill on move to Production_History)

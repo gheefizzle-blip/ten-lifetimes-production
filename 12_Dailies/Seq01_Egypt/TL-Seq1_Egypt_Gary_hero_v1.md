@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — TL-Seq1_Egypt_Gary_hero_v1
+# ASSET DOSSIER — TL-Seq1_Egypt_Gary_hero_v1
 
-> Companion to `TL-Seq1_Egypt_Gary_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+> The Dossier for `TL-Seq1_Egypt_Gary_hero_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+
+## Intent / Narrative Purpose
+- The thousand-yard stare of a man who has walked this lonely road across many lifetimes — searching without knowing why, familiar with solitude, NOT despairing. The audience should begin searching WITH him without realizing it. (CRE-001, Egypt opening.)
 
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Gary_hero_v1
@@ -47,8 +50,10 @@ Looks like a real feature film.
 ## Disposition
 - Status: Selected
 - Current location: 04_Egypt\Stills\Selected\
-- Derived From: original
-- Superseded By: n/a (current lock candidate)
+
+## Evolutionary tree (lineage)
+- Parent: original  ·  Children: none  ·  Siblings: none (sole Egypt Gary hero so far)
+- Superseded By: n/a (current Egypt look-lock candidate)
 
 ## Review history
 - Director (Sam): Pending

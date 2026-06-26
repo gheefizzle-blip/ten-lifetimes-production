@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — TL-Seq1_Egypt_Recognition_v1  (ARCHIVED — staging/eye-line)
+# ASSET DOSSIER — TL-Seq1_Egypt_Recognition_v1  (ARCHIVED — staging/eye-line)
 
-> Companion to `TL-Seq1_Egypt_Recognition_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. Kept, not deleted.
+> The Dossier for `TL-Seq1_Egypt_Recognition_v1.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. Kept, not deleted.
+
+## Intent / Narrative Purpose
+- (Intended: the recognition hinge — he sees her first, she hesitates then smiles, pendant catches light.) The render FAILED the gaze geometry (he looks up/away, they read side-by-side), losing the beat. Intent vs failure is why it is kept.
 
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Recognition_v1
@@ -43,8 +46,10 @@ sun... 50mm two-shot... warm-gold grade.
 ## Disposition
 - Status: Archived (Production_History)
 - Current location: 04_Egypt\Stills\Production_History\Composition\
-- Derived From: original
-- Superseded By: TL-Seq1_Egypt_Recognition_v2 -> v3
+
+## Evolutionary tree (lineage)
+- Parent: original  ·  Children: TL-Seq1_Egypt_Recognition_v2 (-> v3)  ·  Siblings: Recognition_v2, Recognition_v3
+- Superseded By: TL-Seq1_Egypt_Recognition_v2 -> v3 (the change: explicit eye-line geometry)
 
 ## THE LESSON
 - Primary Category: Composition

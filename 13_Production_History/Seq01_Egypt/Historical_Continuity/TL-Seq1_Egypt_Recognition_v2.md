@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — TL-Seq1_Egypt_Recognition_v2  (ARCHIVED — the canonical glasses lesson)
+# ASSET DOSSIER — TL-Seq1_Egypt_Recognition_v2  (ARCHIVED — the canonical glasses lesson)
 
-> Companion to `TL-Seq1_Egypt_Recognition_v2.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. This asset is KEPT, not deleted: it is the reference example that produced continuity decision CD-001.
+> The Dossier for `TL-Seq1_Egypt_Recognition_v2.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`. This asset is KEPT, not deleted: it is the reference example that produced continuity decision CD-001.
+
+## Intent / Narrative Purpose
+- (Same as the recognition hinge: Gary recognizes first/no smile, Jen hesitates then a questioning smile, pendant catches light, audience feels relief.) The render achieved the GAZE intent but FAILED the no-anachronism criterion — see the lesson below. Intent vs failure is the point of keeping it.
 
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Recognition_v2
@@ -40,8 +43,10 @@ both looking at camera, looking away from each other, man smiling, big grin, rom
 ## Disposition
 - Status: Archived (Production_History)
 - Current location: 04_Egypt\Stills\Production_History\Historical_Continuity\
-- Derived From: TL-Seq1_Egypt_Recognition_v1 (gaze choreography corrected)
-- Superseded By: TL-Seq1_Egypt_Recognition_v3
+
+## Evolutionary tree (lineage)
+- Parent: TL-Seq1_Egypt_Recognition_v1 (gaze corrected)  ·  Children: TL-Seq1_Egypt_Recognition_v3  ·  Siblings: Recognition_v1, Recognition_v3
+- Supersedes: Recognition_v1  ·  Superseded By: TL-Seq1_Egypt_Recognition_v3 (the single change: eyewear negative prompt, CD-001)
 
 ## Review history
 - Director (Sam): n/a (caught pre-GVR)

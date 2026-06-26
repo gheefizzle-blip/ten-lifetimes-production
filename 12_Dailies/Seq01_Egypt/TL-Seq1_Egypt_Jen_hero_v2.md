@@ -1,6 +1,9 @@
-# ASSET PROVENANCE — TL-Seq1_Egypt_Jen_hero_v2
+# ASSET DOSSIER — TL-Seq1_Egypt_Jen_hero_v2
 
-> Companion to `TL-Seq1_Egypt_Jen_hero_v2.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+> The Dossier for `TL-Seq1_Egypt_Jen_hero_v2.png`. Standard: `00_Production\20_REFERENCE\Asset_Provenance_Standard.md`.
+
+## Intent / Narrative Purpose
+- Jen as a real woman on a quiet morning road (NOT spectacle), at first light — the faint beginning of recognition, as though she has always been walking toward him. Warm, genuine, present. (CRE-001, Egypt.)
 
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Jen_hero_v2
@@ -41,8 +44,10 @@ grand temple, Karnak, towering columns, hypostyle hall, pyramids, crowds, touris
 ## Disposition
 - Status: Selected
 - Current location: 04_Egypt\Stills\Selected\
-- Derived From: TL-Seq1_Egypt_Jen_hero_v1 (retake)
-- Superseded By: n/a
+
+## Evolutionary tree (lineage)
+- Parent: TL-Seq1_Egypt_Jen_hero_v1 (retake)  ·  Children: none  ·  Siblings: Jen_hero_v1
+- Supersedes: TL-Seq1_Egypt_Jen_hero_v1  ·  Superseded By: n/a
 
 ## Review history
 - Director (Sam): Pending
