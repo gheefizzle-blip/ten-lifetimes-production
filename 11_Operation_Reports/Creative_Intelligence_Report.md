@@ -2,7 +2,7 @@
 
 > **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier under each chapter's `Stills\` tree.
 
-- Generated: 2026-06-26 (instance #2, weekly regen)
+- Generated: 2026-06-26 (instance #2 + forward-looking sections added per Director, PRO-013)
 - Corpus: **6 Dossiers**, 1 sequence (Sequence One), 1 chapter generated (Egypt). Sample is small — read trends as directional, not statistical.
 - Coverage: 3 Selected (awaiting GVR) · 3 Production_History (archived, classified).
 
@@ -46,6 +46,16 @@
   - CD-001 (Gary eyewear cutoff) → Rome, Viking, Medieval, Renaissance, Frontier, Victorian.
   - Gaze-geometry rule → every two-shot in the film.
   - Environment positive+negative rule → every historical chapter.
+
+## Emerging Risks (forward-looking)
+- **Modern-accessory preservation.** The model has carried modern styling into a period frame once (eyeglasses → CD-001). The master refs contain modern styling (Gary cap/glasses; Jen dyed hair/nose ring), so this risk recurs in EVERY pre-WWII chapter. **Watch closely during Rome and all historical chapters** — carry the accessory negatives every time.
+- **Rendering frame artifacts.** A rounded border/matte appeared once (TL-0001 v1) on a "first frame of a film" prompt. Risk on any prompt invoking "frame"/"cinematic frame." Keep border/matte negatives standing.
+- **Environment overrun toward spectacle.** Under-constrained historical environments drift to monumental settings (Jen v1 temple). Rome (forum, marble) is the next high-risk setting. Constrain environment positively AND negatively.
+
+## Watch Items (protect subtlety)
+- **Pendant dominance** (Director guidance) — the pendant must stay subtle: "light finds it, never the camera." Watch it does not become visually dominant as chapters accumulate.
+- **Dawn glow vs sunrise** — the opening's "first possibility of light" must not tip into a full sunrise / "beautiful visuals" (north-star: underwhelm visually). Watch warm-glow intensity through Cosmos and Egypt.
+- **Same apparent age** — verify continuity as the same two souls recur across ten periods.
 
 ---
 > Method note: this report is derived purely from Dossier fields (Intent, prompt/negative, evolutionary tree, review, archive lesson, living fields). As the corpus grows, the tables sharpen — eventually showing where the pipeline struggles (e.g. eyewear N, character-drift N) so prompt/ref fixes can target the real failure modes.

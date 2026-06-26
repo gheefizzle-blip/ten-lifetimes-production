@@ -43,4 +43,16 @@
 | TL-Seq1_Egypt_Recognition_v1 | recognition | ARCHIVED — Composition (gaze/eye-line) → v2/v3 | `Production_History\Composition\` | NB G3 Pro, 2k | 2026-06-26 |
 | TL-Seq1_Egypt_Recognition_v2 | recognition | ARCHIVED — Historical Continuity (glasses, **CD-001**) → v3 | `Production_History\Historical_Continuity\` | NB G3 Pro, 4k | 2026-06-26 |
 
+### CRE-002 — Sequence One Hero Stills (Director's Shooting Order; one-at-a-time, generate→review→approve→next)
+| Asset (+ Dossier) | HERO | Beat | Disposition | Location | Date |
+|---|---|---|---|---|---|
+| **TL-0001_Cosmos_BeforeTime_v2** | 01 | "Before Time" (Cosmos) | **WORKING — awaiting Director review** (then GVR-004, EP) | `00_Cosmos\Stills\Working\` | 2026-06-26 |
+| TL-0001_Cosmos_BeforeTime_v1 | 01 | "Before Time" (Cosmos) | ARCHIVED — Rendering Artifact (border/matte) → v2 | `00_Cosmos\Stills\Production_History\Rendering_Artifact\` | 2026-06-26 |
+| _HERO 02 (TL-0010 "The Long Road")_ | 02 | Egypt | not started (gated on HERO 01 approval) | — | — |
+| _HERO 03 (TL-0070 "The First Recognition")_ | 03 | Egypt | not started | — | — |
+| _HERO 04 (TL-0080 "The First Smile")_ | 04 | Egypt | not started | — | — |
+| _HERO 05 (TS-001 "History Turns")_ | 05 | Egypt→Rome | not started | — | — |
+| _HERO 06 (TL-0120 "Souls Remember")_ | 06 | Rome | not started | — | — |
+> CRE-002 cadence: generate ONE hero still → Director review → Gemini GVR → EP approval → update Dossier → only THEN the next. No batch. (The earlier VFX-001/002 Egypt selects predate CRE-002 and may serve as parents where beats overlap, e.g. HERO 02 ↔ Gary_hero_v1, HERO 03 ↔ Recognition_v3.)
+
 > **Storage model (Asset Provenance Standard):** generated stills live on the **NAS vault** under `04_Egypt\Stills\` in `Working\` / `Selected\` / `Production_History\<Category>\`; approved finals → chapter `Final\`. **Nothing is deleted — superseded/rejected assets are KEPT and classified** (each carries its own `.md` lesson). **GitHub exposure for Gemini review: EP-authorized (2026-06-26)** — selects mirrored to public `12_Dailies\Seq01_Egypt\`; `.gitignore` firewalls all media EXCEPT a deliberate `!12_Dailies/**` exception. (Whether Production_History `.md` provenance and/or archived images also publish to GitHub for Continuum is an OPEN EP decision — see VFX-002 follow-up.)

@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose
 - (Intended: the recognition hinge — he sees her first, she hesitates then smiles, pendant catches light.) The render FAILED the gaze geometry (he looks up/away, they read side-by-side), losing the beat. Intent vs failure is why it is kept.
 
+## Director Notes  (Director-authored — reminders to future reviewers)
+- (none — asset archived)
+
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Recognition_v1
 - Created: 2026-06-26

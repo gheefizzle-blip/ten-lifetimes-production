@@ -25,6 +25,9 @@ The image and its Dossier are created **together, in the same action, at generat
 ## Intent / Narrative Purpose — the review North-Star
 Every Dossier states the asset's **Intent**: what it must achieve narratively/emotionally. Set at birth (translated from the Director's CRE narrative), never silently changed.
 
+## Director Notes — reminders to future reviewers
+Each Dossier carries short **Director Notes**: terse guardrails for whoever reviews the asset later (e.g. *"the expression matters more than the environment"* · *"do not lose the feeling of familiarity"*). They are NOT the Intent and NOT generator instructions — they are the Director's reminders to reviewers. **Director-authored; the Supervisor leaves them empty** (same role boundary as Creative Discovery).
+
 ## The three-question review (every review answers all three)
 1. **Technical** — did the render match the prompt?
 2. **Creative** — did the prompt successfully implement the Director's **Intent**?
@@ -44,7 +47,7 @@ Every Dossier records **Parent / Children / Siblings** (+ Supersedes / Supersede
 Not just stills. **Still -> Motion Clip -> Transition -> Composite -> Final Scene -> Final Sequence** — each self-describing. A motion clip links its hero **still as Parent**, an unbroken chain from the first "break of light" still to the final sequence.
 
 ## The Creative Intelligence Report (analytics, NOT governance)
-A **generated VIEW over all Dossiers** — `11_OPERATION_REPORTS\Creative_Intelligence_Report.md`, regenerated on cadence (target: weekly). It is analytics, not a new governance artifact, so it does **not** trip the Director's Rule. Sections: **Top Prompt Improvements · Most Common Continuity Errors · Highest-Rated Intent Matches · Prompt Patterns That Failed · Studio Standards Established · Knowledge Reused.** Continuum thereby remembers **creative evolution**, not files.
+A **generated VIEW over all Dossiers** — `11_OPERATION_REPORTS\Creative_Intelligence_Report.md`, regenerated on cadence (target: weekly). It is analytics, not a new governance artifact, so it does **not** trip the Director's Rule. **Backward-looking** sections: Top Prompt Improvements · Most Common Continuity Errors · Highest-Rated Intent Matches · Prompt Patterns That Failed · Studio Standards Established · Knowledge Reused. **Forward-looking** sections (Director, 2026-06-26 — turn analytics into predictive guidance): **Emerging Risks** (e.g. *"the model keeps preserving modern accessories — watch closely during Rome"*) and **Watch Items** (e.g. *"pendant becoming too visually dominant — protect subtlety"*). Continuum thereby remembers **creative evolution** AND anticipates where it may stumble next.
 
 ## Never delete — classify (folder taxonomy)
 Generated assets are **never deleted**; superseded/rejected ones are KEPT and classified. Per chapter, under `Stills\`:

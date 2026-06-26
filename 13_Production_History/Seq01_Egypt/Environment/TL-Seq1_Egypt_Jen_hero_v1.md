@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose
 - (Intended: Jen as a real woman on a quiet morning road, faint recognition.) The render FAILED this Intent — it drifted into temple spectacle, contradicting "no spectacle." Intent vs failure is why it is kept.
 
+## Director Notes  (Director-authored — reminders to future reviewers)
+- (none — asset archived)
+
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Jen_hero_v1
 - Created: 2026-06-26

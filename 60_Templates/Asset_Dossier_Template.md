@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose  (the North-Star reviews grade against)
 - <What must this asset achieve narratively/emotionally? Translated from the Director's CRE narrative; never silently changed.>
 
+## Director Notes  (short reminders to future reviewers — Director-authored, NOT generator instructions)
+- <e.g. "Do not lose the feeling of familiarity. The expression matters more than the environment." Left for the Director; the Supervisor does NOT author these.>
+
 ## Identity
 - Asset ID: <e.g. TL-Seq1_Egypt_Gary_hero_v1>
 - Object type: <Still | Motion Clip | Transition | Composite | Scene | Sequence>

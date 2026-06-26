@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose
 - (Same as the recognition hinge: Gary recognizes first/no smile, Jen hesitates then a questioning smile, pendant catches light, audience feels relief.) The render achieved the GAZE intent but FAILED the no-anachronism criterion — see the lesson below. Intent vs failure is the point of keeping it.
 
+## Director Notes  (Director-authored — reminders to future reviewers)
+- (none — asset archived)
+
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Recognition_v2
 - Created: 2026-06-26

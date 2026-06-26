@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose
 - Jen as a real woman on a quiet morning road (NOT spectacle), at first light — the faint beginning of recognition, as though she has always been walking toward him. Warm, genuine, present. (CRE-001, Egypt.)
 
+## Director Notes  (Director-authored — reminders to future reviewers)
+- (awaiting Director)
+
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Jen_hero_v2
 - Created: 2026-06-26

@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose
 - The thousand-yard stare of a man who has walked this lonely road across many lifetimes — searching without knowing why, familiar with solitude, NOT despairing. The audience should begin searching WITH him without realizing it. (CRE-001, Egypt opening.)
 
+## Director Notes  (Director-authored — reminders to future reviewers)
+- (awaiting Director)
+
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Gary_hero_v1
 - Created: 2026-06-26

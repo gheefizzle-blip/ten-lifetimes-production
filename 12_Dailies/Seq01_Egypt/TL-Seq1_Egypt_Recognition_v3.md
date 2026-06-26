@@ -5,6 +5,9 @@
 ## Intent / Narrative Purpose
 - THE emotional hinge of Sequence One: soul-recognition, not romance. Gary sees her first and goes still — he does NOT smile; Jen hesitates a half-beat, then a gentle, almost questioning smile ("I know you..."); the silver pendant catches the light first. The audience should feel RELIEF, not excitement — the search they didn't know they were part of has found its destination. (CRE-001 + the Three Recognition Rules.)
 
+## Director Notes  (Director-authored — reminders to future reviewers)
+- (awaiting Director)
+
 ## Identity
 - Asset ID: TL-Seq1_Egypt_Recognition_v3
 - Created: 2026-06-26

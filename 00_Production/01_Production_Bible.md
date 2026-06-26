@@ -110,6 +110,8 @@ So all agents share one operational audit trail readable from the public repo: *
 
 **North-star (sharpens the Reality Test):** *We are not trying to impress people with AI — we are trying to make them forget AI exists.* If a viewer says **"that's beautiful AI,"** we failed. If they say **"that felt like a movie,"** we succeeded. Every prompt, render, and review is judged against this.
 
+**Corollary — underwhelm visually, overwhelm emotionally (Director, 2026-06-26):** the opening minute should *underwhelm visually and overwhelm emotionally.* It sounds contradictory; it isn't. If the audience's first-minute thought is *"wow, beautiful visuals,"* we probably missed. If it is *"why do I already care about these two people?"*, we succeeded. Restraint is the goal, not spectacle.
+
 **Asset provenance (born-with-asset rule, Director 2026-06-26):** EVERY generated asset is created together with a companion `.md` provenance file capturing the **exact prompt + negative prompt + params + refs + lineage** — at generation time, never reconstructed later. Assets are **never deleted**; superseded/rejected ones are classified into `Production_History\<Category>\` with a `Preventable?`/severity/lesson record. The repo is a Production Journal, not a lean source tree — we version creative thought, not files. Full spec: `20_REFERENCE\Creative_Provenance_Standard.md`.
 
 **The Production Loop — run per sequence, in order (no generating everything at once):**
@@ -123,6 +125,8 @@ So all agents share one operational audit trail readable from the public repo: *
 8. **Gemini motion** review.
 9. **Final approval**.
 → repeat for every sequence.
+
+**Per-hero approval gates (Director, CRE-002, 2026-06-26):** within step 1, each hero still is its OWN micro-production with its own LOCK — `Hero → Director → Gemini → EP → LOCK`, then (and only then) the next hero. Think in **approval gates, not in "a batch of six."** No batch generation. Each approved frame informs the next, which is how the sequence acquires one consistent cinematic language and avoids downstream drift. A hero is not "done" until **LOCKED.**
 
 **Sequence Retrospective (craftsmanship, not governance) — at the close of *each sequence*, not each WO:** What surprised us? · What worked? · What failed? · What would we never do again? · What becomes studio standard? Captured in the sequence's final operation report (and any standard it mints feeds the Camera/Character/Lighting bibles).
 
