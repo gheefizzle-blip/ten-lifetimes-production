@@ -5,6 +5,7 @@
 > (`00_PROJECT_STATE`, `01_Production_Bible`, `02_Directors_Timeline`, `03_Shot_Database`) hold the state;
 > everything else is **evidence supporting** it.
 
+- **Phase:** **CREATIVE PRODUCTION** (infrastructure frozen 2026-06-25 — see Bible §0g, The Director's Rule). Creative work is the default; infra changes need a demonstrated production problem.
 - **Production version:** **PT-0.5** (timeline locked, 2026-06-25) → next gate PT-1.0 (story/characters/picture)
 - **Last updated:** 2026-06-25 by Agent B (Production Supervisor)
 - **Public docs repo (system of record for docs/prompts):** `gheefizzle-blip/ten-lifetimes-production` (GitHub, PUBLIC, docs only — **no media**). NAS = private asset vault. Claude Code pushes doc updates.

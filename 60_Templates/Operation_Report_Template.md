@@ -53,17 +53,30 @@
 
 - <the single most useful next step, and whose move it is>
 
+## Lessons Learned
+
+- <institutional knowledge: what worked, what failed, tooling quirks,
+  parameter findings, what the next WO should do differently>
+- <one item per line; ASCII-only; mineable by Continuum later>
+
 ## Creative Impact
 
 - Why this work mattered (creative, not technical): what it made possible.
 - Risk: <none / what it introduced or retired>
 - Downstream Effect: <what can now happen because of this>
 
-## Lessons Learned
+## Pipeline Impact
 
-- <institutional knowledge: what worked, what failed, tooling quirks,
-  parameter findings, what the next WO should do differently>
-- <one item per line; ASCII-only; mineable by Continuum later>
+- Effect on the production pipeline, tooling, or workflow (vs creative impact).
+
+## Recommendations
+
+- Concrete recommendations for future work orders or the next operation.
+
+## Would We Do This Again?
+
+- If we built another film tomorrow, would we do it this way? What to repeat,
+  what to change. (This question turns every project into training data.)
 
 ## Supervisor Attestation
 

@@ -57,6 +57,15 @@
 - The NAS (nested) vs public-repo (flattened + nested) structural divergence makes each full sync costly and mapping-heavy; resolving the deferred restructure would simplify all future syncs.
 - Stamping the self-referential commit hash needs a second commit; acceptable for exemplars, but note the dependency.
 
+## Pipeline Impact
+- Every operation now emits a machine-readable report; agents no longer need manual briefing to know what was done.
+
+## Recommendations
+- Keep reports short and ASCII; attach commit hashes for provenance; one report per operation.
+
+## Would We Do This Again?
+- Yes - and earlier. The report layer is the single highest-leverage coordination tool; build it at project start, not mid-stream.
+
 ## Supervisor Attestation
 - Files: created 3, modified 3, deleted 0. Media generated: none. GitHub: synced this batch (docs only, zero media verified).
 - Local operational-memory writes this operation: 0 (none beyond prior PRO-005 update).

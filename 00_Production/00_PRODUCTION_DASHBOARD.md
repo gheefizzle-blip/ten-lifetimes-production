@@ -2,7 +2,7 @@
 
 > One-glance status. Maintained by the Production Supervisor. Updated 2026-06-25. Format per Gemini (PRO-005); status reported to actual state. Canonical detail: `00_PROJECT_STATE.md`.
 
-## Production gate: **PT-0.5** (timeline locked) → next PT-1.0
+## Phase: **CREATIVE PRODUCTION** (infrastructure frozen, Bible §0g) · Gate: **PT-0.5** → PT-1.0
 
 ## System vs Film (Director's framing, 2026-06-25)
 ```

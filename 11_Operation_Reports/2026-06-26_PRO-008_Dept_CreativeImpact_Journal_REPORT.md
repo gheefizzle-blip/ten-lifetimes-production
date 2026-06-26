@@ -69,6 +69,15 @@
 - "Creative Impact" and "Lessons Learned" serve different readers: the Director reads Creative Impact, Continuum/Supervisor mine Lessons Learned. Keep both short and distinct.
 - This was the last governance pass; further system work would be over-engineering. The system is done.
 
+## Pipeline Impact
+- Reporting now captures creative rationale (Creative Impact), not just technical actions - the journal records why, not only what.
+
+## Recommendations
+- Define taxonomy lazily (only categories that real work needs); treat the repo as the product's memory from day one.
+
+## Would We Do This Again?
+- Yes. The "Production Journal" framing is a deliverable in itself; adopt it at project start so the audit trail is born complete.
+
 ## Supervisor Attestation
 
 - Files: created 1, modified 8, deleted 0. Media generated: none.

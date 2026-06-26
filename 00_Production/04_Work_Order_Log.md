@@ -60,4 +60,6 @@ Notes:      <constraints / safety>
 
 | **PRO-008** | **Dept refinement + Creative Impact + Production Journal** | Director (Sam) → Claude Code | **COMPLETE** | Per Director: refined departments to **CRE/PRO/VFX/EDL/EP/GOV** (Continuity→VFX, Release→PRO, +GOV=Continuum; retired CON/REL). Added **Creative Impact** section to the report standard (Bible §0e + template) + backfilled PRO-005/006/007. Reframed the public repo as **"The Production Journal"** (README rewrite). | 2026-06-26 |
 
-*(New work orders appended below. New IDs use DEPT-### per the departments taxonomy above.)*
+| **PRO-009** | **Creative Production transition (infrastructure FREEZE)** | Director (Sam) → Claude Code | **COMPLETE — FINAL INFRA WO** | Enacts the phase change pre-production → **Creative Production**. Expanded the report reflection block to **Lessons Learned / Creative Impact / Pipeline Impact / Recommendations / Would We Do This Again?** (Bible §0e + template + backfilled PRO-005/006/007/008). Added Bible **§0g** + **The Director's Rule** (no new infra unless it solves a demonstrated production problem). Phase relabeled in PROJECT_STATE + Dashboard. **Infrastructure is now frozen; next WO is CRE-001 (Director).** | 2026-06-26 |
+
+*(Infrastructure FROZEN after PRO-009 per Bible §0g. New work orders below should be CRE/VFX/EDL or a justified infra exception.)*

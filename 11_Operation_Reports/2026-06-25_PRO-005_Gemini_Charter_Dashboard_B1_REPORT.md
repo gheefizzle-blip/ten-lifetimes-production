@@ -60,6 +60,15 @@
 - Report status to ACTUAL state: a draft dashboard marked "Story Complete / Seq One 100%" when it was only scaffolded. Faithful reporting > optimistic rounding.
 - Nano Banana supports up to 3 conditioning images = exactly our 3-per-character master set; design prompts around that.
 
+## Pipeline Impact
+- Added the Gemini review stage to the pipeline and confirmed the stills bridge, making the pipeline end-to-end: generate -> GVR -> approve.
+
+## Recommendations
+- When a clip/still is generated, record its Prompt ID and Render ID in the operation report so Gemini's GVR can cite them directly.
+
+## Would We Do This Again?
+- Yes. Onboarding a dedicated visual reviewer under a bounded, review-only charter adds a quality gate without creating a competing creative voice. Repeat on every Continuum Creative project.
+
 ## Supervisor Attestation
 - Files: created 2, modified 5, deleted 1. Media generated: none. GitHub: synced with PRO-006 batch.
 - Local operational-memory writes this operation: 1 (`~/.claude/.../memory/ten-lifetimes-project.md`, bootstrap state update).

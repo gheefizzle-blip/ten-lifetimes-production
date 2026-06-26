@@ -101,7 +101,7 @@ So all agents share one operational audit trail readable from the public repo: *
 **Every operation produces:** (1) a work-order file, (2) a completion/operation report, (3) canon updates, (4) public GitHub sync — **unless held by the EP** (then the report states why).
 
 - Reports live in **`11_Operation_Reports/`** (public mirror; NAS `11_OPERATION_REPORTS\`), named `YYYY-MM-DD_<WO-ID>_<Short_Title>_REPORT.md`. Template: **`60_TEMPLATES\Operation_Report_Template.md`**.
-- **Rules:** ASCII-only (no em-dashes / smart quotes); **no private media** (photos/audio/generated assets) committed; NAS paths may be referenced but personal media never exposed; every report identifies files **created / modified / deleted** and **whether GitHub was synced** (if deferred, why); every report states **open blockers** and **next recommended action**; includes a **Creative Impact** section (why the work mattered creatively — not technical — with Risk + Downstream Effect); includes a **Lessons Learned** section (institutional knowledge — tooling quirks, what worked/failed, what the next WO should change; mineable by Continuum); ends with a **Supervisor Attestation**.
+- **Rules:** ASCII-only (no em-dashes / smart quotes); **no private media** (photos/audio/generated assets) committed; NAS paths may be referenced but personal media never exposed; every report identifies files **created / modified / deleted** and **whether GitHub was synced** (if deferred, why); every report states **open blockers** and **next recommended action**; closes with the **reflection block** in order — **Lessons Learned** (institutional knowledge, mineable by Continuum), **Creative Impact** (why it mattered creatively + Risk + Downstream), **Pipeline Impact** (effect on tooling/workflow), **Recommendations** (for future WOs), and **Would We Do This Again?** (would we build a film this way again — turns the project into training data) — then a **Supervisor Attestation**.
 - **Goal:** ChatGPT and Gemini can understand a completed operation by reading its report alone.
 
 ## 0f. The Production Loop & Creative North-Star (Director, 2026-06-25)
@@ -122,6 +122,16 @@ So all agents share one operational audit trail readable from the public repo: *
 
 > Hierarchy parallel (Hollywood ↔ ours): Writer/Director → Production Supervisor → Generation → Gemini Dailies → Premiere → Executive Producer.
 > **First-minute contract:** by the Chorus 1 downbeat (1:03.820), the audience should already believe they're watching a real cinematic love story — that emotional contract carries the whole film.
+
+## 0g. Phase: CREATIVE PRODUCTION (declared 2026-06-25) + The Director's Rule
+
+The infrastructure phase is **complete and frozen.** The project has moved from *pre-production* to **Creative Production** — creative work is now the default; infrastructure changes require justification.
+
+> **The Director's Rule:** *No new governance, infrastructure, or production documents shall be created during Creative Production unless they solve a demonstrated production problem.*
+
+This keeps the film the priority and prevents documentation from expanding just because a good idea appears. PRO-009 is the final infrastructure operation that enacts this freeze.
+
+**Reference-implementation note:** beyond this one film, the repository has become a **Production Journal** documenting *how AI-directed films are made* — the reference implementation for **Continuum Creative**. Its biggest success is organizational: four collaborators, no competition, each with a bounded authority. Preserve that.
 
 ---
 
