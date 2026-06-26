@@ -51,7 +51,7 @@
 
 ## Public Repo Commit
 
-- Docs synced 2026-06-26 (VFX-001 batch). Images NOT committed (media). Hash stamped in the following commit.
+- `163c577` (branch main) - docs only, 2026-06-26 VFX-001 batch. Images NOT committed (media).
 
 ## Open Blockers
 
