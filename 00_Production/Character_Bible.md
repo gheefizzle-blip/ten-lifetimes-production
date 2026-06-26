@@ -17,8 +17,11 @@
 >
 > **Quality note:** this is an *interim* set from snapshots. A purpose-shot portrait set (neutral, even light, no accessories, front/¾/profile) would materially improve cross-chapter consistency — recommended before final-quality renders.
 
+## ⚠️ Gary eyewear — PERIOD RULE (EP, 2026-06-26)
+**NO glasses on Gary in any chapter before the WWII era.** Modern eyeglasses are an anachronism in Egypt, Rome, Viking, Medieval, Renaissance, Frontier, and Victorian — Gary is bare-eyed in all of them. Glasses are permitted **only from the WWII chapter onward** (WWII / Modern / Future), where they match present-day Gary. **Generation rule:** for every pre-WWII Gary shot, carry `glasses, eyeglasses, spectacles, eyewear` in the negative prompt and prefer the bare-face master ref (`Gary_Master_02_Bareface.jpg`). Nano Banana tends to add eyewear to an older male subject unprompted — this was caught on the Recognition v2 still (fixed in v3).
+
 ## Permanent traits (NEVER change across chapters)
-**Gary:** tall presence; strong defined jawline; well-defined beard; kind warm eyes; confident grounded bearing; salt-and-pepper coloring.
+**Gary:** tall presence; strong defined jawline; well-defined beard; kind warm eyes; confident grounded bearing; salt-and-pepper coloring. **Bare-eyed (no glasses) until WWII — see period rule above.**
 **Jen:** warm genuine smile; bright expressive eyes; approachable elegance; long dark hair (or actual color).
 **Together:** the candid chemistry from the couple photos — that ease is the through-line.
 
