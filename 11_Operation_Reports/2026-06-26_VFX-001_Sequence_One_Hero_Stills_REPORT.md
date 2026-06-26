@@ -47,7 +47,7 @@
 
 ## Media Generated
 
-- 3 stills (2752x1536, ~2.6-2.7 MB each), LOCAL only at `C:\Users\Gary\nanobanana-images\`. NOT committed to GitHub (gitignored media). Approved stills move to NAS chapter Stills.
+- 3 stills (2752x1536, ~2.6-2.7 MB each) on the NAS vault at `D:\My_Music\Ten_Lifetimes\04_Egypt\Stills\` (corrected from C: per EP, 2026-06-26). Standing convention: generate `output_path` straight to the chapter NAS `Stills\` folder. GitHub exposure for Gemini review is a pending EP decision.
 
 ## Public Repo Commit
 

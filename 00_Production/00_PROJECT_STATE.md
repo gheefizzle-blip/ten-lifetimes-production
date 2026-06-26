@@ -5,10 +5,10 @@
 > (`00_PROJECT_STATE`, `01_Production_Bible`, `02_Directors_Timeline`, `03_Shot_Database`) hold the state;
 > everything else is **evidence supporting** it.
 
-- **🎬 MILESTONE: STUDIO OPERATIONAL — Ready for Principal Photography** (2026-06-26). Governance frozen · roles frozen · production pipeline operational · review pipeline (Gemini GVR) operational · documentation operational · creative authority defined · generation tooling available (stills) · asset management operational.
+- **🎬 MILESTONE: PRINCIPAL PHOTOGRAPHY BEGUN** (2026-06-26). **The film has started.** CRE-001 (Sam's Sequence One Narrative) authored; first Egypt hero stills generated, registered, and exposed for review. Studio fully operational (governance/roles frozen · production + Gemini-GVR + documentation pipelines operational · generation tooling live for stills).
 - **Phase:** **CREATIVE PRODUCTION** (infrastructure frozen 2026-06-25 — see Bible §0g, The Director's Rule). Creative work is the default; infra changes need a demonstrated production problem or measurable film-quality gain.
 - **Production version:** **PT-0.5** (timeline locked, 2026-06-25) → next gate PT-1.0 (story/characters/picture)
-- **Last updated:** 2026-06-25 by Agent B (Production Supervisor)
+- **Last updated:** 2026-06-26 by Agent B (Production Supervisor) — CRE-001 + VFX-001/002 hero stills (Seq One Egypt), awaiting GVR/EP review
 - **Public docs repo (system of record for docs/prompts):** `gheefizzle-blip/ten-lifetimes-production` (GitHub, PUBLIC, docs only — **no media**). NAS = private asset vault. Claude Code pushes doc updates.
 
 ---
@@ -89,16 +89,18 @@
 **✅ TIMELINE v1.0 LOCKED by EP (Gary) 2026-06-25 → PT-0.5.** fps = **24** confirmed; chapter overlay approved as-is. TL-WO-001 CLOSED.
 
 **Active focus — TL-WO-004: PERFECT SEQUENCE ONE** (0:00.000–1:03.820 · Cosmos→Egypt→Rome) — the benchmark for the whole film. *"Don't generate Egypt — perfect Sequence One."*
-1. **Sequence One scaffolds READY in `40_SEQUENCES\Seq01_Opening\`** (12 TL-WO-004 deliverables; measured backbone locked). **→ Director (Sam) authors** the creative content (Storyboard spine, Narrative, Environment/Costume Direction, Camera).
-2. **✅ Master refs LOCKED (interim)** in `16_Master_References\` (B-2 resolved). *Recommended:* fresh purpose-shot portrait set before final renders.
-3. **B-1 — resolve generation-tooling host** (Nano Banana / Sora / Veo) — the only remaining gate before first stills. Supervisor builds the Prompt Package once direction is authored.
-4. (Parallel, low-priority) Director: line-level chorus chapter-splits + fill Master Timeline creative columns.
+1. **✅ CRE-001 AUTHORED (Sam, 2026-06-26)** — Sequence One Director's Narrative is canon in `40_SEQUENCES\Seq01_Opening\Sequence_One_Narrative.md` (recognition over history; "Love existed before memory"). Supervisor preserved verbatim; translates → prompts/cameras/lighting (does not edit).
+2. **✅ VFX-001 + VFX-002 — Egypt hero stills generated.** Three select frames on NAS `04_Egypt\Stills\`: **Gary hero v1**, **Jen hero v2** (retake — quiet Nile path, spectacle removed), **Recognition two-shot v3** (retake — gaze choreography fixed, anachronistic glasses removed). **→ Now at Production Loop step 2–4: awaiting Director review + Gemini GVR-001/002/003 + EP approval → then LOCK the Egypt visual language** before supporting stills.
+3. **✅ Master refs LOCKED (interim)** in `16_Master_References\` (B-2 resolved). *Recommended:* fresh purpose-shot portrait set before final renders.
+4. **B-1 (stills) RESOLVED** — Nano Banana MCP live (pro/4K, multi-ref conditioning, grounding); output → chapter NAS `Stills\`. **Motion (Veo/Sora) still unbridged.**
+5. (Parallel, low-priority) Director: line-level chorus chapter-splits + fill Master Timeline creative columns.
 
 ## Active blockers
 - **B-1 — PARTIALLY RESOLVED (2026-06-25, GSA-1000).** **Stills: Nano Banana MCP bridge is LIVE** in the CC session (`mcp__nanobanana__generate_image`) — verified responsive; supports **multi-image conditioning (≤3 inputs = our 3 master refs), 16:9/21:9, 4K, Google-Search grounding**. Output → `C:\Users\Gary\nanobanana-images`. Premiere Pro MCP also live (markers/assembly). **Still open: Veo/Sora (motion)** — no direct bridge; native web + manual download (or future n8n route), then Gemini GVR. *Stills generation is now tooling-unblocked; remaining gate = Director authoring + workflow approval.*
 - **B-2 — RESOLVED (interim, 2026-06-25).** Master set locked in `16_Master_References\` (3 Gary + 3 Jen, from existing snapshots). Generation unblocked. *Residual:* interim set is casual snapshots — a purpose-shot portrait set recommended before final-quality renders (strip Gary cap/glasses, Jen dyed hair/nose ring per Character Bible).
 
 ## Recent history
+- 2026-06-26 — **PRINCIPAL PHOTOGRAPHY BEGAN.** **CRE-001** (Sam's Sequence One Narrative) authored → canon. **VFX-001** generated the first 3 Egypt hero stills (Gary / Jen / Recognition) via Nano Banana Pro; **VFX-002** retook two of them — Jen hero v2 (removed temple "spectacle," returned to the quiet Nile dawn path Sam directed) and the Recognition two-shot v3 (fixed the look-first/smile-second gaze; removed anachronistic eyeglasses). Selects = **Gary v1 · Jen v2 · Recognition v3**, on NAS `04_Egypt\Stills\`, exposed to the public repo `12_Dailies\Seq01_Egypt\` for Gemini. GVR-001/002/003 queued PENDING; awaiting Director + Gemini + EP review before the Egypt look LOCKs.
 - 2026-06-25 — **PRO-005: Gemini onboarded as VFX/Cinematic Review Authority** (Bible §0b team + §0d Charter, ratified by Gemini — review-only). Added **Production Departments** (CRE/VFX/EDL/PRO/CON/REL) + crosswalk; built **`00_PRODUCTION_DASHBOARD.md`** and **`11_REVIEWS\Gemini\`** GVR log. Charter-gate satisfied → Sequence One generation may proceed once B-1 resolved.
 - 2026-06-25 — **Director review of TL-WO-003A → ACCEPTED; reframed to SEQUENCE ONE.** Egypt → **Sequence One** (Cosmos→Egypt→Rome, 0:00–1:03.82) = the film's benchmark. **TL-WO-004 issued**; 12 deliverable scaffolds built in `40_SEQUENCES\Seq01_Opening\` (Storyboard spine + Narrative/Environment/Costume/Shot List/Prompt/Review). Canon additions: Bible **§0b roles**, **§0c Three Recognition Rules** (notices first / smiles second / pendant catches light first); Camera Bible **Presence**; Emotional Storyboard **Memory** field. TL-WO-003A superseded.
 - 2026-06-25 — **Director review of TL-WO-002 → ACCEPTED.** Rebranded **"A Cinematic Short Film."** Canon Rule gained 4th system (**Continuum = governance history**). New hierarchy layers created: **Emotional Storyboard** + **Transition Bible**; Camera Bible gained **Narrative-Camera language**. **TL-WO-003A issued** (Director's Creative Development — Chapter One/Egypt); Egypt Emotional Storyboard + TS-001 drafted. Generation gated on B-2.

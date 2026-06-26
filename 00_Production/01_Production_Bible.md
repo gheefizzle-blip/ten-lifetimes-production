@@ -38,6 +38,8 @@
 
 A fact lives in exactly one of these. Documentation never holds assets; assets never hold canon docs; the cut is owned by Premiere, described by the Master Production Timeline; governance provenance is owned by Continuum. This prevents drift and ambiguity as the project scales.
 
+> **Media exception (EP decision, 2026-06-26):** to give the VFX reviewer (Gemini) direct repo access, **generated review stills** are mirrored to the public repo's **`12_Dailies/`** folder (the only place media is permitted on GitHub). The NAS remains the full canonical vault. ⚠️ The repo is PUBLIC and All-Rights-Reserved; committed media is world-visible and permanent in git history. Reference-photo exposure scope: see Revision Log.
+
 The **`MASTER_PRODUCTION_TIMELINE.md`** is the relational index that binds all three: every lyric word → time → shot → prompt → render → editorial clip.
 
 ---

@@ -34,8 +34,11 @@
 
 | File | Shot ID | Chapter | Tool | Status | Date |
 |---|---|---|---|---|---|
-| TL-Seq1_Egypt_Gary_hero_v1.png | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image) | STILL_GEN (local, awaiting GVR) | 2026-06-26 |
-| TL-Seq1_Egypt_Jen_hero_v1.png | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image) | STILL_GEN (local, awaiting GVR) | 2026-06-26 |
-| TL-Seq1_Egypt_Recognition_v1.png | (recognition) | Egypt | Nano Banana (G3 Pro Image) | STILL_GEN (local, awaiting GVR) | 2026-06-26 |
+| **TL-Seq1_Egypt_Gary_hero_v1.png** | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image, 2k) | **SELECT — awaiting GVR-001** | 2026-06-26 |
+| **TL-Seq1_Egypt_Jen_hero_v2.png** | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image, 4k) | **SELECT — awaiting GVR-002** (v1 superseded: temple spectacle) | 2026-06-26 |
+| **TL-Seq1_Egypt_Recognition_v3.png** | (recognition) | Egypt | Nano Banana (G3 Pro Image, 4k) | **SELECT — awaiting GVR-003** (v1/v2 superseded: gaze + glasses) | 2026-06-26 |
+| TL-Seq1_Egypt_Jen_hero_v1.png | (Egypt hero) | Egypt | Nano Banana (G3 Pro Image, 2k) | SUPERSEDED by v2 (drifted to temple spectacle) | 2026-06-26 |
+| TL-Seq1_Egypt_Recognition_v1.png | (recognition) | Egypt | Nano Banana (G3 Pro Image, 2k) | SUPERSEDED by v3 (gaze choreography off) | 2026-06-26 |
+| TL-Seq1_Egypt_Recognition_v2.png | (recognition) | Egypt | Nano Banana (G3 Pro Image, 4k) | SUPERSEDED by v3 (anachronistic eyeglasses) | 2026-06-26 |
 
-> Generated stills live local at `C:\Users\Gary\nanobanana-images\` until approved; approved -> move to NAS chapter `Stills\` (never committed to GitHub).
+> Generated stills live on the **NAS vault** at `D:\My_Music\Ten_Lifetimes\04_Egypt\Stills\` (chapter `Stills\`); approved -> chapter `Final\`. **GitHub exposure for Gemini review: EP-authorized (2026-06-26)** — selects mirrored to public repo `12_Dailies\Seq01_Egypt\`. Mechanics confirmed: repo `.gitignore` firewalls all media EXCEPT a deliberate `!12_Dailies/**/*.png|jpg|jpeg` exception, so only review dailies are public; all other chapter media stays NAS-only. Replace superseded dailies in the repo when a select is retaken (keep the repo == current selects).
