@@ -53,6 +53,12 @@
 
 - <the single most useful next step, and whose move it is>
 
+## Creative Impact
+
+- Why this work mattered (creative, not technical): what it made possible.
+- Risk: <none / what it introduced or retired>
+- Downstream Effect: <what can now happen because of this>
+
 ## Lessons Learned
 
 - <institutional knowledge: what worked, what failed, tooling quirks,

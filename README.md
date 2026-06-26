@@ -1,56 +1,68 @@
-# Ten Lifetimes — Production
+# Ten Lifetimes — A Cinematic Short Film
 
-Public **production brain** for *Ten Lifetimes*, a cinematic AI music video / short film.
+## The Production Journal
+
+This repository is the **Production Journal** for *Ten Lifetimes* — a cinematic short film
+(a narrative interpretation of the song, not a music video). Every meaningful decision,
+completed work order, operation report, review, and approval is recorded here. Read it from
+the first commit to the last and you can understand exactly how the film was made.
 
 - **Song:** *Ten Lifetimes* — Tommy Ransome & The Gary Spear Experience
-- **Runtime:** 5:29 (329.6s) · **Version:** PT-0.1 (planning)
-- **Executive Producer / final authority:** Gary Spear
-- **Director (vision):** ChatGPT "Sam"
-- **Production Supervisor (execution):** Claude Code (Agent B)
+- **Runtime:** 5:29 (329.6s) · **Gate:** PT-0.5 (timeline locked)
+
+## The production team (no overlap)
+
+| Role | System | Owns |
+|---|---|---|
+| Executive Producer | Gary | Final creative & business approval |
+| Director (Creative) | ChatGPT "Sam" | Story, symbolism, emotion, cinematic language |
+| Production Supervisor | Claude Code | Work orders, assets, documentation, execution |
+| Visual Effects / Review | Gemini | Image/video quality, realism, continuity, Veo optimization |
+| Editorial | Premiere + Gary | Timeline assembly and pacing |
+| Governance | Continuum | Lineage, reports, approvals, history |
+
+Voice: **ChatGPT writes - Gemini critiques - Claude executes - Gary approves.**
 
 ## What lives here vs. what doesn't
 
-This repository is the **public source of truth for production documents and prompts** — the
-planning brain that all collaborators can read. It deliberately contains **no media**.
+The public source of truth for production **documents** — deliberately **no media**.
 
-| In this repo (public) | NOT in this repo (private asset vault on NAS) |
+| In this repo (public) | NOT here (private NAS vault) |
 |---|---|
-| Production docs, bible, timeline, shot DB | Reference photos (Gary / Jen / couple) |
-| Work orders, prompts, storyboards (text) | Audio master (`.mp3`), stems (`.wav`) |
-| Continuity reports, registers, logs | Premiere projects (`.prproj`), renders (`.mp4`/`.mov`) |
-| Edit decision lists, revision logs | Generated stills / motion / final video assets |
+| Bible, timeline, shot DB, master production timeline | Reference photos (Gary / Jen / couple), master refs |
+| Work orders, storyboards, prompts (text) | Audio master (`.mp3`), stems (`.wav`) |
+| Operation reports, reviews, registers, logs | Premiere projects (`.prproj`), renders |
+| Dashboard, revision history | Generated stills / motion / final video |
 
-Personal photos, audio masters, stems, Premiere files, and generated video assets stay on the
-NAS asset vault and are excluded by [`.gitignore`](.gitignore). The repo is built from a
-docs-only tree, so no media is ever staged.
+Media and personal assets stay on the NAS and are excluded by [`.gitignore`](.gitignore).
 
-## Structure
+## Structure (highlights)
 
 ```text
-00_Production/            Canonical state docs (the constitution + live state)
-  00_PROJECT_STATE.md     Single source of truth for where the production stands
-  01_Production_Bible.md  Creative decisions (the constitution)
-  02_Directors_Timeline.md  Master Production Timeline (word -> beat/camera/scene/shot)
-  03_Shot_Database.md     Every shot (TL-####)
-  04_Work_Order_Log.md    Index of work orders
-  05_Asset_Register.md    Asset inventory (pointers, not the assets)
-  06_Render_Register.md   Render log
-  07_Revision_Log.md      Major decisions
-  08_Continuity_Report.md Continuity tracking
-  09_Edit_Decision_List.md  EDL
-  Lyrics_Annotated.md     Annotated lyric transcript (sections S0-S9)
-10_Work_Orders/           TL-WO-### work order specs
-20_Prompts/               Generation prompts (text)
-30_Public_Storyboard/     Shareable storyboard (text / links)
-40_Continuity_Reports/    Per-chapter continuity reports
+00_Production/
+  00_PROJECT_STATE.md          Single source of truth for where production stands
+  00_PRODUCTION_DASHBOARD.md   At-a-glance status
+  01_Production_Bible.md       The constitution (vision, roles, governance, rules)
+  02_Directors_Timeline.md     Section map + edit model
+  MASTER_PRODUCTION_TIMELINE.md  The foundational relational table (word -> shot -> render)
+  03_Shot_Database.md          Every shot (TL-####)
+  Emotional_Storyboard.md      What the audience should feel (+ Memory)
+  Transition_Bible.md          Named reusable transitions (TS-###)
+  Camera_Bible.md / Character_Bible.md / ...
+  40_SEQUENCES/Seq01_Opening/  Sequence One creative-development scaffolds
+  11_REVIEWS/Gemini/           Gemini video/continuity reviews (GVR)
+11_Operation_Reports/          Public completion report per operation (PRO-006 standard)
+60_Templates/                  Operation report template
 ```
 
-## Roles & flow
+## How work flows
 
-Director (Sam) authors work orders → Production Supervisor (Claude Code / Agent B) executes and
-maintains state → Executive Producer (Gary) approves → approved decisions become canon.
+`Director (ChatGPT) -> Production (Claude Code) -> Generation -> Gemini Review -> EP Approval -> Canon`
+
+Every operation produces a completion report in `11_Operation_Reports/` so all collaborators
+share one machine-readable production memory.
 
 ## License
 
-All rights reserved. See [`LICENSE`](LICENSE). The contents — including the song lyrics and the
+All rights reserved. See [`LICENSE`](LICENSE). Contents — including the song lyrics and the
 Production Bible — are copyrighted creative works and may not be reused without permission.

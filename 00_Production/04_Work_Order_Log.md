@@ -5,16 +5,16 @@
 ## Production Departments (taxonomy, adopted 2026-06-25)
 Work orders belong to a **department**; new WOs use department-prefixed IDs (`DEPT-###`) for navigability at scale.
 
-| Dept | Prefix | Scope | Typical owner |
+| Department | Owner | Responsibility | WO prefix |
 |---|---|---|---|
-| Creative | `CRE` | Storyboards, narratives, bibles, emotion, symbolism, sequence direction | Director |
-| Visual Effects | `VFX` | Prompting, generation, motion refinement, Veo/Sora strategy, clip review | Gemini ↔ Supervisor |
-| Editorial | `EDL` | Timelines, marker imports, assembly, timing | Supervisor → Premiere |
-| Production | `PRO` | Infrastructure, dashboards, governance, scaffolds, asset tracking | Supervisor |
-| Continuity | `CON` | Cross-shot/edit continuity, the 6 rules + 3 recognition rules | Gemini ↔ Supervisor |
-| Release | `REL` | Exports, deliverables, public repo, publishing | Supervisor |
+| Creative | ChatGPT (Sam) | Story, symbolism, emotion, cinematic language | `CRE` |
+| Production | Claude Code | Work orders, assets, documentation, execution | `PRO` |
+| Visual | Gemini | Image/video quality, realism, **continuity**, Veo optimization | `VFX` |
+| Editorial | Premiere + Gary | Timeline assembly and pacing | `EDL` |
+| Executive Producer | Gary | Final approval, creative/business decisions | (approval gate — not a WO owner) |
+| Governance | Continuum | Lineage, reports, approvals, history | `GOV` |
 
-> Core four (`CRE/VFX/EDL/PRO`) per Gemini's charter text; `CON/REL` per Director. Production = **`PRO`** (Gemini's spelling).
+> Refined per Director 2026-06-25. **Continuity folded into VFX** (Gemini); **Release folded into PRO**; **GOV** added (Continuum's lineage/history). WO-execution prefixes: `CRE / PRO / VFX / EDL / GOV`. EP is the approval gate, not a WO owner. (Prior `CON`/`REL` retired; no WOs were issued under them.)
 
 **Legacy crosswalk** (existing `TL-WO-###` IDs retained — not renamed, to preserve canon references):
 | Legacy ID | Dept | Note |
@@ -57,5 +57,7 @@ Notes:      <constraints / safety>
 | **PRO-006** | **Public Operation Report Standard** | EP (Gary) → Claude Code | **COMPLETE** | Durable cross-agent audit trail: every operation → work-order file + **public completion report** + canon updates + GitHub sync (unless EP-held). Created `60_TEMPLATES\Operation_Report_Template.md`, `11_OPERATION_REPORTS\` (NAS) / `11_Operation_Reports\` (public); Bible **§0e** rule; backfilled first reports (PRO-005, PRO-006). ASCII-only, zero media. | 2026-06-25 |
 
 | **PRO-007** | **Op-Report Standard v1.1 + Production Loop + North-Star** | Director (Sam) → Claude Code | **COMPLETE** | Per Director feedback: reformatted `Operation_Report_Template.md` (ASCII-only — removed em-dashes — + short lines, no long-line flattening); added **Lessons Learned** section to the standard (Bible §0e) + template + backfilled PRO-005/PRO-006. Canonized the **Production Loop** (hero stills → Director → Gemini GVR → EP → lock look → supporting stills → motion → Gemini motion → final) and the **creative north-star** ("make them forget AI exists") as Bible **§0f**. Dashboard aligned to Director's framing (system done, film 0%). | 2026-06-26 |
+
+| **PRO-008** | **Dept refinement + Creative Impact + Production Journal** | Director (Sam) → Claude Code | **COMPLETE** | Per Director: refined departments to **CRE/PRO/VFX/EDL/EP/GOV** (Continuity→VFX, Release→PRO, +GOV=Continuum; retired CON/REL). Added **Creative Impact** section to the report standard (Bible §0e + template) + backfilled PRO-005/006/007. Reframed the public repo as **"The Production Journal"** (README rewrite). | 2026-06-26 |
 
 *(New work orders appended below. New IDs use DEPT-### per the departments taxonomy above.)*
