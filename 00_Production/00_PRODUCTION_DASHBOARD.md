@@ -4,16 +4,24 @@
 
 ## Production gate: **PT-0.5** (timeline locked) → next PT-1.0
 
+## System vs Film (Director's framing, 2026-06-25)
+```
+Infrastructure       ██████████  100%
+Governance           ██████████  100%
+Documentation        ██████████  100%
+Creative Direction   ████░░░░░░  ~40%   (bibles + structure; sequence authoring pending)
+```
+> **The production SYSTEM is finished. The FILM has not started.** That is exactly where we want to be.
+
 ## Sequence Status
 ```
 Sequence One (Opening: Cosmos → Egypt → Rome, 0:00–1:03.82)
-██░░░░░░░░  ~15%  — planning SCAFFOLDED; awaiting Director authoring
-Sequence Two
-░░░░░░░░░░   0%   — not yet defined by Director
-Sequence Three
-░░░░░░░░░░   0%   — not yet defined by Director
+░░░░░░░░░░   0%  authoring — scaffolds READY (infrastructure); awaiting CRE-001 (Director)
+Sequence Two+
+░░░░░░░░░░   0%  not yet defined by Director
 ```
-> ⚠️ Correction vs draft dashboard: Sequence One planning is **scaffolded, not complete** — the creative cells of TL-WO-004 are still the Director's to author. "Complete" applies only to the measured backbone.
+Generated Stills: **0** · Generated Motion: **0** · Final Edit: **0**
+> Sequence One *scaffolds* are built (infrastructure-done); Sequence One *creative authoring* is 0% until the Director writes CRE-001.
 
 ## Sequence One — Generation Progress
 | Department | Progress | Status |

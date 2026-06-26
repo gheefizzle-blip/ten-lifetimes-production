@@ -101,8 +101,27 @@ So all agents share one operational audit trail readable from the public repo: *
 **Every operation produces:** (1) a work-order file, (2) a completion/operation report, (3) canon updates, (4) public GitHub sync — **unless held by the EP** (then the report states why).
 
 - Reports live in **`11_Operation_Reports/`** (public mirror; NAS `11_OPERATION_REPORTS\`), named `YYYY-MM-DD_<WO-ID>_<Short_Title>_REPORT.md`. Template: **`60_TEMPLATES\Operation_Report_Template.md`**.
-- **Rules:** ASCII-only; **no private media** (photos/audio/generated assets) committed; NAS paths may be referenced but personal media never exposed; every report identifies files **created / modified / deleted** and **whether GitHub was synced** (if deferred, why); every report states **open blockers** and **next recommended action**; ends with a **Supervisor Attestation**.
+- **Rules:** ASCII-only (no em-dashes / smart quotes); **no private media** (photos/audio/generated assets) committed; NAS paths may be referenced but personal media never exposed; every report identifies files **created / modified / deleted** and **whether GitHub was synced** (if deferred, why); every report states **open blockers** and **next recommended action**; includes a **Lessons Learned** section (institutional knowledge — tooling quirks, what worked/failed, what the next WO should change; mineable by Continuum); ends with a **Supervisor Attestation**.
 - **Goal:** ChatGPT and Gemini can understand a completed operation by reading its report alone.
+
+## 0f. The Production Loop & Creative North-Star (Director, 2026-06-25)
+
+**North-star (sharpens the Reality Test):** *We are not trying to impress people with AI — we are trying to make them forget AI exists.* If a viewer says **"that's beautiful AI,"** we failed. If they say **"that felt like a movie,"** we succeeded. Every prompt, render, and review is judged against this.
+
+**The Production Loop — run per sequence, in order (no generating everything at once):**
+1. Build **hero stills**.
+2. **Director** review.
+3. **Gemini GVR** review.
+4. **EP** approval.
+5. **Lock the visual language** (the look becomes the standard for the sequence).
+6. Generate **supporting stills**.
+7. Generate **motion**.
+8. **Gemini motion** review.
+9. **Final approval**.
+→ repeat for every sequence.
+
+> Hierarchy parallel (Hollywood ↔ ours): Writer/Director → Production Supervisor → Generation → Gemini Dailies → Premiere → Executive Producer.
+> **First-minute contract:** by the Chorus 1 downbeat (1:03.820), the audience should already believe they're watching a real cinematic love story — that emotional contract carries the whole film.
 
 ---
 

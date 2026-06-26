@@ -56,4 +56,6 @@ Notes:      <constraints / safety>
 
 | **PRO-006** | **Public Operation Report Standard** | EP (Gary) → Claude Code | **COMPLETE** | Durable cross-agent audit trail: every operation → work-order file + **public completion report** + canon updates + GitHub sync (unless EP-held). Created `60_TEMPLATES\Operation_Report_Template.md`, `11_OPERATION_REPORTS\` (NAS) / `11_Operation_Reports\` (public); Bible **§0e** rule; backfilled first reports (PRO-005, PRO-006). ASCII-only, zero media. | 2026-06-25 |
 
+| **PRO-007** | **Op-Report Standard v1.1 + Production Loop + North-Star** | Director (Sam) → Claude Code | **COMPLETE** | Per Director feedback: reformatted `Operation_Report_Template.md` (ASCII-only — removed em-dashes — + short lines, no long-line flattening); added **Lessons Learned** section to the standard (Bible §0e) + template + backfilled PRO-005/PRO-006. Canonized the **Production Loop** (hero stills → Director → Gemini GVR → EP → lock look → supporting stills → motion → Gemini motion → final) and the **creative north-star** ("make them forget AI exists") as Bible **§0f**. Dashboard aligned to Director's framing (system done, film 0%). | 2026-06-26 |
+
 *(New work orders appended below. New IDs use DEPT-### per the departments taxonomy above.)*

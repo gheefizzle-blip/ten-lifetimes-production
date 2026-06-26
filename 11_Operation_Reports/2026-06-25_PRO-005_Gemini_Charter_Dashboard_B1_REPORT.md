@@ -49,6 +49,12 @@
 ## Next Recommended Action
 - Director (Sam): author Sequence One Storyboard + Direction (the only thing gating first stills). Then Supervisor builds the prompt package -> EP approves -> generate -> Gemini GVR.
 
+## Lessons Learned
+- Verify blockers against LIVE session state, not prior-session notes: B-1 was recorded as "only Playwright MCP" but Nano Banana was actually connected and responsive this whole time. Re-check tooling each session.
+- When adopting another agent's provided text/format, reconcile naming conflicts explicitly (PRD vs PRO) rather than silently picking one - and stamp who owns the canonical spelling.
+- Report status to ACTUAL state: a draft dashboard marked "Story Complete / Seq One 100%" when it was only scaffolded. Faithful reporting > optimistic rounding.
+- Nano Banana supports up to 3 conditioning images = exactly our 3-per-character master set; design prompts around that.
+
 ## Supervisor Attestation
 - Files: created 2, modified 5, deleted 1. Media generated: none. GitHub: synced with PRO-006 batch.
 - Local operational-memory writes this operation: 1 (`~/.claude/.../memory/ten-lifetimes-project.md`, bootstrap state update).

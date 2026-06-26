@@ -46,6 +46,12 @@
 ## Next Recommended Action
 - Director (Sam): author Sequence One Storyboard + Direction. Once authored, Supervisor builds the prompt package, EP approves, generation begins (stills via Nano Banana), then Gemini GVR.
 
+## Lessons Learned
+- ASCII-only must be enforced at AUTHORING time: the v1.0 template used em-dashes (non-ASCII), caught by Director - fixed in PRO-007. Lint reports for non-ASCII before commit.
+- Long prose lines render poorly in GitHub raw view; prefer short lines + bullets over paragraph blockquotes (PRO-007 reformatted the template).
+- The NAS (nested) vs public-repo (flattened + nested) structural divergence makes each full sync costly and mapping-heavy; resolving the deferred restructure would simplify all future syncs.
+- Stamping the self-referential commit hash needs a second commit; acceptable for exemplars, but note the dependency.
+
 ## Supervisor Attestation
 - Files: created 3, modified 3, deleted 0. Media generated: none. GitHub: synced this batch (docs only, zero media verified).
 - Local operational-memory writes this operation: 0 (none beyond prior PRO-005 update).
