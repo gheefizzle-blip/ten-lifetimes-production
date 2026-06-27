@@ -71,6 +71,13 @@
 !15_Final/**/*.jpg
 !15_Final/**/*.jpeg
 
+# --- EXCEPTION: Master Identity Sheets (Gemini directive, 2026-06-27) ---
+# The locked "Source of Truth" face anchors (Gary/Jen per era). Generated from the
+# real photos via nb2 edit-restyle; conditioned into every scene. Public.
+!00_Identity_Master/**/*.png
+!00_Identity_Master/**/*.jpg
+!00_Identity_Master/**/*.jpeg
+
 # --- Tooling / environments / OS cruft ---
 .venv/
 __pycache__/
