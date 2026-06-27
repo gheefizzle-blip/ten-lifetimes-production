@@ -51,6 +51,19 @@ A demonstrated blocker surfaced: the Director cannot direct an asset he cannot s
 
 **Director Review Packet (PRO-015, 2026-06-26):** every Review-Queue asset also carries `<ASSET_ID>_DIRECTOR_REVIEW.md` in the same folder — a one-stop packet with the **raw GitHub image URL** (`https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/<path>`), the blob + Dossier URLs, Asset/Shot/WO IDs, Director Intent excerpt, Director Notes, objective checks, and the Approve/Revise/Reject question — so the Director inspects the actual frame without anyone re-posting it. Template: `60_TEMPLATES\Director_Review_Packet_Template.md`. **An asset is NOT "ready for Director review" unless the image, Dossier, AND Director Review Packet are all published.**
 
+## Casting & Sheet-Based Conditioning — STUDIO STANDARD (Director, approved 2026-06-27)
+The biggest production breakthrough since the Master Production Timeline. We do not ask the renderer to **invent** the actor every scene; we **cast** the actor once, lock the identity, and then **photograph** that actor into scenes.
+
+**Proven methodology (evidence, not hypothesis):** casual selfies → identity drift; **fresh multi-angle photos → edit-restyle → stable identity.** Build each character's sheet by EDIT-RESTYLING the real photos at each real angle (`nb2` / Gemini 3.1 Flash Image); fill missing angles by generating conditioned on the approved anchor.
+
+**Canonical Character Assets (CCA):** the locked identity sheets are **infrastructure**, not sequence assets — they exist outside any sequence and every sequence consumes them. Each actor gets a permanent CCA number, independent of sequences:
+- **CCA-001 = Gary**  ·  **CCA-002 = Jen**
+- Era/costume variants append the era: `CCA-001-EGYPT`, `CCA-001-ROME`, `CCA-001-WWII`, … The **actor stays the same**; only production design changes.
+
+**Casting Complete:** once a CCA is approved, **the identity is FROZEN.** From that point, **scenes photograph the actor — scenes may never modify the actor.**
+
+**Sheet-Based Conditioning (active production standard):** ALL scene generation conditions on the approved CCA sheets — never on the original casual selfies, and never on a previous scene. **Identity flows one direction only:** `CCA → Scene → Scene → …`  — **never `Scene → Identity`.** This prevents gradual drift across a long production.
+
 ## Supervisor conduct — observe, don't opine (Director, 2026-06-26)
 The Supervisor (Claude Code) announces readiness — *"HERO-01 ready for Director review"* — and may report **objective, measurable observations** (e.g. *"modern eyeglasses detected"*, *"a distant landform is present vs the 'no land features' brief"*, *"rendered with a border"*). The Supervisor does **NOT** offer **subjective cinematic judgments** (*"distracting"*, *"too much sunrise"*, *"beautiful"*) before the Director and Gemini have seen the frame. Each authority evaluates independently, then compares — agreement is signal, disagreement is signal. Same role boundary as Creative Discovery and Director Notes.
 

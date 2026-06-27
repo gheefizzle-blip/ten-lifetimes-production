@@ -121,6 +121,8 @@ So all agents share one operational audit trail readable from the public repo: *
 
 **Asset provenance (born-with-asset rule, Director 2026-06-26):** EVERY generated asset is created together with a companion `.md` provenance file capturing the **exact prompt + negative prompt + params + refs + lineage** — at generation time, never reconstructed later. Assets are **never deleted**; superseded/rejected ones are classified into `Production_History\<Category>\` with a `Preventable?`/severity/lesson record. The repo is a Production Journal, not a lean source tree — we version creative thought, not files. Full spec: `20_REFERENCE\Creative_Provenance_Standard.md`.
 
+**Casting & Sheet-Based Conditioning (STUDIO STANDARD, Director 2026-06-27):** we **cast actors once and lock them**, then photograph them into scenes — we never re-invent a face per scene. The locked identity sheets are **Canonical Character Assets (CCA)**: **CCA-001 = Gary · CCA-002 = Jen** (era variants `CCA-00N-<ERA>`), living in `00_Identity_Master/`. **Casting Complete = identity FROZEN** (scenes photograph the actor, never modify it). **ALL scene generation conditions on the approved CCA sheets** — never on the original selfies or a prior scene; identity flows one way (`CCA → Scene`), never `Scene → Identity`. Build sheets via `nb2` edit-restyle of real photos. Full spec: Creative Provenance Standard.
+
 **The Production Loop — run per sequence, in order (no generating everything at once):**
 1. Build **hero stills** (each born with its provenance `.md`).
 2. **Director** review.

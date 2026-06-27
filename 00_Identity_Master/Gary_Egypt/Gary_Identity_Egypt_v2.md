@@ -1,4 +1,4 @@
-# ASSET DOSSIER — Gary_Identity_Egypt_v2  (CANONICAL CHARACTER ASSET — candidate)
+# ASSET DOSSIER — Gary_Identity_Egypt_v2  (CCA-001-EGYPT — ✅ APPROVED Canonical Character Asset)
 
 > The Dossier for the Gary Egypt Identity Sheet **v2** (6 views). Standard: `00_Production\20_REFERENCE\Creative_Provenance_Standard.md`. **Supersedes v1** (which was built from a single confounded selfie and rendered him too full-faced).
 
@@ -23,10 +23,11 @@
 - Source photos (real, public): `00_Identity_Master/Source_Photos/Gary/IMG_5711-5713`. HEIC originals on NAS `01_Reference_Gary\`.
 - Supersedes: Gary_Identity_Egypt_v1 (archived to `Gary_Egypt/Superseded_v1/`).
 
-## Status
-- **IDENTITY CANDIDATE v2** — pending Director + Gemini + EP approval as Studio Standard / Source of Truth / Canonical Character Asset.
+## Status: ✅ APPROVED — STUDIO STANDARD / SOURCE OF TRUTH / CANONICAL CHARACTER ASSET (Director 2026-06-27)
+- **Actor: CCA-001 (Gary).  This set: CCA-001-EGYPT.**  Identity **FROZEN** (Casting Complete) — scenes photograph this actor, never modify it. Era variants will be `CCA-001-ROME`, `CCA-001-WWII`, etc.
+- Review: Director **APPROVED** 2026-06-27 · Gemini (co-author of the workflow) **APPROVED** · EP **APPROVED**.
 - Resolution: `nb2` ~928x1152 (identity anchors; Resolution Bridge deferred per Director — identity first).
-- Review: Director Pending · Gemini Pending · EP Pending.
+- Usage rule: ALL Gary/Egypt scenes condition on this set. Identity flows one way (CCA → Scene); never Scene → CCA.
 
 ## How to use (once approved)
 - Condition all Gary/Egypt scene generation on these views (stop conditioning on the old `Gary_Master_*` selfies). Pair with the Jen sheet for two-shots.
