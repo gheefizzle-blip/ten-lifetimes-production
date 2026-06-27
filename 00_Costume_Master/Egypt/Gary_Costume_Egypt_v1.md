@@ -21,7 +21,7 @@ Full-figure COSTUME-REFERENCE STUDY of the SAME man as the reference images — 
 ## Generation parameters
 - Conditioned on: CCA-001-EGYPT (Gary_v2 Front + ThreeQuarterRight). Model `nb2`, 2:3, ~848x1264, grounding off.
 
-## Status: ✅ APPROVED — Canonical Costume Asset (Gary, Egypt) (Director 2026-06-27)
+## Status: ✅ LOCKED — Canonical Costume Asset (Gary, Egypt) (Director 2026-06-27; Egypt Costume Phase COMPLETE)
 - Director **APPROVED** — reads as senior technical official / master architect; linen, sash, measuring cord, drafting tube, papyrus, sandals, no jewelry all support the brief. No regeneration required.
 - **Director note (scene-time, not a costume change):** make the linen feel slightly MORE elite / less plain workwear in the rendered scene.
 - HERO-03 will be regenerated using **CCA-001-EGYPT × this costume** (once Jen's costume is also approved).

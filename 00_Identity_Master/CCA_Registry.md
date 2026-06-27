@@ -18,5 +18,15 @@
 - CCA-001-ROME / CCA-002-ROME · CCA-001-VIKING / CCA-002-VIKING · … · CCA-001-WWII / CCA-002-WWII · CCA-001-MODERN / CCA-002-MODERN.
 - Build each by edit-restyling the same fresh source photos into that era's design (`nb2`), then Director+Gemini+EP approval.
 
+## Canonical Costume Assets (per era) — scenes consume costumes, never reinvent them
+| Costume | Folder | Status |
+|---|---|---|
+| **Gary — Egypt (Royal Architect)** | `00_Costume_Master/Egypt/Gary_Costume_Egypt_v1.*` | ✅ **LOCKED** (Director 2026-06-27) |
+| **Jen — Egypt (Royal Scholar)** | `00_Costume_Master/Egypt/Jen_Costume_Egypt_v2.*` | ✅ **LOCKED** (Director 2026-06-27; v1 superseded — royal iconography removed) |
+> **Egypt Costume Phase: COMPLETE.** Scene HERO regen = **CCA (identity) × Canonical Costume Asset (profession)**. Dependency chain: Source Photos → CCA → Costume → Scene → Review Queue → Director → Gemini → EP → LOCK.
+
+## Future: Canonical Environment Assets (next layer, much later — NOT today)
+- Per the Director (2026-06-27): the next canonical layer will be **Canonical Environment Assets** (e.g. Egypt Workshop · Temple Library · Royal Survey Site · Roman Forum · Medieval Abbey). Scenes will consume environments rather than reinventing them. Future milestone; not built yet.
+
 ## Superseded
 - `CCA-001-EGYPT v1` and `CCA-002-EGYPT v1` (built from old casual selfies; too-full-faced) — archived at `<char>_Egypt/Superseded_v1/`. Kept as provenance: v1 → problem discovered → fresh photography → v2 → improved outcome.

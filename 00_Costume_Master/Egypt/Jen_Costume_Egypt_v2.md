@@ -19,9 +19,9 @@
 ## Lineage
 - Parent: `Jen_Costume_Egypt_v1` (archived, Superseded_v1) · Supersedes: v1.
 
-## Status
-- **Canonical Costume Asset CANDIDATE (v2)** — pending Director + Gemini + EP approval. On approval = **Canonical Costume Asset (Jen, Egypt)**; HERO-03 regenerated using **CCA-002-EGYPT × this costume**.
-- Review: Director Pending · Gemini Pending · EP Pending.
+## Status: ✅ LOCKED — Canonical Costume Asset (Jen, Egypt) (Director 2026-06-27; Egypt Costume Phase COMPLETE)
+- Director **APPROVED / LOCKED** — the revision moved her from palace royalty to **temple intellectual** (influence from knowledge, not lineage). Supports the Production Bible.
+- Used with CCA-002-EGYPT to condition HERO-03 v4.
 
 ## Supervisor observations (objective)
 - Uraeus/cobra and royal gold diadem REMOVED; headpiece is now a plain linen headband over braids (no royal/divine iconography). Dress, lapis collar, scroll, scribe's palette, kohl eyes preserved. Identity matches CCA-002-EGYPT. Full figure, plain background.

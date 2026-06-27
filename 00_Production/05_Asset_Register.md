@@ -51,8 +51,8 @@
 | **TL-0010_Egypt_TheLongRoad_v3** | 02 | "The Long Road" (Egypt, CRE-003) | ✅ **LOCKED** (Director + Gemini GVR-005 + EP approved 2026-06-26) | NAS `04_Egypt\Stills\Selected\` → public `14_Selected/Seq01/` | 2026-06-26 |
 | TL-0010_Egypt_TheLongRoad_v2 | 02 | "The Long Road" (Egypt) | ARCHIVED — Composition (Gary too dominant / portrait, not accompaniment) → v3 | `13_Production_History/Seq01_Egypt/Composition/` | 2026-06-26 |
 | TL-0010_Egypt_TheLongRoad_v1 | 02 | "The Long Road" (Egypt) | ARCHIVED — Composition (too close / profile-portrait emphasis) → v2 | `13_Production_History/Seq01_Egypt/Composition/` | 2026-06-26 |
-| **TL-0070_Egypt_FirstRecognition_v3** | 03 | "The First Recognition" (Egypt, CRE-004) | **REVIEW QUEUE — ready for Director review** (regenerated on CCA sheets; identity locked; then Gemini GVR-006, EP, LOCK) | NAS `04_Egypt\Stills\Working\` → public `12_Review_Queue/Seq01_Hero03/` | 2026-06-27 |
-| TL-0070_Egypt_FirstRecognition_v1 / v2 | 03 | recognition | ARCHIVED — Character_Consistency (selfie-era face drift) → v3 | `13_Production_History/Seq01_Egypt/Character_Consistency/` | 2026-06-27 |
+| **TL-0070_Egypt_FirstRecognition_v4** | 03 | "The First Recognition" (Egypt, CRE-004) | **REVIEW QUEUE — ready for Director review** (FINAL on CCA × LOCKED Costumes + asymmetry; then Gemini GVR-006, EP, LOCK) | NAS `04_Egypt\Stills\Working\` → public `12_Review_Queue/Seq01_Hero03/` | 2026-06-27 |
+| TL-0070_Egypt_FirstRecognition_v1 / v2 / v3 | 03 | recognition | ARCHIVED — v1/v2 selfie face-drift; v3 CCA-only (no costume/asymmetry) → superseded by v4 | `13_Production_History/Seq01_Egypt/Character_Consistency/` | 2026-06-27 |
 | _HERO 04 (TL-0080 "The First Smile")_ | 04 | Egypt | not started | — | — |
 | _HERO 05 (TS-001 "History Turns")_ | 05 | Egypt→Rome | not started | — | — |
 | _HERO 06 (TL-0120 "Souls Remember")_ | 06 | Rome | not started | — | — |
