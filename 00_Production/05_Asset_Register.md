@@ -48,7 +48,8 @@
 |---|---|---|---|---|---|
 | **TL-0001_Cosmos_BeforeTime_v2** | 01 | "Before Time" (Cosmos) | ✅ **LOCKED** (Director + EP approved 2026-06-26; Gemini GVR-004 not logged) | NAS `00_Cosmos\Stills\Selected\` → public `14_Selected/Seq01/` | 2026-06-26 |
 | TL-0001_Cosmos_BeforeTime_v1 | 01 | "Before Time" (Cosmos) | ARCHIVED — Rendering Artifact (border/matte) → v2 | `00_Cosmos\Stills\Production_History\Rendering_Artifact\` | 2026-06-26 |
-| **TL-0010_Egypt_TheLongRoad_v1** | 02 | "The Long Road" (Egypt, CRE-003) | **REVIEW QUEUE — ready for Director review** (then Gemini GVR-005, EP, LOCK) | NAS `04_Egypt\Stills\Working\` → public `12_Review_Queue/Seq01_Hero02/` | 2026-06-26 |
+| **TL-0010_Egypt_TheLongRoad_v2** | 02 | "The Long Road" (Egypt, CRE-003) | **REVIEW QUEUE — ready for Director review** (Director REVISE of v1 → wider/smaller/walking; then Gemini GVR-005, EP, LOCK) | NAS `04_Egypt\Stills\Working\` → public `12_Review_Queue/Seq01_Hero02/` | 2026-06-26 |
+| TL-0010_Egypt_TheLongRoad_v1 | 02 | "The Long Road" (Egypt) | ARCHIVED — Composition (too close / profile-portrait emphasis) → v2 | `13_Production_History/Seq01_Egypt/Composition/` | 2026-06-26 |
 | _HERO 03 (TL-0070 "The First Recognition")_ | 03 | Egypt | not started | — | — |
 | _HERO 04 (TL-0080 "The First Smile")_ | 04 | Egypt | not started | — | — |
 | _HERO 05 (TS-001 "History Turns")_ | 05 | Egypt→Rome | not started | — | — |
