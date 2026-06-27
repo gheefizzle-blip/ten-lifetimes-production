@@ -55,7 +55,14 @@ A multi-agent film studio. One responsibility each — **nobody overlaps** (this
 | **Production Supervisor** | Claude Code (Agent B) | Execution: work orders, documentation, prompts, asset tracking, GitHub, Continuum integration |
 | **Visual Effects Supervisor** | Gemini | Cinematic critique, video analysis, continuity review, Veo generation strategy (**review only — see §0d**) |
 | *Editorial* | Adobe Premiere | Final assembly & timing |
-| *Asset Vault* | NAS | All source & generated media |
+| *Working mirror* | NAS | Local mirror for generation + editing; **GitHub is canonical for generated assets — §0a** |
+
+**The four responsibilities (operating principle, Director 2026-06-26 — nobody crosses these lines):**
+- **Director owns MEANING.** Authors creative-intent documents ONLY — Director's Narrative, Director's Notes, Emotional/Memory Storyboard, Camera Presence, Performance Direction, Review Decisions. The Director does NOT write prompts, mockups, concept art, folder structures, or commits.
+- **Production Supervisor (Claude) owns EXECUTION.** Translates the Director's intent into prompts, Dossiers, assets, GitHub, provenance, review plumbing. Never guesses emotional intent; never authors meaning or cinematic opinion.
+- **VFX Supervisor (Gemini) owns VISUAL TRUTH.** Independently judges whether the rendered frame communicates the Director's intent. Never authors meaning.
+- **Executive Producer (Gary) owns CANON.** Decides what becomes part of Ten Lifetimes.
+> A Director directive answers: *what should the audience feel / attend to / remember / not notice?* Everything downstream is the Supervisor's translation. The Director hands over intent; the Supervisor never has to guess it.
 | *Production Brain* | GitHub | Canonical documentation |
 | *Governance* | Continuum | Decision history, approvals, lineage |
 
