@@ -1,34 +1,37 @@
-# DIRECTOR + GEMINI REVIEW — Identity Candidate v1 (Gary & Jen, Egypt) — FULL 6-VIEW SETS
+# DIRECTOR + GEMINI REVIEW — Identity Candidate v2 (Gary & Jen, Egypt) — built from the FRESH photos
 
-> Per the Director's CONDITIONAL APPROVAL (2026-06-27): methodology approved; these become **Studio Standard / Source of Truth / Canonical Character Assets** once the COMPLETE angle set is approved. Review the raw frames below. Constraints honored: identity not altered, no resolution chase, HERO-03 not generated.
+> **v2 supersedes v1.** Per the Director's CONDITIONAL APPROVAL, these become **Studio Standard / Source of Truth / Canonical Character Assets** once the complete set is approved. **v2 is built from the fresh purpose-shot reference photos** (2026-06-27) — far more accurate than v1, which inherited a distortion from the old cap selfie (made Gary too full-faced). Constraints honored: identity not altered, no resolution chase, HERO-03 not generated.
 
-## Method (recap)
-`nb2` (Gemini 3.1 Flash Image) conditioned on the clean v1 front anchor (+ the real photos) — identity held across all rotations. These are ~1K identity ANCHORS (Resolution Bridge deferred per Director: identity first).
+## Method (v2)
+`nb2` (Gemini 3.1 Flash Image). **Front + both 3/4 = EDIT-RESTYLE of the real fresh photos** (the strongest identity lock — real face at real angle). **Profiles + Neutral Recognition = generation conditioned on the accurate v2 anchor.** ~1K anchors (Resolution Bridge deferred per Director).
 
-## GARY — Egypt (6 views)
-- Front: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1.png
-- 3/4 Left: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1_ThreeQuarterLeft.png
-- Left Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1_ProfileLeft.png
-- Right Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1_ProfileRight.png
-- 3/4 Right: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1_ThreeQuarterRight.png
-- Neutral Recognition: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1_NeutralRecognition.png
-- Dossier: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v1.md
+## GARY — Egypt v2 (6 views)
+- Front: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2_Front.png
+- 3/4 Left: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2_ThreeQuarterLeft.png
+- Left Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2_ProfileLeft.png
+- Right Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2_ProfileRight.png
+- 3/4 Right: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2_ThreeQuarterRight.png
+- Neutral Recognition: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2_NeutralRecognition.png
+- Dossier: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Gary_Egypt/Gary_Identity_Egypt_v2.md
 
-## JEN — Egypt (6 views)
-- Front: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1.png
-- 3/4 Left: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1_ThreeQuarterLeft.png
-- Left Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1_ProfileLeft.png
-- Right Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1_ProfileRight.png
-- 3/4 Right: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1_ThreeQuarterRight.png
-- Neutral Recognition: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1_NeutralRecognition.png
-- Dossier: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v1.md
+## JEN — Egypt v2 (6 views)
+- Front: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2_Front.png
+- 3/4 Left: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2_ThreeQuarterLeft.png
+- Left Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2_ProfileLeft.png
+- Right Profile: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2_ProfileRight.png
+- 3/4 Right: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2_ThreeQuarterRight.png
+- Neutral Recognition: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2_NeutralRecognition.png
+- Dossier: https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/00_Identity_Master/Jen_Egypt/Jen_Identity_Egypt_v2.md
+
+## Source photos (real, for comparison)
+- Gary: https://github.com/gheefizzle-blip/ten-lifetimes-production/tree/main/00_Identity_Master/Source_Photos/Gary
+- Jen: https://github.com/gheefizzle-blip/ten-lifetimes-production/tree/main/00_Identity_Master/Source_Photos/Jen
 
 ## Objective notes (Supervisor; measurable only)
-- Identity held consistently across all 6 views for both characters (goatee/fuller-face for Gary; round fair freckled face for Jen). No glasses (Gary), no dyed hair / nose ring (Jen).
-- Gary 3/4-Left rendered with a blazer-style collar instead of plain linen (cosmetic; face consistent). Can re-run that one view if you want uniform wardrobe.
-- All `nb2`, ~928x1152 (identity anchors; not 4K).
+- Identity held across all 6 views for both; built primarily by edit-restyling the real photos (front + 3/4s), so likeness is anchored to the actual people. Gary's face is now correctly LEAN (v1 error fixed). Jen's pink dye changed to natural dark; modern items removed.
+- v1 sets retained at `Gary_Egypt/Superseded_v1/` and `Jen_Egypt/Superseded_v1/` (never deleted).
 
 ## Decision (Director + Gemini + EP)
-- [ ] **APPROVE Identity Candidate v1 -> STUDIO STANDARD / SOURCE OF TRUTH / CANONICAL CHARACTER ASSETS.** Then: all scene generation conditions from these (stop using the original `Gary_Master_*` / `Jen_Master_*` selfies); I codify "Sheet-Based Conditioning" in the Bible; HERO-03 regenerated conditioned on these.
-- [ ] **REVISE** specific view(s) — name them (e.g. Gary 3/4-Left wardrobe).
+- [ ] **APPROVE Identity Candidate v2 -> STUDIO STANDARD / SOURCE OF TRUTH / CANONICAL CHARACTER ASSETS.** Then: condition all scenes on these; codify "Sheet-Based Conditioning" in the Bible; regenerate HERO-03.
+- [ ] **REVISE** specific view(s) — name them.
 - [ ] Other.
