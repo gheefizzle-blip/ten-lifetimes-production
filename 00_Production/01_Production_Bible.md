@@ -1,5 +1,9 @@
 # TEN LIFETIMES — Production Bible
 
+> ## ⭐ THE GUIDING PRINCIPLE (Director, 2026-06-27)
+> **"Every technical decision must preserve or strengthen the emotional integrity of the performance. If it does not, the performance wins."**
+> This is the first principle of the studio. Resolution, tooling, and process all serve the performance — never the reverse. (Applies to all Continuum Creative productions, not just Ten Lifetimes.)
+
 > **The Constitution of the project.** Answers the question: *"What kind of film are we making?"*
 > Once approved, this document changes rarely. Everything else (timeline, shots, work orders) traces back here.
 
