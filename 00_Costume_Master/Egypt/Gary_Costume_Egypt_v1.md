@@ -21,9 +21,11 @@ Full-figure COSTUME-REFERENCE STUDY of the SAME man as the reference images — 
 ## Generation parameters
 - Conditioned on: CCA-001-EGYPT (Gary_v2 Front + ThreeQuarterRight). Model `nb2`, 2:3, ~848x1264, grounding off.
 
-## Status
-- **Canonical Costume Asset CANDIDATE** — pending Director + Gemini + EP approval. On approval = **Canonical Costume Asset (Gary, Egypt)**; HERO-03 will then be regenerated using **CCA-001-EGYPT × this costume**.
-- Review: Director Pending · Gemini Pending · EP Pending.
+## Status: ✅ APPROVED — Canonical Costume Asset (Gary, Egypt) (Director 2026-06-27)
+- Director **APPROVED** — reads as senior technical official / master architect; linen, sash, measuring cord, drafting tube, papyrus, sandals, no jewelry all support the brief. No regeneration required.
+- **Director note (scene-time, not a costume change):** make the linen feel slightly MORE elite / less plain workwear in the rendered scene.
+- HERO-03 will be regenerated using **CCA-001-EGYPT × this costume** (once Jen's costume is also approved).
+- Review: Director **APPROVED** 2026-06-27 · Gemini / EP — co-confirm.
 
 ## Supervisor observations (objective)
 - Identity matches CCA-001-EGYPT (lean face + goatee). Costume reads as fine pleated linen + sash + tools (educated craftsman, not peasant/royalty). No gold excess. Full figure on plain background.

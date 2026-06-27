@@ -20,9 +20,9 @@ Full-figure COSTUME-REFERENCE STUDY of the SAME woman as the reference images �
 ## Generation parameters
 - Conditioned on: CCA-002-EGYPT (Jen_v2 Front + ThreeQuarterRight). Model `nb2`, 2:3, ~848x1264, grounding off.
 
-## Status
-- **Canonical Costume Asset CANDIDATE** — pending Director + Gemini + EP approval. On approval = **Canonical Costume Asset (Jen, Egypt)**; HERO-03 will then be regenerated using **CCA-002-EGYPT × this costume**.
-- Review: Director Pending · Gemini Pending · EP Pending.
+## Status: ARCHIVED — superseded by Jen_Costume_Egypt_v2 (Director REVISE, 2026-06-27)
+- Director REVISE: the costume read scholarly, BUT the **uraeus (cobra) ornament + royal gold diadem + braided headpiece pushed her toward palace royalty**, violating the "not royalty" brief. Kept elements (dress/collar/scroll/palette/kohl) carried into v2; headpiece replaced with a scholarly look.
+- Superseded By: `Jen_Costume_Egypt_v2`. Archived to `Superseded_v1/` (never deleted; provenance).
 
 ## Supervisor observations (objective)
 - Identity matches CCA-002-EGYPT (round fair freckled face). Costume reads as fine pleated linen + beaded collar + scholar tools (educated, not peasant/glamorous).
