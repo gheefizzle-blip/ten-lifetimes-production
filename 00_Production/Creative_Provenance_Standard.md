@@ -41,13 +41,15 @@ A demonstrated blocker surfaced: the Director cannot direct an asset he cannot s
 - **No generated asset may remain NAS-only once it has a Dossier.** Every asset is published to GitHub with its Dossier **before** Director / Gemini / EP review, so all three evaluate the **same pixels, independently** (no reviewer inherits another's opinion).
 
 **Public folder model (per sequence):**
-- **`12_Review_Queue/Seq<NN>_Hero<NN>/`** — image + Dossier under review. Dailies / unapproved footage, explicitly **NOT canon.**
+- **`12_Review_Queue/Seq<NN>_Hero<NN>/`** — the **image + Dossier + Director Review Packet** under review (PRO-015). Dailies / unapproved footage, explicitly **NOT canon.**
 - **`12_Dailies/Seq<NN>_<Chapter>/`** — review/working selects (the earlier VFX-001/002 Egypt selects live here).
 - **`13_Production_History/Seq<NN>_<Chapter>/<Category>/`** — superseded/rejected, kept + classified.
 - **`14_Selected/Seq<NN>/`** — LOCKED selects (Director + Gemini + EP approved).
 - **`15_Final/Seq<NN>/`** — final approved production assets (the deliverable cut).
 
 **Lifecycle:** `Created → Review Queue → Director → Gemini → EP → LOCK → Selected → Final` (or → Production_History if rejected/superseded). Every move updates the Dossier lifecycle **and** the Asset Register. NAS mirror: `Stills/Working/` ↔ Review Queue · `Stills/Selected/` ↔ Selected · chapter `Final/` ↔ Final · `Stills/Production_History/` ↔ Production_History.
+
+**Director Review Packet (PRO-015, 2026-06-26):** every Review-Queue asset also carries `<ASSET_ID>_DIRECTOR_REVIEW.md` in the same folder — a one-stop packet with the **raw GitHub image URL** (`https://raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/<path>`), the blob + Dossier URLs, Asset/Shot/WO IDs, Director Intent excerpt, Director Notes, objective checks, and the Approve/Revise/Reject question — so the Director inspects the actual frame without anyone re-posting it. Template: `60_TEMPLATES\Director_Review_Packet_Template.md`. **An asset is NOT "ready for Director review" unless the image, Dossier, AND Director Review Packet are all published.**
 
 ## Supervisor conduct — observe, don't opine (Director, 2026-06-26)
 The Supervisor (Claude Code) announces readiness — *"HERO-01 ready for Director review"* — and may report **objective, measurable observations** (e.g. *"modern eyeglasses detected"*, *"a distant landform is present vs the 'no land features' brief"*, *"rendered with a border"*). The Supervisor does **NOT** offer **subjective cinematic judgments** (*"distracting"*, *"too much sunrise"*, *"beautiful"*) before the Director and Gemini have seen the frame. Each authority evaluates independently, then compares — agreement is signal, disagreement is signal. Same role boundary as Creative Discovery and Director Notes.
