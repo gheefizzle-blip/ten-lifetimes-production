@@ -78,6 +78,12 @@
 !00_Identity_Master/**/*.jpg
 !00_Identity_Master/**/*.jpeg
 
+# --- EXCEPTION: Canonical Costume Assets (CRE-005, 2026-06-27) ---
+# Per-era costume sheets, conditioned on the CCA faces. Public, like the identity sheets.
+!00_Costume_Master/**/*.png
+!00_Costume_Master/**/*.jpg
+!00_Costume_Master/**/*.jpeg
+
 # --- Tooling / environments / OS cruft ---
 .venv/
 __pycache__/
