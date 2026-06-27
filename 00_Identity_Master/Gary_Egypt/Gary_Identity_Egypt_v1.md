@@ -22,9 +22,18 @@
 - Mode: edit  ·  Model: nb2 (Gemini 3.1 Flash Image)  ·  Grounding: off  ·  Resolution: ~864x1184 (nb2 "high"; identity anchor, not a 4K deliverable)
 - Edit instruction (verbatim): "Keep this EXACT man and his EXACT facial identity completely unchanged ... Only restyle the context to ancient Egypt: neaten and dry his hair, dress him in a simple undyed linen robe, replace the background with a plain neutral warm stone-colored wall, and relight with soft even morning light. ... His likeness must remain unmistakably the same person as the input photo."
 
-## Disposition
-- Status: Review Queue — pending Director + Gemini + EP approval as Source of Truth
-- Location (NAS): `16_Master_References\Identity_Sheets\`  ·  Public: `00_Identity_Master/`
+## Status: IDENTITY CANDIDATE v1 (Director conditional approval, 2026-06-27)
+- Methodology APPROVED. This is **Identity Candidate v1** — NOT yet Studio Standard — pending approval of the COMPLETE 6-view set. On approval it becomes Studio Standard / Source of Truth / **Canonical Character Asset** (infrastructure, owned by no sequence; consumed by all).
+- Location (NAS): `16_Master_References\Identity_Sheets\Gary_Egypt\`  ·  Public: `00_Identity_Master/Gary_Egypt/`
+
+## Views in this set (6) — all `nb2`, conditioned on the v1 front anchor + real bare-face; identity held across angles
+- Front (anchor): `Gary_Identity_Egypt_v1.png`
+- 3/4 Left: `Gary_Identity_Egypt_v1_ThreeQuarterLeft.png`
+- Left Profile: `Gary_Identity_Egypt_v1_ProfileLeft.png`
+- Right Profile: `Gary_Identity_Egypt_v1_ProfileRight.png`
+- 3/4 Right: `Gary_Identity_Egypt_v1_ThreeQuarterRight.png`
+- Neutral Recognition (expression): `Gary_Identity_Egypt_v1_NeutralRecognition.png`
+- Objective note: the 3/4-Left came out with a blazer-style collar (vs plain linen tunic); the face is consistent. Plain linen elsewhere.
 
 ## Review
 - Director (Sam): Pending  ·  Gemini: Pending (co-author of this workflow)  ·  EP (Gary): Pending

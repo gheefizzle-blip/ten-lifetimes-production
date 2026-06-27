@@ -22,9 +22,17 @@
 - Mode: edit  ·  Model: nb2 (Gemini 3.1 Flash Image)  ·  Grounding: off  ·  Resolution: ~1184x864 (nb2 "high"; identity anchor, not a 4K deliverable)
 - Edit instruction (verbatim): "Keep this EXACT woman and her EXACT facial identity completely unchanged ... change her dyed (green/blonde) hair to NATURAL DARK BROWN hair ...; REMOVE the nose ring; give her a calm NEUTRAL closed-mouth expression ...; dress her in a simple undyed linen ancient-Egyptian tunic; replace the background with a plain neutral warm stone-colored wall; relight with soft even morning light. Her likeness must remain unmistakably the same person as the input photo."
 
-## Disposition
-- Status: Review Queue — pending Director + Gemini + EP approval as Source of Truth
-- Location (NAS): `16_Master_References\Identity_Sheets\`  ·  Public: `00_Identity_Master/`
+## Status: IDENTITY CANDIDATE v1 (Director conditional approval, 2026-06-27)
+- Methodology APPROVED. This is **Identity Candidate v1** — NOT yet Studio Standard — pending approval of the COMPLETE 6-view set. On approval it becomes Studio Standard / Source of Truth / **Canonical Character Asset** (infrastructure, owned by no sequence; consumed by all).
+- Location (NAS): `16_Master_References\Identity_Sheets\Jen_Egypt\`  ·  Public: `00_Identity_Master/Jen_Egypt/`
+
+## Views in this set (6) — all `nb2`, conditioned on the v1 front anchor + real photos (profile photo added for the side views); identity held across angles
+- Front (anchor): `Jen_Identity_Egypt_v1.png`
+- 3/4 Left: `Jen_Identity_Egypt_v1_ThreeQuarterLeft.png`
+- Left Profile: `Jen_Identity_Egypt_v1_ProfileLeft.png`
+- Right Profile: `Jen_Identity_Egypt_v1_ProfileRight.png`
+- 3/4 Right: `Jen_Identity_Egypt_v1_ThreeQuarterRight.png`
+- Neutral Recognition (expression): `Jen_Identity_Egypt_v1_NeutralRecognition.png`
 
 ## Review
 - Director (Sam): Pending  ·  Gemini: Pending (co-author of this workflow)  ·  EP (Gary): Pending
