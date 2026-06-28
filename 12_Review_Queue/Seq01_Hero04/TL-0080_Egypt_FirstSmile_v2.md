@@ -31,10 +31,15 @@ Keep this photograph the same in every way ... Change ONLY the two facial expres
 - Created: 2026-06-27 · Reviewed: pending · Disposition: 2026-06-27 (Review Queue)
 
 ## Disposition
-- Status: Review Queue · NAS `04_Egypt\Stills\Working\` · Public `12_Review_Queue/Seq01_Hero04/`
+- Status: **Director-APPROVED as Performance Anchor → Gemini GVR-007 pending → EP LOCK** · NAS `04_Egypt\Stills\Working\` · Public `12_Review_Queue/Seq01_Hero04/`
+
+## Performance Anchor / Performance Trajectory  (PRO-017)
+- **Performance Anchor (Frame 1 — this still):** Hope has just appeared. Gary leads (the first crack in the armor); Jen senses it, the smaller echo. Restrained — no full smile.
+- **Performance Trajectory (final frame — for motion):** Hope quietly becomes the first genuine smile — Gary softens first, Jen feels it before she understands it, the smile arrives *over time*. The bloom belongs to the video model, not the still.
+- This still is judged by whether the animation can **naturally arrive** at that destination — not whether it is itself the climax.
 
 ## Review
-- Q1 Technical / Q2 Creative / Q3 Institutional: Pending · Director: Pending · Gemini (GVR-007): Pending · EP: Pending
+- Q1 Technical / Q2 Creative / Q3 Institutional: Pending · **Director: APPROVED as Performance Anchor (Sam, 2026-06-27)** · Gemini (GVR-007): Pending · EP: Pending (LOCK on Gemini approval)
 
 ## Supervisor observations (objective / measurable only)
 - Asymmetry corrected: **Gary's gentle smile now clearly leads** (warmer, more present); **Jen's is the smaller echo** (softer, more in the eyes). Both restrained, no grins/teeth.

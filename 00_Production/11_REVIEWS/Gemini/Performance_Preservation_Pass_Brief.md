@@ -1,6 +1,8 @@
-# RESOLUTION BRIDGE — Brief for Gemini (VFX Supervisor)
+# PERFORMANCE PRESERVATION PASS — Brief for Gemini (VFX Supervisor)
 
-> Handoff from the Director (2026-06-27): the HERO-03 scene is **creatively LOCKED**. Gemini's objective here is **engineering, not creative review** — raise the locked ~1K frame to 4K (or near-4K) **without reopening identity, costume, staging, expression, or composition.**
+> **Renamed 2026-06-27 (Director Sam):** formerly "Resolution Bridge." The engineering work here protects **performance, not pixels** — it preserves the locked anchor through higher fidelity. That is why it is a *Performance Preservation Pass*, not a mere upscale.
+
+> Handoff from the Director (2026-06-27): the HERO-03 scene is **creatively LOCKED**. Gemini's objective here is **engineering, not creative review** — raise the locked ~1K frame to 4K (or near-4K) **without reopening identity, costume, staging, expression, or composition.** Under PRO-017, the frame is a **Performance Anchor**: preserving it at higher resolution protects its emotional potential for motion.
 
 ## The problem
 - Identity locks reliably on **`nb2` (Gemini 3.1 Flash Image)** at ~1K ("high"). **4K/2K are `pro`-only**, and `pro` historically drifts identity. So our locked hero frames (HERO-03 v5 and the earlier nb2 scenes) are ~1K, below the 4K of HERO-01/02. We need a path to 4K that preserves the locked look.

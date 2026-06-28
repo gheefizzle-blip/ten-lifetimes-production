@@ -18,6 +18,8 @@
 - Full-bleed; no eyewear (CD-001); ~1K (Resolution Bridge pending).
 
 ## Director's decision
-- [ ] **APPROVE** → Gemini GVR-007 → EP → LOCK
+- [x] **APPROVE as Performance Anchor** (Director Sam, 2026-06-27) → Gemini GVR-007 → EP → LOCK
 - [ ] **REVISE** → name the change(s)
 - [ ] **REJECT**
+
+> **Director's verdict (verbatim):** "HERO-04 v2: APPROVE as Performance Anchor." The still is **not** the completed smile — it is the *performance anchor* for the video model: Gary leads (hope begins), Jen echoes, and the full bloom of the smile belongs to motion. Evaluated for **emotional potential**, not as the finished climax. Do not over-polish the still. → **Send to Gemini GVR-007; if Gemini approves, EP can LOCK.** (See PRO-017 Performance Anchor standard.)

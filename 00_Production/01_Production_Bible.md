@@ -75,6 +75,26 @@ A multi-agent film studio. One responsibility each — **nobody overlaps** (this
 **Production workflow:**
 `Director (ChatGPT) → Production (Claude Code) → Generation → Gemini Review → EP Approval → Canon`
 
+## 0b-PA. The Performance Anchor Standard (PRO-017 — Director + VFX, 2026-06-27)
+
+> The single most important methodology shift since Canonical Character Assets. We have stopped making *finished cinematic moments* as stills and started making **Performance Anchors**.
+
+**The principle.** A hero still is not the climax of the performance — it is the **Performance Anchor** (the key pose) for the video model that follows. It establishes *emotional truth* (Frame 1); the *emotional event* (the climax) belongs to motion. We separate the **Emotional Foundation** (the still) from the **Emotional Event** (the animation).
+
+**New success criterion.** A still is no longer judged by *"Is this the climax?"* — it is judged by *"Can the performance naturally arrive at the climax from here?"* A still is "perfect" when it holds the **maximum potential** for the subsequent animation (Sora / Veo / Runway) to reach the intended emotional destination. **Do not over-polish a still** — the emotion should bloom in motion, not be fully spent in the anchor.
+
+**Two-section directing.** From PRO-017 forward, every **Director's Narrative** (CRE) and every Dossier carries two emotional waypoints:
+- **Performance Anchor** — what emotional state exists at **Frame 1** (where the still begins).
+- **Performance Trajectory** — what emotional state exists at the **final frame** (where the animation ends).
+Everything between the two is cinematography/interpolation. This removes AI video's biggest weakness — the model no longer invents where motion starts or ends; we direct both. *Start here. Finish here.*
+
+**HERO-04 is the first asset evaluated under this standard:** Anchor = *hope has just appeared* (Gary leads, Jen echoes); Trajectory = *hope quietly becomes the first genuine smile, over time*. The regeneration chase is **cancelled** — the smile belongs to motion, not the still.
+
+**Workflow becomes (animation model, not just film model):**
+`Performance Anchor (still) → Directed Emotional Trajectory (brief) → Animated Performance (motion)`
+
+> Concept ownership: Director (Sam) + VFX (Gemini) co-authored; applies to all Continuum Creative productions. *"We've stopped asking AI to invent emotion. We're asking it to perform emotion we've already directed."*
+
 ## 0c. The Three Recognition Rules (permanent — every lifetime)
 
 Established in Sequence One (Egypt) and **silently repeated across all ten lifetimes**. The audience should never consciously notice them — by the finale they should feel these have *always* been true.
