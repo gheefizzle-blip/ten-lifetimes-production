@@ -1,7 +1,9 @@
-# CONTINUUM STUDIO — Project Onboarding Brief
-### Production: *Ten Lifetimes* · Candidate: Grok (xAI)
+# CONTINUUM STUDIO — Production Assignment Brief
+### Production: *Ten Lifetimes* · Department/Assignment: Motion · Candidate: Grok (xAI)
 
-> **Deliver this AFTER the Grok project is created — in conversation, NOT in the persistent Project Instructions.** The Project Instructions hold the generic [Candidate Department Charter](Continuum_Studio_Candidate_Department_Charter.md) (studio culture, durable). This brief brings a candidate up to speed on the *current* project, its assets, and its first work. One brief per production; the charter never changes.
+> **LAYER 3 — PRODUCTION ASSIGNMENT BRIEF (changes every production/assignment).** Deliver this **AFTER** the candidate's project is created — in conversation, **NOT** in the persistent Project Instructions. The Project Instructions hold the frozen [Candidate Department Charter](Continuum_Studio_Candidate_Department_Charter.md) (Layer 1, studio culture). A single production may issue several assignment briefs — Motion, Storyboarding, Color, Editorial — one per craft/candidate. This one assigns **Motion** to **Grok** for *Ten Lifetimes*.
+
+> **The three permanent layers:** Layer 1 = **Studio Constitution** (Department Charter — never changes) · Layer 2 = **Production Methodology** (Production Bible + Creative Provenance Standard — changes rarely) · Layer 3 = **Production Assignment Brief** (this document — changes every production/assignment). Onboarding sequence: *read the Constitution → read the Bible → receive today's Assignment Brief.*
 
 ---
 
@@ -36,7 +38,7 @@
 
 ---
 
-## 4. Your first assignment — qualification
+## 4. Your assignment — Motion qualification
 
 - **Department under test:** Motion (image-to-video).
 - **Task: Performance Segment 001** — animate the locked Opening Movement span, **start anchor HERO-02 "The Long Road" → end anchor HERO-03 "The First Recognition"** (~10–15 s). You will receive the *identical* package given to Sora and Veo: same start/end anchors, Performance Trajectory, camera direction, runtime, and emotional objective. **Only the engine differs — no creative changes.**
@@ -59,4 +61,4 @@
 
 The actual motion package (the exact Performance Trajectory, camera direction, and shot-by-shot timing) is **pending the Director's "Performance Segment Direction"** — the directing document for the Opening Movement. Until Sam delivers it, there is nothing to render. **Do not generate anything yet.** When it arrives, the Production Supervisor will hand you a Grok-specific package (same direction as Sora/Veo, engine-appropriate syntax), you render, and Gemini scores blind.
 
-> *Status:* onboarding brief ready; awaiting Director's Performance Segment Direction → then the identical render packages issue to all motion candidates.
+> *Status:* assignment brief ready; awaiting Director's Performance Segment Direction → then the identical render packages issue to all motion candidates.

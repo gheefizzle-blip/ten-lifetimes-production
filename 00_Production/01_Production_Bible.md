@@ -17,6 +17,15 @@
 > **What is locked:** screenplay/lyrics · emotional timeline (329.60 s) · cast (CCAs) · costumes · Performance Anchors HERO-01→04 · the Performance Anchor/Trajectory/Segment methodology · the master clock.
 > **Next:** Performance Segment 001 (Opening Movement, HERO-01→04). From here, *every hour moves pixels on the screen, not paragraphs in the Bible.*
 
+> ## 🏛️ THE CONSTITUTIONAL LAYERS OF CONTINUUM STUDIO (FROZEN 2026-06-28)
+> The studio's architecture is **complete and frozen.** Three permanent layers, in order of stability:
+> - **Layer 1 — Studio Constitution:** the **Candidate Department Charter** (`Continuum_Studio_Candidate_Department_Charter.md`). Answers *"who are you?"* — **never changes.**
+> - **Layer 2 — Production Methodology:** this **Production Bible** + the **Creative Provenance Standard**. Apply to every production; **change rarely.**
+> - **Layer 3 — Production Assignment Brief:** the per-production/per-craft payload (current film, assets, the specific task). **Changes every production/assignment.**
+>
+> **Onboarding sequence for any new department:** read the Constitution → read the Bible → receive today's Assignment Brief.
+> **Layers 1 & 2 are the constitutional layer — FROZEN.** From this point, the studio is no longer being *designed*. Every new artifact is either a **Production Assignment Brief** or a **film asset** — nothing else. *We have permission to stop designing the studio and start putting milestones on the screen.*
+
 ---
 
 ## 0. Production Facts

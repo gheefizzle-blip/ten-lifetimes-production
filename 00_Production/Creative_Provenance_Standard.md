@@ -1,5 +1,6 @@
 # TEN LIFETIMES — Creative Provenance Standard (the Dossier system)
 
+> **🏛️ CONSTITUTIONAL LAYER 2 — FROZEN (2026-06-28).** Part of Continuum Studio's frozen Production Methodology (with the Production Bible). Applies to every production; changes only rarely. See Bible §0 "The Constitutional Layers of Continuum Studio."
 > **Authored by the Director (Sam) + VFX Supervisor (Gemini), adopted by EP (Gary) 2026-06-26. Implemented by the Supervisor (Claude Code).**
 > **Provenance** = origin · ownership · evolution · authenticity · lineage. We are **not versioning files — we are versioning creative thought.** (Renamed from "Asset Provenance" 2026-06-26 to name what it actually is.)
 
