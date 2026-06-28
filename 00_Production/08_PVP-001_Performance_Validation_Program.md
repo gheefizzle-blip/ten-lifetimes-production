@@ -59,7 +59,7 @@ This is the gating fact. Only one generator is bridged into the Production Super
 | **Google Nano Banana** | 2A still | ✅ **YES** (`mcp__nanobanana__generate_image`) | Claude generates directly. The four locked anchors ARE its output — it is the qualified incumbent. |
 | **OpenAI Sora** | 2B motion | ❌ No bridge | **Manual web (EP runs).** Claude prepares the identical package; Gemini reviews the clip. |
 | **Google Veo** | 2B motion | ❌ No bridge | **Manual web (EP runs).** Same package; Gemini reviews. |
-| **xAI Grok** | 2B motion | ❌ No bridge | **Manual web (EP runs)** — *if EP confirms practical access.* Same package; Gemini reviews. |
+| **xAI Grok** | 2B motion | ❌ No bridge | **Manual web (EP runs).** ✅ **Access confirmed; onboarded 2026-06-28** (Charter in Project Instructions + Ten Lifetimes Assignment Brief received; read the Studio Memory; standing by, no render until Sam's direction). Same package; Gemini reviews. |
 | **Anthropic image gen** | — | ❌ **Not in environment — NOT pursued** | Director ruling: capability ≠ qualification, and it isn't present in the production environment. **Anthropic stays Production Supervisor / orchestration.** Re-evaluate only if/when a real tool appears, and only on a *future* scene. |
 | **OpenAI image gen** | — | ❌ Not present | Not pursued now (Nano Banana is the qualified still engine). |
 | **Claude + Gemini + Premiere** | 2C editorial | ✅ Yes (Premiere MCP live) | Claude assembles; Gemini reviews. |
