@@ -4,7 +4,7 @@
 > This document allocates all **329.60 s** of the film across the ten lifetimes + framing blocks **before any motion is generated.** We build video to this schedule, not the reverse.
 
 - **Work order:** EDL-001 (Director Sam → EP Gary → Production Supervisor Claude). Issued 2026-06-28.
-- **Status:** **v0.2 — Director-APPROVED (conceptual); PENDING EP LOCK.** Director redline applied: **Narrative Function column added** to every row (his one requested change); all measured numbers unchanged. No media generated; no new hero shots (EDL-001 §6–7).
+- **Status:** **v0.3 — 4 of 5 redlines RULED; ONE open item blocks the lock.** Director ruled (2026-06-28): Bridge = **interstitial (LOCKED)**, Egypt 29.8 s = **LOCKED**, HERO-02 multi-clip Segment = **LOCKED**, Finale montage start = **editorial decision after rough cut**. **Only the shared-chorus sub-splits remain open** — Director-authority decision, to be made deliberately against the lyrics (see §8) *before* the lock, because they govern every era that follows. No media generated; no new hero shots (EDL-001 §6–7).
 - **Built on MEASURED data** (TL-WO-001 forced alignment, EP-LOCKED 2026-06-25): section boundaries from drums/percussion stems × lyric anchors; line timings from `20_REFERENCE\alignment\lines.csv`; total **329.60 s** (vocal stem), fps **24**.
 - **What is locked vs proposed:** Section boundaries and lyric-line times are **MEASURED (locked)**. Era→section assignments follow the **EP-approved chapter overlay** (Director's Timeline §3). The **sub-splits inside shared sections** (Rome|Viking, Frontier|Victorian, WWII|Modern) are **my proposals on lyric lines — Director's to redline.**
 
@@ -95,22 +95,92 @@ Egypt is the only era with locked anchors, so it sets the template for how every
 
 ---
 
-## 6. Open decisions for Director / EP (redline these)
+## 6. The five redlines — Director's rulings (2026-06-28)
 
-1. **Shared-section sub-splits** — confirm or move my proposed boundaries: **Rome|Viking at 1:17.78** (mid-Chorus 1), **Frontier|Victorian at 2:55.76** (mid-Chorus 2), **WWII|Modern at 4:24.71** (mid-Final Chorus). These are lyric-line cuts, not measured music events.
-2. **The Bridge (45.4 s) is an interstitial "leave history," not an 11th lifetime** — confirm it stays framing (with Cosmos 19 s + ending 14 s) rather than being charged to an era's budget.
-3. **All-couples finale placement** — I've seated it in **Modern (S8 second half) → carried through Future**; confirm whether the montage starts earlier (4:05 climax) or holds to 4:24.
-4. **Egypt at 29.8 s** — accept as the longest era (recommended), or compress toward 25 s and hand the difference elsewhere.
-5. **HERO-02 span** — "The Long Road" owns ~20 s on one locked anchor; approve planning it as a 2–3-clip Performance Segment (and possibly future supporting anchors).
+| # | Item | Director's ruling |
+|---|---|---|
+| 1 | **Shared-chorus sub-splits** (Rome\|Viking, Frontier\|Victorian, WWII\|Modern) | **HOLD — Director decision required before lock.** "These are emotional decisions, not timing decisions. A chorus is music; the split is storytelling." To be ruled against the lyrics — see **§8**. *(The ONLY open item.)* |
+| 2 | **The Bridge — interstitial or 11th era?** | ✅ **LOCKED as interstitial.** Not a lifetime — the moment history itself falls away ("If the world should fade tomorrow…"). Timeless space, not another civilization — which makes the return to WWII/Modern more powerful. |
+| 3 | **All-couples finale start** | ✅ **Editorial lock after rough cut.** It will happen; the exact frame where it earns its entrance is decided in the edit suite after the assembled sequence exists. Modern (S8b) remains its provisional home in this allocation. |
+| 4 | **Egypt at 29.8 s** | ✅ **LOCKED.** "The math supports it. The story supports it. It deserves to be the longest era." Not to be revisited. |
+| 5 | **HERO-02 as a multi-clip Performance Segment** | ✅ **LOCKED.** Validates the Performance Segment concept — 20 s is a directed sequence, not one shot. |
 
-> **Director's standing redline (2026-06-28):** EDL-001 approved in direction; only requested change = the Narrative Function column (applied). The five items above remain the Director's to rule on individually.
+> **Result:** four items settled. **One category remains** — the chorus sub-splits (§8) — and it is intentionally being resolved *now, while the whole emotional arc is fresh*, rather than incrementally during production. Once §8 is ruled, EDL-001 is locked and **frozen permanently** — runtime allocation is never reopened.
+
+---
+
+## 8. OPEN ITEM — Chorus Sub-Split Decision (Director's call)
+
+The only thing between EDL-001 and the lock. Three choruses are each shared by two eras; the split is **storytelling, not arithmetic**. Below is each shared chorus with its **measured lyric lines** (from `lines.csv`) and three candidate split points with resulting era durations. **Mark one option per chorus.** (⊳ = my original proposal; the choice is the Director's.) Supervisor notes flag only thematic hooks — they do not decide.
+
+### 8.1 ROME | VIKING — Chorus 1 region (0:48.84 – 1:51.84, 63.0 s for two eras)
+| Line | Time | Lyric |
+|---|---|---|
+| 8–11 | 0:48.84–1:02.60 | *Maybe souls remember / What our minds forget / Maybe love survives / Even after death* (pre-chorus) |
+| 12 | 1:03.82 | I would wait ten lifetimes |
+| 13 | 1:07.86 | Cross a thousand skies |
+| 14 | 1:11.12 | Lose myself in **every age** |
+| 15 | 1:14.50 | Just to find your eyes |
+| 16 | 1:17.78 | If time is just a river |
+| 17 | 1:20.86 | Then I've been drifting toward your shore |
+| 18–19 | 1:24.70 | And after all these endless years / I've never been more sure |
+| 20–21 | 1:33.18–1:51.84 | **Yours / I was always yours** (held 15 s) |
+
+| Option | Split at | Rome | Viking | Character |
+|---|---|---|---|---|
+| **A ⊳** | 1:17.78 (after "Just to find your eyes") | 28.9 s | 34.1 s | Balanced; Viking gets "river/shore" + the held vow |
+| **B** | 1:11.12 (after "every age") | 25.7 s | 37.3 s | Splits on the time-travel pivot line; Viking larger/epic |
+| **C** | 1:32.20 (after "more sure") | 43.4 s | 19.6 s | Rome carries the whole body; **Viking = pure held vow** "I was always yours" |
+
+> *Supervisor note:* "Lose myself in **every age**" (B) is the song's literal multi-lifetime pivot — a natural era door. Option C makes Viking a single sustained image under the held note (longship/sea), the most impressionistic reading.
+
+### 8.2 FRONTIER | VICTORIAN — Chorus 2 region (2:33.60 – 3:19.66, 46.1 s)
+| Line | Time | Lyric |
+|---|---|---|
+| 34–35 | 2:33.60 | I would wait ten lifetimes / Cross a thousand skies |
+| 36 | 2:42.16 | **Burn through every version of myself** |
+| 37 | 2:45.80 | To stand here by your side |
+| 38 | 2:48.90 | If time can't hold forever |
+| 39 | 2:52.10 | Then forever starts tonight |
+| 40 | 2:55.76 | And after all these endless years |
+| 41 | 2:59.26–3:19.66 | **You finally brought me life** (held 20 s) |
+
+| Option | Split at | Frontier | Victorian | Character |
+|---|---|---|---|---|
+| **A ⊳** | 2:55.76 (after "forever starts tonight") | 22.2 s | 23.9 s | Balanced; Victorian = "endless years" + the held swell |
+| **B** | 2:45.80 (after "by your side") | 15.3 s | 30.8 s | Frontier brief; Victorian carries the whole vow + held |
+| **C** | 2:59.26 (after "endless years") | 25.7 s | 20.4 s | **Victorian = pure 20 s held** "You finally brought me life" |
+
+> *Supervisor note:* "Burn through every version of myself" (line 36) is a strong era-transition image if you want the split earlier. Option C makes Victorian a single grand held tableau.
+
+### 8.3 WWII | MODERN — Final Chorus region (4:05.05 – 4:47.25, 42.2 s)
+| Line | Time | Lyric |
+|---|---|---|
+| 50–51 | 4:05.05 | I would wait ten lifetimes / A million more if I must |
+| 52 | 4:11.31 | **Through every war and winter** |
+| 53 | 4:14.63 | Through every rise and rust |
+| 54 | 4:18.19 | And when the final curtain falls |
+| 55 | 4:21.15 | And all the lights grow dim |
+| 56 | 4:24.71 | I'll still be reaching through eternity |
+| 57 | 4:28.27 | To find you again |
+| 58 | 4:37.49–4:47.25 | **To find you again** (held) |
+
+| Option | Split at | WWII | Modern | Character |
+|---|---|---|---|---|
+| **A ⊳** | 4:24.71 (after "lights grow dim") | 19.7 s | 22.5 s | Balanced; "final curtain/lights dim" closes WWII |
+| **B** | 4:14.63 (after "rise and rust") | 13.1 s | 29.1 s | WWII = pure "**war and winter / rise and rust**" wartime imagery; Modern larger |
+| **C** | 4:33.89 (after first "find you again") | 28.8 s | 13.4 s | Modern = the held final "To find you again" only |
+
+> *Supervisor note:* "Through every **war and winter** / rise and rust" is the most on-the-nose WWII couplet — Option B isolates it cleanly. Remember the all-couples finale montage (editorial-locked later) layers on top of Modern regardless of this split.
+
+> **When ruled:** I bake the three chosen splits into §2 (durations recompute automatically), close §8, and the allocation is ready for the **EP permanent lock**.
 
 ---
 
 ## 7. Production gate
 
-**No motion generation begins until this allocation is EP-locked** (EDL-001 §6–7 honored: nothing generated here). On EP lock, the music officially becomes the **master clock** for the entire production — every future scene length is already answered, and the only question left is *"how do we make these seconds unforgettable?"*
+**No motion generation begins until this allocation is EP-locked** (EDL-001 §6–7 honored: nothing generated here). On EP lock, the music officially becomes the **master clock** for the entire production — every future scene length is already answered, and the only question left is *"how do we make these seconds unforgettable?"* From that point, runtime allocation is **frozen permanently** — never reopened.
 
-**Director's post-EDL priority:** not another hero — the **first Performance Segment** (HERO-02 "The Long Road"), to learn the camera / pacing / interpolation / continuity / emotional-timing lessons *before* Rome begins.
+**Director's post-EDL priority:** not another hero — the **first Performance Segment, built across the locked opening (HERO-01 → HERO-02 → HERO-03 → HERO-04 = Cosmos through Egypt, ~0:00–0:48.84)**. This becomes the **proof-of-concept for the entire Continuum Creative methodology** — the place we learn the camera / pacing / interpolation / continuity / emotional-timing lessons *before* Rome begins.
 
 > *Inputs:* `02_Directors_Timeline.md` §3 (measured section map) · `20_REFERENCE\alignment\lines.csv` (66 line timings) · `20_REFERENCE\Section_Map_Measured.md` · locked anchors HERO-01..04. *Author:* Production Supervisor (Claude), translating EDL-001. *Status:* Director-approved (conceptual) → **awaiting EP lock.**

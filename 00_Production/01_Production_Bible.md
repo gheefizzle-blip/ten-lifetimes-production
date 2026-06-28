@@ -96,8 +96,9 @@ EDL-001 proved why this object is necessary: a single still cannot carry ~20 s o
 
 **Impressionistic acceleration (EDL-001 corollary).** Not every era needs the same clip count. Egypt (the establishing grammar) wants 2–3 clips per beat; later eras can become **increasingly impressionistic** — fewer, faster clips — exactly as the song accelerates emotionally. Density follows the music.
 
-**Workflow becomes (animation model, not just film model):**
-`Performance Anchor (still) → Directed Emotional Trajectory (brief) → Performance Segment (motion chain) → Animated Performance`
+**The complete motion production model (Director-validated 2026-06-28):**
+`Performance Anchor → Performance Trajectory → Performance Segment → Finished Sequence`
+The Director has ruled this model complete — it needs no further refinement before animation testing begins.
 
 > Concept ownership: Director (Sam) + VFX (Gemini) co-authored; Performance Segment added by Director (Sam) at EDL-001. Applies to all Continuum Creative productions. *"We've stopped asking AI to invent emotion. We're asking it to perform emotion we've already directed."*
 
