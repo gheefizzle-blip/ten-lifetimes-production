@@ -90,10 +90,16 @@ Everything between the two is cinematography/interpolation. This removes AI vide
 
 **HERO-04 is the first asset evaluated under this standard:** Anchor = *hope has just appeared* (Gary leads, Jen echoes); Trajectory = *hope quietly becomes the first genuine smile, over time*. The regeneration chase is **cancelled** — the smile belongs to motion, not the still.
 
-**Workflow becomes (animation model, not just film model):**
-`Performance Anchor (still) → Directed Emotional Trajectory (brief) → Animated Performance (motion)`
+**The third object — the Performance Segment (added 2026-06-28, EDL-001).** Between two anchors lives a **Performance Segment**: the *complete motion sequence* that carries the performance from one anchor to the next. It is not a single clip — it is a directed chain:
+`Anchor → Motion Clip A → Motion Clip B → Motion Clip C → next Anchor`
+EDL-001 proved why this object is necessary: a single still cannot carry ~20 s of screen time (HERO-02 "The Long Road" owns ~19.8 s), so that time is built as a Performance Segment of 2–3 directed clips, not one impossible animation. **The unit of motion production is the Performance Segment, not the clip.**
 
-> Concept ownership: Director (Sam) + VFX (Gemini) co-authored; applies to all Continuum Creative productions. *"We've stopped asking AI to invent emotion. We're asking it to perform emotion we've already directed."*
+**Impressionistic acceleration (EDL-001 corollary).** Not every era needs the same clip count. Egypt (the establishing grammar) wants 2–3 clips per beat; later eras can become **increasingly impressionistic** — fewer, faster clips — exactly as the song accelerates emotionally. Density follows the music.
+
+**Workflow becomes (animation model, not just film model):**
+`Performance Anchor (still) → Directed Emotional Trajectory (brief) → Performance Segment (motion chain) → Animated Performance`
+
+> Concept ownership: Director (Sam) + VFX (Gemini) co-authored; Performance Segment added by Director (Sam) at EDL-001. Applies to all Continuum Creative productions. *"We've stopped asking AI to invent emotion. We're asking it to perform emotion we've already directed."*
 
 ## 0c. The Three Recognition Rules (permanent — every lifetime)
 
