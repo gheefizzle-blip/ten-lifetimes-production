@@ -28,10 +28,10 @@ Keep this photograph the same in every way ... Change ONLY the two facial expres
 - nb2 edit · 1344x768 (~1K) · grounding off · single input (v1 frame)
 
 ## Lifecycle
-- Created: 2026-06-27 · Reviewed: pending · Disposition: 2026-06-27 (Review Queue)
+- Created: 2026-06-27 · Reviewed: 2026-06-27 (Director + GVR-007) · Disposition: 2026-06-27 (**LOCKED → Selected**)
 
 ## Disposition
-- Status: **Director-APPROVED as Performance Anchor → Gemini GVR-007 pending → EP LOCK** · NAS `04_Egypt\Stills\Working\` · Public `12_Review_Queue/Seq01_Hero04/`
+- Status: ✅ **LOCKED — active Performance Anchor for Sequence One (HERO-04)** · NAS `04_Egypt\Stills\Selected\` · Public `14_Selected/Seq01/`
 
 ## Performance Anchor / Performance Trajectory  (PRO-017)
 - **Performance Anchor (Frame 1 — this still):** Hope has just appeared. Gary leads (the first crack in the armor); Jen senses it, the smaller echo. Restrained — no full smile.
@@ -39,7 +39,8 @@ Keep this photograph the same in every way ... Change ONLY the two facial expres
 - This still is judged by whether the animation can **naturally arrive** at that destination — not whether it is itself the climax.
 
 ## Review
-- Q1 Technical / Q2 Creative / Q3 Institutional: Pending · **Director: APPROVED as Performance Anchor (Sam, 2026-06-27)** · Gemini (GVR-007): Pending · EP: Pending (LOCK on Gemini approval)
+- Q1 Technical / Q2 Creative / Q3 Institutional: Pass · **Director: APPROVED as Performance Anchor (Sam, 2026-06-27)** · **Gemini (GVR-007): ✅ APPROVED 95%** (Identity 99% / Staging 96% / Emotional Potential 98%; resists over-polish; asymmetry + CCA-EGYPT tools + pendant continuity intact; no artifacts/eyewear; 2026-06-27) · **EP (Gary): ✅ APPROVED — Canon LOCK (2026-06-27)**
+- Studio Standard: **Accepted** — first asset locked under PRO-017; future hero stills begin from the Performance Anchor standard.
 
 ## Supervisor observations (objective / measurable only)
 - Asymmetry corrected: **Gary's gentle smile now clearly leads** (warmer, more present); **Jen's is the smaller echo** (softer, more in the eyes). Both restrained, no grins/teeth.

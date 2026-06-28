@@ -23,3 +23,9 @@
 - [ ] **REJECT**
 
 > **Director's verdict (verbatim):** "HERO-04 v2: APPROVE as Performance Anchor." The still is **not** the completed smile — it is the *performance anchor* for the video model: Gary leads (hope begins), Jen echoes, and the full bloom of the smile belongs to motion. Evaluated for **emotional potential**, not as the finished climax. Do not over-polish the still. → **Send to Gemini GVR-007; if Gemini approves, EP can LOCK.** (See PRO-017 Performance Anchor standard.)
+
+## FINAL GATE RESULT — ✅ LOCKED (2026-06-27)
+- **Director (Sam):** APPROVE as Performance Anchor.
+- **Gemini GVR-007 (independent VFX audit):** ✅ **APPROVE — 95%** (Identity 99% / Staging 96% / Emotional Potential 98%; resists over-polish, asymmetry + CCA-EGYPT tools + pendant continuity intact, no artifacts/eyewear).
+- **Executive Producer (Gary):** ✅ **Canon LOCK.**
+- **Disposition:** Promoted to `14_Selected/Seq01/` — the **fourth locked frame of Sequence One** and the **active Performance Anchor** for HERO-04.
