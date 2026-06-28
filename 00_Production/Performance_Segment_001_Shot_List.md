@@ -20,13 +20,13 @@
 
 ## The shots
 
-| Shot | In – Out | Dur | Governing Anchor | Lyric cue (measured) | Narrative beat (canon) | Camera *(Director)* | Performance *(Director)* |
-|---|---|---|---|---|---|---|---|
-| **1** | 29.62 – 35.92 | 6.30 s | HERO-02 (The Long Road) | "But none of them stayed here / Every road just led me back" | The long road — routine, solitude; centuries of walking. No awareness of Jen yet. | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
-| **2** | 36.08 – 39.58 | 3.50 s | HERO-02 → transition | "To another lonely night" → (instrumental beat into recognition) | The turn — the threshold from routine to the first flicker of awareness. | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
-| **3** | 39.58 – 42.22 | 2.64 s | HERO-03 (First Recognition) | "Till your smile cut through the dark" | **Recognition.** Gary notices Jen first (Rule #1); the pendant catches light; Jen's answer begins a heartbeat later. | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
+| Shot | In – Out | Dur | Governing Anchor | Lyric cue (measured) | Narrative beat (canon) | Editorial Purpose *(proposed)* | Camera *(Director)* | Performance *(Director)* |
+|---|---|---|---|---|---|---|---|---|
+| **1** | 29.62 – 35.92 | 6.30 s | HERO-02 (The Long Road) | "But none of them stayed here / Every road just led me back" | The long road — routine, solitude; centuries of walking. No awareness of Jen yet. | **Observe** (establish the solitude) | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
+| **2** | 36.08 – 39.58 | 3.50 s | HERO-02 → transition | "To another lonely night" → (instrumental beat into recognition) | The turn — the threshold from routine to the first flicker of awareness. | **Transition** (routine → awareness) | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
+| **3** | 39.58 – 42.22 | 2.64 s | HERO-03 (First Recognition) | "Till your smile cut through the dark" | **Recognition.** Gary notices Jen first (Rule #1); the pendant catches light; Jen's answer begins a heartbeat later. | **Reveal** (recognition lands) | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
 
-> Shot count, in/out points, and the split at 36.08 are a **proposed scaffold** for the Director to confirm or re-cut. The **Camera** and **Performance** columns are intentionally empty — they are authored by the Director's Performance Segment Direction and then transcribed here verbatim, so all three renderers receive identical cinematography.
+> Shot count, in/out points, the split at 36.08, and the **Editorial Purpose** values are a **proposed scaffold** for the Director to confirm or re-cut (Editorial Purpose vocabulary: Reveal · Hold · Follow · Observe · Transition · Release · Resolve). The **Camera** and **Performance** columns are intentionally empty — they are authored by the Director's Performance Segment Direction and then transcribed here verbatim, so all three renderers receive identical cinematography.
 
 ---
 
