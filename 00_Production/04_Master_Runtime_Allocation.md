@@ -4,7 +4,7 @@
 > This document allocates all **329.60 s** of the film across the ten lifetimes + framing blocks **before any motion is generated.** We build video to this schedule, not the reverse.
 
 - **Work order:** EDL-001 (Director Sam → EP Gary → Production Supervisor Claude). Issued 2026-06-28.
-- **Status:** **v1.0 — ALL narrative questions RESOLVED → READY FOR EP PERMANENT LOCK** (not yet locked; the lock is the Executive Producer's act). Director ruled all five redlines (4 on 2026-06-28; the three chorus sub-splits **B / A / B** with reasons in §8). On EP lock this becomes the **immutable master clock** — runtime allocation never reopened.
+- **Status:** ✅ **v1.0 — CANON LOCKED (EP Gary, 2026-06-28). IMMUTABLE.** The music is now the **master clock**. Frozen permanently: the 329.60 s runtime · the emotional allocation across all ten lifetimes · narrative pacing · the chorus boundaries (**B / A / B**) · Egypt's 29.82 s · the Bridge as interstitial · the Performance Segment methodology. **Director's Standing Order:** no runtime / era-duration / chorus-split / emotional-allocation changes are authorized — ever. We no longer ask *"how long should this scene be?"* — only *"how do we make these allocated seconds emotionally unforgettable?"* **The Planning Phase is closed; Production begins.**
 - **Built on MEASURED data** (TL-WO-001 forced alignment, EP-LOCKED 2026-06-25): section boundaries from drums/percussion stems × lyric anchors; line timings from `20_REFERENCE\alignment\lines.csv`; total **329.60 s** (vocal stem), fps **24**.
 - **All boundaries are now measured lyric-line times** — no proposals remain.
 

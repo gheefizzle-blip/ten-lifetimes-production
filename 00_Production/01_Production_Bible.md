@@ -7,9 +7,15 @@
 > **The Constitution of the project.** Answers the question: *"What kind of film are we making?"*
 > Once approved, this document changes rarely. Everything else (timeline, shots, work orders) traces back here.
 
-- **Document version:** v0.1 (DRAFT — awaiting Director + Executive Producer approval)
-- **Last updated:** 2026-06-24 by Agent B (Claude Code, Production Supervisor)
-- **Production version:** PT-0.1 (nothing locked yet — see §16 Versioning)
+- **Document version:** v1.0
+- **Last updated:** 2026-06-28 by Agent B (Claude Code, Production Supervisor)
+- **Production version:** **PT-1.0 — PLANNING COMPLETE; PRODUCTION PHASE.** (Pre-production closed 2026-06-28 with the EDL-001 lock.)
+
+> ## 🎬 PHASE TRANSITION (2026-06-28) — Pre-Production CLOSED → Production (Phase 2: Performance Validation)
+> **EDL-001 (Master Runtime Allocation) is CANON LOCKED.** The music is the immutable master clock. The studio is now a **production organization**, not a planning one.
+> **Director's Standing Order:** from this point, no changes are authorized to **runtime · era durations · chorus splits (B/A/B) · emotional allocation** — those decisions are complete. Every creative discussion is now *"how do we make these allocated seconds emotionally unforgettable?"*
+> **What is locked:** screenplay/lyrics · emotional timeline (329.60 s) · cast (CCAs) · costumes · Performance Anchors HERO-01→04 · the Performance Anchor/Trajectory/Segment methodology · the master clock.
+> **Next:** Performance Segment 001 (Opening Movement, HERO-01→04). From here, *every hour moves pixels on the screen, not paragraphs in the Bible.*
 
 ---
 

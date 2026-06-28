@@ -5,24 +5,27 @@
 > (`00_PROJECT_STATE`, `01_Production_Bible`, `02_Directors_Timeline`, `03_Shot_Database`) hold the state;
 > everything else is **evidence supporting** it.
 
-- **🎬 MILESTONE: PRINCIPAL PHOTOGRAPHY BEGUN** (2026-06-26). **The film has started.** CRE-001 (Sam's Sequence One Narrative) authored; first Egypt hero stills generated, registered, and exposed for review. Studio fully operational (governance/roles frozen · production + Gemini-GVR + documentation pipelines operational · generation tooling live for stills).
-- **Phase:** **CREATIVE PRODUCTION** (infrastructure frozen 2026-06-25 — see Bible §0g, The Director's Rule). Creative work is the default; infra changes need a demonstrated production problem or measurable film-quality gain.
-- **Production version:** **PT-0.5** (timeline locked, 2026-06-25) → next gate PT-1.0 (story/characters/picture)
-- **Last updated:** 2026-06-26 by Agent B (Production Supervisor) — CRE-001 + VFX-001/002 hero stills (Seq One Egypt), awaiting GVR/EP review
+- **🎬 MILESTONE: EDL-001 CANON LOCKED — PLANNING PHASE CLOSED; PRODUCTION BEGINS** (2026-06-28). The master runtime allocation is immutable; the music is the master clock. Four Performance Anchors locked (HERO-01→04). Identity (CCAs) + costumes solved; PRO-017 Performance Anchor methodology validated. **Pre-production is over — the studio is now a production organization.**
+- **Phase:** **PRODUCTION — Phase 2: Performance Validation.** Sole deliverable = **Performance Segment 001** (Opening Movement, HERO-01→04). Planning is frozen (runtime/era/chorus/emotional allocation locked — Director's Standing Order). Every hour now moves pixels, not paragraphs.
+- **Production version:** **PT-1.0** (planning complete; EDL-001 locked 2026-06-28).
+- **Last updated:** 2026-06-28 by Agent B (Production Supervisor) — EDL-001 lock + phase transition; awaiting Sam's Performance Segment Direction.
 - **Public docs repo (system of record for docs/prompts):** `gheefizzle-blip/ten-lifetimes-production` (GitHub, PUBLIC, docs only — **no media**). NAS = private asset vault. Claude Code pushes doc updates.
 
 ---
 
-## Lock status (gates → PT-1.0)
+## Lock status
 
 | Element | Locked? | Gate doc |
 |---|---|---|
 | Audio (master delivered) | ✅ Yes | `TEN LIFETIMES.mp3` |
-| Story / synopsis | ⬜ Draft (Bible v0.1) | 01_Production_Bible |
-| **Timeline v1.0** | ✅ **LOCKED** (EP, 2026-06-25; fps=24) — TL-WO-001 | 02_Directors_Timeline |
-| Characters (master refs) | ⬜ Not selected | 23_CHARACTER_BIBLE |
-| Picture | ⬜ No | — |
-| Color | ⬜ No | 21_STYLE_GUIDES |
+| **Timeline v1.0** (fps=24) | ✅ **LOCKED** (EP, 2026-06-25) — TL-WO-001 | 02_Directors_Timeline |
+| **Master Runtime Allocation (EDL-001)** | ✅ **CANON LOCKED — IMMUTABLE** (EP, 2026-06-28) | 04_Master_Runtime_Allocation |
+| **Cast / identity (CCA-001 Gary, CCA-002 Jen)** | ✅ **LOCKED** (Egypt set; Sheet-Based Conditioning) | CCA_Registry, 00_Identity_Master |
+| **Costumes (Egypt: Architect / Scholar)** | ✅ **LOCKED** | 00_Costume_Master |
+| **Performance Anchors HERO-01→04** | ✅ **LOCKED** (Cosmos + Egypt ×3) | 14_Selected/Seq01 |
+| Story / emotional structure | ✅ Locked (CRE-001..006 + EDL-001) | 01_Production_Bible, 40_SEQUENCES |
+| Motion (Performance Segments) | ⬜ In production (Phase 2) | EDL-001 §7 |
+| Picture / Color (full cut) | ⬜ Downstream | 21_STYLE_GUIDES |
 
 ---
 
@@ -77,29 +80,23 @@
 
 ---
 
-## Current focus
-**TL-WO-001 — Master Timeline Synchronization.** Vocal stem = `...\TEN LIFETIMES Stems (1)\0 Lead Vocals.wav`.
-**✅ FORCED ALIGNMENT EXECUTED on GSA-1000 (2026-06-25)** — a Claude Code session on GSA-1000 installed ffmpeg + stable-ts and ran `align_ten_lifetimes.py --model medium.en`. Artifacts in `20_REFERENCE\alignment\`: `word_timestamps.csv` (**320 words**, measured start/end), `lines.csv` (66 lyric lines), `word_timestamps.json`, `ten_lifetimes.srt`, `duration.txt` (**329.60s** confirmed). First sung word 0:19.02; last word ("mine") ends 5:15.57.
-**✅ TL-WO-001 EXECUTION COMPLETE (2026-06-25) — awaiting EP lock.** All remaining steps done on GSA-1000:
-- **Section boundaries MEASURED** — drums + percussion stems (RMS envelope) cross-checked vs alignment lyric anchors. Drums silent until ~1:45, DROP for bridge 3:20→3:48.3, crash back 3:48.3 (cleanest boundary), fade ~5:01. → `20_REFERENCE\Section_Map_Measured.md` and §3 of the Timeline (estimates replaced).
-- **Premiere markers** — `20_REFERENCE\premiere_markers.csv` (16 markers @ 24fps: 10 sections + 6 key drum events).
-- **Master Production Timeline** — full 320-word measured table → `20_REFERENCE\master_timeline_words.md` (Time/Word/Section/Chapter/Shot ID locked; creative columns = Director).
-- **Preliminary Shot IDs** — 66 line-shots TL-0010–TL-0660 + 3 intro → `20_REFERENCE\shot_database_prelim.md`; Shot DB allocation table updated to measured ranges.
-
-**✅ TIMELINE v1.0 LOCKED by EP (Gary) 2026-06-25 → PT-0.5.** fps = **24** confirmed; chapter overlay approved as-is. TL-WO-001 CLOSED.
-
-**Active focus — TL-WO-004: PERFECT SEQUENCE ONE** (0:00.000–1:03.820 · Cosmos→Egypt→Rome) — the benchmark for the whole film. *"Don't generate Egypt — perfect Sequence One."*
-1. **✅ CRE-001 AUTHORED (Sam, 2026-06-26)** — Sequence One Director's Narrative is canon in `40_SEQUENCES\Seq01_Opening\Sequence_One_Narrative.md` (recognition over history; "Love existed before memory"). Supervisor preserved verbatim; translates → prompts/cameras/lighting (does not edit).
-2. **✅ VFX-001 + VFX-002 — Egypt hero stills generated.** Three select frames on NAS `04_Egypt\Stills\`: **Gary hero v1**, **Jen hero v2** (retake — quiet Nile path, spectacle removed), **Recognition two-shot v3** (retake — gaze choreography fixed, anachronistic glasses removed). **→ Now at Production Loop step 2–4: awaiting Director review + Gemini GVR-001/002/003 + EP approval → then LOCK the Egypt visual language** before supporting stills.
-3. **✅ Master refs LOCKED (interim)** in `16_Master_References\` (B-2 resolved). *Recommended:* fresh purpose-shot portrait set before final renders.
-4. **B-1 (stills) RESOLVED** — Nano Banana MCP live (pro/4K, multi-ref conditioning, grounding); output → chapter NAS `Stills\`. **Motion (Veo/Sora) still unbridged.**
-5. (Parallel, low-priority) Director: line-level chorus chapter-splits + fill Master Timeline creative columns.
+## Current focus — PHASE 2: PERFORMANCE VALIDATION
+**Deliverable: Performance Segment 001 — the Opening Movement** (0:00–0:48.84, Cosmos through Egypt):
+`HERO-01 → Motion → HERO-02 → Motion → HERO-03 → Motion → HERO-04`
+**Objective:** prove the Performance Anchor methodology produces emotionally believable *motion*. This is the **proof-of-concept for the entire Continuum Creative methodology** — no new eras, no Rome, no new Hero Anchors until it proves out.
+- **What we are now testing (editorial disciplines, not image gen):** continuity · pacing · interpolation · emotional timing · camera language · transition philosophy.
+- **Awaiting:** Sam's **Performance Segment Direction** (a shot-by-shot directing package for the first 48 s — NOT a still, NOT CRE-007). The Supervisor then translates it into motion prompts / camera direction / editorial pacing / transition timing and runs the motion engine.
+- **Foundation already locked:** EDL-001 master clock · CCAs (Gary/Jen) · Egypt costumes · HERO-01→04 anchors · PRO-017 (Anchor → Trajectory → Segment → Finished Sequence).
+- **Parallel, independent:** Gemini's **Performance Preservation Pass** (~1K → 4K fidelity on locked frames) — improves fidelity, does not touch story or timeline.
 
 ## Active blockers
-- **B-1 — PARTIALLY RESOLVED (2026-06-25, GSA-1000).** **Stills: Nano Banana MCP bridge is LIVE** in the CC session (`mcp__nanobanana__generate_image`) — verified responsive; supports **multi-image conditioning (≤3 inputs = our 3 master refs), 16:9/21:9, 4K, Google-Search grounding**. Output → `C:\Users\Gary\nanobanana-images`. Premiere Pro MCP also live (markers/assembly). **Still open: Veo/Sora (motion)** — no direct bridge; native web + manual download (or future n8n route), then Gemini GVR. *Stills generation is now tooling-unblocked; remaining gate = Director authoring + workflow approval.*
-- **B-2 — RESOLVED (interim, 2026-06-25).** Master set locked in `16_Master_References\` (3 Gary + 3 Jen, from existing snapshots). Generation unblocked. *Residual:* interim set is casual snapshots — a purpose-shot portrait set recommended before final-quality renders (strip Gary cap/glasses, Jen dyed hair/nose ring per Character Bible).
+- **B-1 (MOTION) — THE live blocker for Phase 2.** Stills tooling is solved (Nano Banana MCP: multi-image conditioning, 16:9/4K, grounding). **Motion (Veo / Sora / Runway) has no direct MCP bridge yet** — native web + manual download, then Gemini GVR on the clip. Resolving the motion-generation path is the first practical task of Performance Segment 001. *(Sora ≈ 20 s clip ceiling; plan Performance Segments as 4–8 s directed clips.)*
+- **Identity / costume / runtime / anchors — RESOLVED & LOCKED.** (CCAs, Egypt costumes, EDL-001, HERO-01→04.) Former B-2 (master refs) fully superseded by the locked CCA cast.
 
 ## Recent history
+- 2026-06-28 — **🎬 EDL-001 CANON LOCKED — PLANNING CLOSED, PRODUCTION BEGINS.** Master runtime allocation (329.60 s across 10 lifetimes + framing) ruled and EP-locked: chorus splits B/A/B, Egypt 29.82 s, Bridge interstitial, finale = editorial-after-rough-cut. Music = immutable master clock. **Phase 2 — Performance Validation** opens; deliverable = Performance Segment 001 (HERO-01→04). Studio shifts from planning org → production org.
+- 2026-06-27 — **HERO-04 "The First Smile" LOCKED** (4th anchor) under **PRO-017 — the Performance Anchor Standard** (stills are anchors for motion, not finished moments; Anchor → Trajectory → Segment → Finished Sequence). Director + Gemini GVR-007 (95%) + EP. "Resolution Bridge" renamed **Performance Preservation Pass**.
+- 2026-06-27 — **HERO-02 & HERO-03 LOCKED; identity & costume solved.** Identity drift fixed via **Canonical Character Assets** (CCA-001 Gary / CCA-002 Jen) + **Sheet-Based Conditioning**; **Canonical Costume Assets** (Egypt Architect/Scholar) locked. **Creative Provenance** Dossier system + Director Review Packet + public **GitHub Asset Canon** (full production history public) established.
 - 2026-06-26 — **PRINCIPAL PHOTOGRAPHY BEGAN.** **CRE-001** (Sam's Sequence One Narrative) authored → canon. **VFX-001** generated the first 3 Egypt hero stills (Gary / Jen / Recognition) via Nano Banana Pro; **VFX-002** retook two of them — Jen hero v2 (removed temple "spectacle," returned to the quiet Nile dawn path Sam directed) and the Recognition two-shot v3 (fixed the look-first/smile-second gaze; removed anachronistic eyeglasses). Selects = **Gary v1 · Jen v2 · Recognition v3**, on NAS `04_Egypt\Stills\`, exposed to the public repo `12_Dailies\Seq01_Egypt\` for Gemini. GVR-001/002/003 queued PENDING; awaiting Director + Gemini + EP review before the Egypt look LOCKs.
 - 2026-06-25 — **PRO-005: Gemini onboarded as VFX/Cinematic Review Authority** (Bible §0b team + §0d Charter, ratified by Gemini — review-only). Added **Production Departments** (CRE/VFX/EDL/PRO/CON/REL) + crosswalk; built **`00_PRODUCTION_DASHBOARD.md`** and **`11_REVIEWS\Gemini\`** GVR log. Charter-gate satisfied → Sequence One generation may proceed once B-1 resolved.
 - 2026-06-25 — **Director review of TL-WO-003A → ACCEPTED; reframed to SEQUENCE ONE.** Egypt → **Sequence One** (Cosmos→Egypt→Rome, 0:00–1:03.82) = the film's benchmark. **TL-WO-004 issued**; 12 deliverable scaffolds built in `40_SEQUENCES\Seq01_Opening\` (Storyboard spine + Narrative/Environment/Costume/Shot List/Prompt/Review). Canon additions: Bible **§0b roles**, **§0c Three Recognition Rules** (notices first / smiles second / pendant catches light first); Camera Bible **Presence**; Emotional Storyboard **Memory** field. TL-WO-003A superseded.
