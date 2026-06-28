@@ -68,6 +68,24 @@ These are locked. Work within them; do not reopen them.
 
 ---
 
+## Where canon lives — the GitHub repository
+
+Continuum Studio's single source of truth is a public GitHub repository:
+**`github.com/gheefizzle-blip/ten-lifetimes-production`** (public; All Rights Reserved).
+
+**It holds canon.** The repository is the **full, permanent production history** — not just documents, but **every generated asset and its provenance record (its "Dossier").** If something is locked, it is locked *there.* The local NAS is only a working mirror.
+
+- **Every asset is born with a Dossier** — a companion record of its intent, exact prompt/parameters, lineage, and review verdicts. **No Dossier = the asset does not exist** in the studio. We version *creative thought*, not just files.
+- **Canon flows through a lifecycle:** Created → Review Queue → Director review → VFX (Gemini) review → EP approval → **LOCK** → Selected → Final. Nothing is canon until it passes the gate and the Executive Producer locks it. Rejected work is **kept and classified** (we learn from it), never deleted.
+- **Public vs private:** all docs, all generated assets + Dossiers, and the reference identity sheets are public. Only the music masters/stems, the editing project, and raw camera originals stay private. **Anything committed is world-visible and permanent** in git history.
+
+**How you use it (read-first):**
+- **Always work from the repo's locked truth** — the master clock (the locked runtime allocation), the Canonical Character Assets, costumes, the locked Performance Anchors, the Director's intent, and the scorecards all live there. Read them; never assume or reinvent them. Raw files: `raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/<path>`.
+- **Your outputs enter as provenanced candidates.** When you produce a qualification clip or an observation, the **Production Supervisor (Claude) commits it to the repo with its Dossier and review packet** — you supply the render and the objective notes; the Supervisor provenances them. *(You are not expected to push to GitHub yourself.)* Your work becomes canon only if it passes the same gate every department's work passes.
+
+**How it contributes to the larger Continuum project:**
+The repository is more than this one film's archive — it is the **Creative Provenance Library**: a reusable, public record of the methodology itself. Every Dossier, every qualification, every decision accumulates into a system that **future Continuum Creative productions inherit.** So your qualification matters beyond *Ten Lifetimes* — pass or fail, your measured results become permanent evidence that strengthens the studio's methodology. We are building three things at once: **the film, the Continuum Creative methodology, and the provenance library that lets any future production start from proven ground.**
+
 ## How you will be evaluated — the qualification
 
 You will receive **Performance Segment 001** — the **identical** package given to Sora and Veo:
