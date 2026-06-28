@@ -3,7 +3,7 @@
 
 > **The cinematography spec.** Two artifacts, two purposes: the **Performance Segment Direction** (Director, Sam) describes the *emotion*; this **Shot List** describes the *cinematography* — the literal, timed shot breakdown every renderer (Sora · Veo · Grok) receives **identically**. Separating emotion from cinematography keeps the renderer comparison clean.
 >
-> **Role boundary:** the Production Supervisor fills the **measurable spine** (timecodes, durations, governing anchor, lyric cue, already-canonized narrative beats, locked constraints). The **Camera** and **Performance** cells are the **Director's** — populated from Sam's Performance Segment Direction. This is a **SCAFFOLD** until that Direction lands; the creative cells are reserved, not invented.
+> **Role boundary (honored):** the Production Supervisor filled the **measurable spine** (timecodes, durations, governing anchor, lyric cue, narrative beats, Editorial Purpose, constraints). The **Camera** and **Performance** cells are the **Director's** — now **transcribed verbatim from PSD-001** (`PSD-001_Performance_Segment_Direction_OpeningMovement.md`). **COMPLETE** — this table is the locked cinematography spec feeding all three renderer packages.
 
 ---
 
@@ -20,17 +20,17 @@
 
 ## The shots
 
-| Shot | In – Out | Dur | Governing Anchor | Lyric cue (measured) | Narrative beat (canon) | Editorial Purpose *(proposed)* | Camera *(Director)* | Performance *(Director)* |
+| Shot | In – Out | Dur | Governing Anchor | Lyric cue (measured) | Narrative beat (canon) | Editorial Purpose | Camera *(PSD-001)* | Performance *(PSD-001)* |
 |---|---|---|---|---|---|---|---|---|
-| **1** | 29.62 – 35.92 | 6.30 s | HERO-02 (The Long Road) | "But none of them stayed here / Every road just led me back" | The long road — routine, solitude; centuries of walking. No awareness of Jen yet. | **Observe** (establish the solitude) | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
-| **2** | 36.08 – 39.58 | 3.50 s | HERO-02 → transition | "To another lonely night" → (instrumental beat into recognition) | The turn — the threshold from routine to the first flicker of awareness. | **Transition** (routine → awareness) | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
-| **3** | 39.58 – 42.22 | 2.64 s | HERO-03 (First Recognition) | "Till your smile cut through the dark" | **Recognition.** Gary notices Jen first (Rule #1); the pendant catches light; Jen's answer begins a heartbeat later. | **Reveal** (recognition lands) | *[Performance Segment Direction]* | *[Performance Segment Direction]* |
+| **1** | 29.62 – 35.92 | 6.30 s | HERO-02 (The Long Road) | "But none of them stayed here / Every road just led me back" | The long road — routine, solitude; centuries of walking. No awareness of Jen yet. | **Observe** | Slow trailing dolly, several paces behind Gary, eye-level. No dramatic movement, no orbit, no push — only gentle forward travel matching his walking speed. | Gary walks naturally, shoulders slightly lowered, eyes forward; peaceful but emotionally empty (not sad — accustomed to solitude). Workers/Nile/birds continue; nothing acknowledges him; the world is indifferent. |
+| **2** | 36.08 – 39.58 | 3.50 s | HERO-02 → transition | "To another lonely night" → (instrumental beat into recognition) | The turn — the threshold from routine to the first flicker of awareness. | **Transition** | Continue the same trailing movement; almost imperceptibly reduce forward speed; camera begins lagging slightly behind Gary; audience subconsciously feels time stretching. | Walking rhythm changes by almost nothing — one slightly shorter step, one slower breath; he doesn't understand why. The pendant catches one brief reflection — natural, not magical — just enough to interrupt unconscious routine. Environment unchanged. |
+| **3** | 39.58 – 42.22 | 2.64 s | HERO-03 (First Recognition) | "Till your smile cut through the dark" | **Recognition.** Gary notices Jen first (Rule #1); the pendant catches light; Jen's answer begins a heartbeat later. | **Reveal** | Remain observational — no push-in, no whip, no dramatic reveal. Allow Jen to enter frame naturally. Gary stops before the audience consciously expects him to. | Gary's eyes move first, body follows; shoulders soften; breathing pauses; he has no language for the feeling. Jen notices Gary — nothing more; only familiarity, recognition not yet conscious; her expression almost neutral. |
 
-> Shot count, in/out points, the split at 36.08, and the **Editorial Purpose** values are a **proposed scaffold** for the Director to confirm or re-cut (Editorial Purpose vocabulary: Reveal · Hold · Follow · Observe · Transition · Release · Resolve). The **Camera** and **Performance** columns are intentionally empty — they are authored by the Director's Performance Segment Direction and then transcribed here verbatim, so all three renderers receive identical cinematography.
+> ✅ **Camera + Performance transcribed verbatim from PSD-001 (Director, 2026-06-28).** Editorial Purpose confirmed (Observe / Transition / Reveal). This is now the locked cinematography spec; all three renderer packages derive from this table unchanged.
 
 ---
 
 ## How this feeds the benchmark
 Once the Director fills Camera + Performance: the Production Supervisor transcribes them here, then issues **three identical packages** — Package A (Sora), B (Veo), C (Grok) — same Shot List, engine-appropriate syntax only. Each renderer animates start-anchor → end-anchor along these timed shots. **Gemini scores blind** on the motion scorecard (Emotional Performance 30 · Identity 25 · Camera 15 · Motion Continuity 15 · Prompt Fidelity 10 · Technical 5).
 
-> *Status:* format locked; measurable spine filled; **Camera + Performance reserved for the Director's Performance Segment Direction.** No renderer package issues until those cells are populated.
+> *Status:* ✅ **COMPLETE** — spine + Camera + Performance all filled (PSD-001 transcribed). Feeds `Performance_Segment_001_Renderer_Packages.md` (Sora / Veo / Grok).
