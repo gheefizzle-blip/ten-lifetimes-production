@@ -23,6 +23,19 @@ We test each pipeline **stage** independently, isolating still-generation from m
 
 > **Methodology is the constant, not the tool.** The chain `Story → Performance → Character → Costume → Performance Anchor → Performance Trajectory → Performance Segment → Finished Sequence` does not change for any engine. A new capability earns its place by demonstrating value on a *defined task* — never by replacing locked work because it is new. **No locked asset (CCAs, costumes, HERO-01→04, the timeline) is regenerated for PVP.**
 
+### Two qualification stages (every candidate department — Director, 2026-06-28)
+A department earns its place in **two distinct passes; never conflate them.**
+- **Qualification 1 — Cultural.** Does the department understand authority, canon, the Studio Memory, locked assets, and its own lane? (Demonstrated at onboarding by accepting constraints and *declining to act without direction*.)
+- **Qualification 2 — Technical.** Can the department actually produce world-class output for its craft? (Demonstrated on the assigned task, scored blind by Gemini.)
+
+| Candidate | Cultural | Technical |
+|---|---|---|
+| **Grok (Motion)** | ✅ **PASS** (onboarded 2026-06-28 — read the Studio Memory, accepted all locked constraints, declined to render without Director direction) | ⏳ Pending — Performance Segment 001 |
+| Sora (Motion) | n/a (EP-operated web tool) | ⏳ Pending — Performance Segment 001 |
+| Veo (Motion) | n/a (EP-operated web tool) | ⏳ Pending — Performance Segment 001 |
+
+> **Lesson recorded (Studio Memory):** *A candidate that declines to generate until it has locked direction is behaving like a professional department, not a chatbot.* Most AI systems begin creating immediately; a professional department waits for the Director. That distinction is a qualification signal in itself.
+
 ---
 
 ## 2. Scorecards (objective; Gemini scores blind)
@@ -99,6 +112,10 @@ This is the gating fact. Only one generator is bridged into the Production Super
 ## 6. Gate & sequence
 
 `2A Anchor (Nano Banana, qualified) → 2B Renderer Qualification (Sora · Veo · Grok) → 2C Editorial Qualification → Performance Segment 001`
+
+**The 2B render-package pipeline (motion):**
+`Director's Performance Segment Direction (emotion) → Director's Shot List (cinematography, timed) → 3 identical packages (Sora/Veo/Grok, engine syntax only) → EP renders → Gemini blind score`
+The **Director's Shot List** (`Performance_Segment_001_Shot_List.md`) separates *cinematography* (camera, timed shots) from *emotion* (the Direction), so every renderer receives identical cinematic intent. Format + measurable spine are built; Camera/Performance cells await Sam's Direction.
 
 PVP-001 runs *before* committing hundreds of stills/clips across the ten lifetimes, so every later asset is produced by the measured-best department for its stage. **No EDL-001 timing, story, or anchor changes occur in PVP** — this is pure tool qualification. Sam's **Performance Segment Direction** (the shot-by-shot directing package for 0:00–0:48.84) feeds 2B/2C when motion begins.
 
