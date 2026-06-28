@@ -4,7 +4,8 @@
 
 - **Work order:** PVP-001 (Director Sam → EP Gary → Production Supervisor Claude). Issued 2026-06-28. **Phase 2** of production.
 - **Does NOT touch EDL-001 / story / timing.** This qualifies *tools*, not content. The master clock, anchors, CCAs, and costumes are all locked and unchanged. No creative changes — ever — within PVP.
-- **Constraint (EP):** we benchmark only the platforms we actually license — **OpenAI · Google · Anthropic · Suno**. No academic shotgun across engines we won't use in production. This also makes the methodology reproducible by any reasonably-funded studio.
+- **Constraint (EP):** we benchmark only platforms we actually license — **OpenAI · Google · Anthropic · Suno · xAI/Grok** (Grok pending access confirm). No academic shotgun across engines we won't use in production. This keeps the methodology reproducible by any reasonably-funded studio.
+- **Two course-corrections (2026-06-28):** (1) **Anthropic image gen dropped** — not in the production environment; *capability ≠ qualification*; Anthropic remains orchestration. (2) **Grok added as a Motion Candidate** in 2B (Sora · Veo · Grok), no special treatment, must not delay Performance Segment 001.
 
 ---
 
@@ -14,11 +15,13 @@ We test each pipeline **stage** independently, isolating still-generation from m
 
 | Phase | Stage | Question | Candidates | Deliverable |
 |---|---|---|---|---|
-| **2A** | **Anchor Qualification** (still) | *Which engine creates the strongest Performance Anchor?* | Google **Nano Banana** (incumbent) · **Anthropic image gen** · OpenAI image gen *(where applicable)* | **Preferred Anchor Generator** |
-| **2B** | **Motion Qualification** (image→video) | *Which engine best animates the same approved anchor?* | OpenAI **Sora** vs Google **Veo** | **Preferred Motion Engine(s)** |
+| **2A** | **Anchor Qualification** (still) | *Which engine creates the strongest Performance Anchor?* | Google **Nano Banana** — **incumbent, qualified** (it produced the four locked anchors). No challenger currently in-environment. | **Preferred Anchor Generator = Nano Banana** (current) |
+| **2B** | **Renderer Qualification** (image→video, motion) | *Which engine best animates the SAME approved anchor?* | OpenAI **Sora** · Google **Veo** · xAI **Grok** *(if practically available)* — Motion Candidates, none pre-promoted | **Preferred Motion Engine(s) by role** |
 | **2C** | **Editorial Qualification** (assembly) | *Can Claude + Gemini preserve performance through the edit?* | Claude (assemble) + Gemini (review) + Premiere | **Performance Segment 001** |
 
-> **Predicted outcome (Director):** no single winner — each engine wins a different stage/role (e.g. one "can it perform?", one "can it preserve?"). The film becomes a **directed orchestration of specialists**, and the renderer becomes incidental. That result is itself a Continuum Creative innovation.
+> **Predicted outcome (Director):** no single winner — each engine wins a different stage/role (one "can it perform?", one "can it preserve?", one best at cinematography). The film becomes a **directed orchestration of specialists**, and the renderer becomes incidental. That result is itself a Continuum Creative innovation.
+
+> **Methodology is the constant, not the tool.** The chain `Story → Performance → Character → Costume → Performance Anchor → Performance Trajectory → Performance Segment → Finished Sequence` does not change for any engine. A new capability earns its place by demonstrating value on a *defined task* — never by replacing locked work because it is new. **No locked asset (CCAs, costumes, HERO-01→04, the timeline) is regenerated for PVP.**
 
 ---
 
@@ -53,47 +56,49 @@ This is the gating fact. Only one generator is bridged into the Production Super
 
 | Engine | Stage | Bridged to Claude? | How it actually runs |
 |---|---|---|---|
-| **Google Nano Banana** | 2A still | ✅ **YES** (`mcp__nanobanana__generate_image`) | Claude generates directly. *(The locked HERO anchors already ARE its output — it is the control.)* |
-| **Anthropic image gen** | 2A still | ❌ **No tool present** | **Needs access** — see §5. Claude cannot invoke it until a tool/MCP exists or EP runs it on web. |
-| **OpenAI image gen** | 2A still | ❌ No tool present | Manual web (EP), or skip. |
+| **Google Nano Banana** | 2A still | ✅ **YES** (`mcp__nanobanana__generate_image`) | Claude generates directly. The four locked anchors ARE its output — it is the qualified incumbent. |
 | **OpenAI Sora** | 2B motion | ❌ No bridge | **Manual web (EP runs).** Claude prepares the identical package; Gemini reviews the clip. |
 | **Google Veo** | 2B motion | ❌ No bridge | **Manual web (EP runs).** Same package; Gemini reviews. |
+| **xAI Grok** | 2B motion | ❌ No bridge | **Manual web (EP runs)** — *if EP confirms practical access.* Same package; Gemini reviews. |
+| **Anthropic image gen** | — | ❌ **Not in environment — NOT pursued** | Director ruling: capability ≠ qualification, and it isn't present in the production environment. **Anthropic stays Production Supervisor / orchestration.** Re-evaluate only if/when a real tool appears, and only on a *future* scene. |
+| **OpenAI image gen** | — | ❌ Not present | Not pursued now (Nano Banana is the qualified still engine). |
 | **Claude + Gemini + Premiere** | 2C editorial | ✅ Yes (Premiere MCP live) | Claude assembles; Gemini reviews. |
 
-> **Division of labor (Director-confirmed):** *Claude does not generate video.* Claude produces **identical input packages** (prompt, timing, camera, trajectory, output spec); the EP runs Sora/Veo on web; **Gemini scores both, blind, on the same scorecard.** For 2A stills, Claude can run the Nano Banana arm directly; the Anthropic/OpenAI arms need access (§5).
+> **Division of labor (Director-confirmed):** *Claude does not generate video.* Claude produces **identical input packages** (prompt, timing, camera, trajectory, output spec); the **EP runs Sora / Veo / Grok on web**; **Gemini scores all, blind, on the same scorecard.** For 2A stills, Nano Banana is the qualified incumbent and Claude runs it directly.
 
 ---
 
-## 4. Phase 2A — first pilot (defined; Anthropic arm BLOCKED on access)
+## 4. The first benchmark — 2B Renderer Qualification (the near-term work)
 
-**Pilot target:** recreate ONE existing **locked** anchor with a different still engine and compare to the Nano Banana original. **Recommended: HERO-03 "The First Recognition" (TL-0070 v5)** — it is the most diagnostic anchor (two characters, both CCAs, both costumes, the pendant, and recognition eye-line — everything an Anchor Generator must nail at once). *(Simpler alternative: HERO-02 "The Long Road" — single distant figure, lighter identity load.)*
+**Test a SHORT segment, not the full 48 s** (credit discipline — Director). Recommended benchmark span: **HERO-02 → HERO-03 (~10–15 s)** — enough to evaluate walking, slowing, recognition, eye movement, camera, and pacing without burning credits on the whole Opening Movement. The full HERO-01→04 segment is assembled in 2C only after a renderer is chosen.
 
-**Identical input package (handoff-ready):**
-- **Control (Nano Banana):** the locked frame `14_Selected/Seq01/TL-0070_Egypt_FirstRecognition_v5.png` — no regeneration; it is the reference.
-- **Verbatim prompt + negative + params:** from its Dossier `14_Selected/Seq01/TL-0070_Egypt_FirstRecognition_v5.md` (use exactly — no creative changes).
-- **Conditioning images (same for every engine):** CCA-001-EGYPT (Gary) + Gary Royal Architect costume sheet + CCA-002-EGYPT (Jen) + Jen Royal Scholar costume sheet, from `00_Identity_Master/` and `00_Costume_Master/Egypt/`.
-- **Output spec:** 16:9, full-bleed, no eyewear (CD-001), pendant exposed.
-- **Scoring:** Gemini, blind (label A/B only), 2A anchor scorecard.
+**The identical package (every renderer gets exactly this — only the engine changes):**
+- **Start anchor:** locked HERO-02 `14_Selected/Seq01/TL-0010_Egypt_TheLongRoad_v3.png`. **End anchor:** locked HERO-03 `14_Selected/Seq01/TL-0070_Egypt_FirstRecognition_v5.png` (image→video conditioning on the locked stills — no new stills).
+- **Performance Trajectory, camera direction, runtime, emotional objective:** from **Sam's forthcoming Performance Segment Direction** (the shot-by-shot directing package). Identical across engines.
+- **Per-engine syntax packages:** Claude prepares **Package A (Sora), Package B (Veo), Package C (Grok)** — *same direction, different phrasing.* That syntax translation is the Supervisor's job; the direction itself is invariant.
+- **Output spec:** 16:9, no eyewear (CD-001), identity/costume/pendant continuity from the anchors.
+- **Scoring:** Gemini, **blind** (engines labeled A/B/C), 2B motion scorecard. EP approves.
 
-**Status:** Control ready. **Anthropic arm BLOCKED** pending access (§5). When access exists, Claude (or EP, depending on the access path) runs the Anthropic recreation on the *same* package; Gemini scores A vs B.
+**Discipline:** if Grok introduces friction/access delay, run **Sora + Veo first**, add Grok in a second cycle — do not let it stall Performance Segment 001. No renderer-specific creative changes; no locked asset regenerated.
 
-**Why this matters before Rome:** the still is the conditioning source for *both* Sora and Veo. A stronger Anchor Generator improves every downstream motion clip and every one of the hundreds of stills across the remaining lifetimes. Measuring this now is high-leverage.
+**Deferred (contingent):** a future **still-engine** challenger (Anthropic image gen, OpenAI, etc.) is qualified **only if it actually appears in the environment, and only on a future scene not yet in production** — never by re-rolling a locked anchor. Until then Nano Banana is the qualified Anchor Generator.
 
 ---
 
-## 5. What the Supervisor needs from the EP (to unblock)
+## 5. What the Supervisor needs from the EP
 
-1. **Anthropic image generation — access details.** I have no such tool in this environment and cannot confirm the product from my side. Please point me to it: product/API name, a web URL, or an MCP/connector to add. Then I can either (a) bridge it and run the 2A arm directly, or (b) prepare a manual package for you to run, exactly as with Sora/Veo.
-2. **Sora & Veo (2B):** confirmed **manual-web, EP-run**. I will prepare two packages — **Package A (Sora syntax)** and **Package B (Veo syntax)** — same direction, different phrasing, once we reach 2B.
-3. **2A pilot target:** confirm **HERO-03** (recommended, most diagnostic) vs HERO-02 (lighter).
+1. **Grok access** — confirm you have practical web access to xAI Grok's image/video generation. If yes, it joins the 2B benchmark as a Motion Candidate; if it adds friction, **Sora + Veo first, Grok in cycle 2** (do not stall Performance Segment 001).
+2. **Sora / Veo / Grok = manual-web, EP-run** — confirmed division of labor. I prepare **Packages A (Sora) / B (Veo) / C (Grok)** — same direction, engine-specific syntax; you render on web; **Gemini scores blind**.
+3. **Anthropic image gen — CLOSED, no action.** Not pursued: it isn't in the production environment, and *capability ≠ qualification.* Anthropic stays Production Supervisor / orchestration.
+4. **True next input = Sam's Performance Segment Direction.** 2B packages encode *his* trajectory / camera / timing; the benchmark can't start until that directing package exists. PVP-001 is staged and waiting on it — not on me.
 
-> Until #1 is resolved, 2A's Anthropic arm cannot run; the Nano Banana control and the input package are ready now. **No engine is run, and no credits spent, without EP go-ahead per arm.**
+> No engine is run, and no credits spent, without EP go-ahead per arm.
 
 ---
 
 ## 6. Gate & sequence
 
-`2A Anchor Qualification → 2B Motion Qualification → 2C Editorial Qualification → Performance Segment 001`
+`2A Anchor (Nano Banana, qualified) → 2B Renderer Qualification (Sora · Veo · Grok) → 2C Editorial Qualification → Performance Segment 001`
 
 PVP-001 runs *before* committing hundreds of stills/clips across the ten lifetimes, so every later asset is produced by the measured-best department for its stage. **No EDL-001 timing, story, or anchor changes occur in PVP** — this is pure tool qualification. Sam's **Performance Segment Direction** (the shot-by-shot directing package for 0:00–0:48.84) feeds 2B/2C when motion begins.
 
