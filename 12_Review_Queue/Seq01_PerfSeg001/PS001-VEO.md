@@ -75,4 +75,17 @@ Gary = CCA-001, Jen = CCA-002 (no drift) · costumes Architect/Scholar (no drift
 - **Remaining objective flag:** camera still reads frontal→two-shot rather than the directed *trailing witness* (PSD-001). Next lever = first-frame-only conditioning or stronger camera prompt. Identity + recognition + clean output now solid.
 - **Comparison clip (manual, app):** `MOTION_WORK_ORDER_DOSSIER.mp4` (EP-generated, 10 s) — held camera/identity well **but watermarked + manual**; retained as a comparison data point, not a canon deliverable.
 
+### Render v3 — `PS001-VEO_cam.mp4` (camera fix — trailing witness) — 2026-06-29
+- **Change vs v2 (single lever, the open camera flag):** **first-frame-only conditioning** (condition on HERO-02 only; **no HERO-03 last frame**) + camera prompt that explicitly enforces the PSD-001 *trailing witness several paces BEHIND Gary*, with frontal/facing/front-view added to negatives. Same standard model (`veo-3.1-generate-preview`), 16:9, 720p, 24 fps, 8.0 s, 1 video. Conditioning frame pulled from `14_Selected/Seq01/`.
+- **Result — CAMERA DEVIATION RESOLVED.** Across the full clip the camera is a **trailing witness directly behind Gary** (start frame distant per HERO-02 → steady behind-the-back follow). No frontal approach, no static frontal two-shot, no orbit/push/zoom. This is the directed *witness behind* framing from PSD-001. Clean output, no watermark (API path).
+- **Supervisor objective observations (measurable only — creative verdict is Gemini's/Director's):**
+  - **Camera:** trailing-from-behind for the entire 8 s; Gary's back to camera throughout; Jen enters naturally far ahead on the path (~frame 4.5 s onward) and the two converge. ✅ matches direction.
+  - **Identity (Gary):** never seen frontally (camera is behind), so a frontal CCA-001 match **cannot be confirmed from this take**; hair (dark, short, slight temple recession) is **consistent across the clip** — no v1-style age/hair jump.
+  - **Identity (Jen):** distant; Scholar costume reads correct (pleated linen + turquoise/lapis collar); face too far to verify.
+  - **Costume / pendant:** Gary's Architect linen consistent; pendant cord visible at the nape (front pendant not visible — back-of-subject framing). Period-accurate; no eyewear (CD-001); no anachronisms; no smiling visible; no glowing pendant.
+  - **World indifferent:** boatman poling the Nile, birds, misty dawn cliffs — held throughout.
+  - **⚠️ New objective tradeoff (inherent to the behind-camera fix):** because we never see Gary's face, the PSD-001 **"Gary changes first / eyes move first / shoulders soften"** facial recognition beat is **not legible** in this take — recognition now reads as two figures converging on the path rather than a readable change on Gary's face. Camera vs facial-performance tension for the Director to weigh; **`PS001-VEO_std.mp4` (v2) shows the face but not the camera; this take (v3) shows the camera but not the face.**
+- **Disposition:** Review Queue — **two standard-tier candidates now exist** (v2 face-forward, v3 trailing-witness). Routed for Gemini blind GVR; EP to weigh the camera/face tradeoff. No further variants rendered pending review (Director's "don't re-roll endlessly" standard).
+- **Lifecycle:** Rendered 2026-06-29 ✅ · Gemini GVR: pending · EP: pending.
+
 > *Provenance rule:* this file is the canonical record of the Veo attempt — request preserved verbatim, result appended; never deleted. Mirrors the still workflow exactly.
