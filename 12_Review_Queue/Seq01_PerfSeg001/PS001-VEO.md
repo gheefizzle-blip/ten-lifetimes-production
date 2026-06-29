@@ -68,4 +68,11 @@ Gary = CCA-001, Jen = CCA-002 (no drift) · costumes Architect/Scholar (no drift
 
 > **Pipeline proof:** this is the first asset produced by the programmatic Veo bridge (repo → Veo first+last frame → download → commit). No manual upload; conditioned on the exact locked anchors. The bridge works end-to-end.
 
+### Render v2 — `PS001-VEO_std.mp4` (standard tier — PREFERRED) — 2026-06-29
+- **Change vs v1:** model only, **`veo-3.1-fast` → `veo-3.1-generate-preview` (standard)**. Same first+last frame, same prompt/negative, 16:9, 720p, 24 fps, 8.0 s. Controlled single-variable test.
+- **Result:** ✅ **Identity drift RESOLVED.** Gary is now consistent across the whole clip (mid-frame matches end-frame — no more long-haired-younger-Gary jump); reaches the recognition two-shot; **clean, no watermark** (the manual Gemini-app clip carries a baked-in ✦ watermark — disqualifying for final; the API output does not).
+- **Finding (canon):** the v1 drift was caused by the **Fast tier**, not the programmatic/API path. **Standard Veo 3.1 is the preferred motion setting.** v1 (Fast) kept as provenance — it demonstrates *why* we use standard.
+- **Remaining objective flag:** camera still reads frontal→two-shot rather than the directed *trailing witness* (PSD-001). Next lever = first-frame-only conditioning or stronger camera prompt. Identity + recognition + clean output now solid.
+- **Comparison clip (manual, app):** `MOTION_WORK_ORDER_DOSSIER.mp4` (EP-generated, 10 s) — held camera/identity well **but watermarked + manual**; retained as a comparison data point, not a canon deliverable.
+
 > *Provenance rule:* this file is the canonical record of the Veo attempt — request preserved verbatim, result appended; never deleted. Mirrors the still workflow exactly.
