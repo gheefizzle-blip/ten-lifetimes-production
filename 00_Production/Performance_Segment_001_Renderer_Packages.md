@@ -4,6 +4,8 @@
 > **Faithful translation of `PSD-001` (Director Sam).** Per the Director's order: the emotional direction, camera language, timing, and performance are **identical** across the packages; only prompt **syntax/format** differs per engine. Nothing optimized, nothing reinterpreted. The blind benchmark (Gemini, PVP-001 2B) depends on this — so **§0 Common Direction is the single source of truth; the engine packages are the same content in each engine's idiom.**
 >
 > **Roster note (2026-06-28):** **OpenAI Sora retired** (product shutdown) — **Package A (Sora) is RETIRED**; the active benchmark is **Package B (Veo) + Package C (Grok)**. Methodology unchanged (renderer-independent).
+>
+> **This doc is the AUDIT / SOURCE view** (all engines side-by-side, to verify identical-except-syntax). **The canonical per-engine deliverables are individual, provenanced motion work orders** the renderers read directly and that carry request + result, exactly like a still's Dossier: **`12_Review_Queue/Seq01_PerfSeg001/PS001-VEO.md`** and **`PS001-GROK.md`** (index: `Seq01_PerfSeg001_README.md`).
 
 ---
 

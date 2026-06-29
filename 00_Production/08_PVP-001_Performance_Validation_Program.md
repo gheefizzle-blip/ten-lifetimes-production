@@ -117,6 +117,8 @@ This is the gating fact. Only one generator is bridged into the Production Super
 
 **The 2B render-package pipeline (motion):**
 `Director's Performance Segment Direction (emotion) → Director's Shot List (cinematography, timed) → 2 identical packages (Veo/Grok, engine syntax only) → EP renders → Gemini blind score`
+
+**Motion provenance workflow (same as stills — EP, 2026-06-28):** each renderer attempt is an individual, self-contained **motion work order** committed to GitHub (`12_Review_Queue/Seq<NN>_PerfSeg<NNN>/PS<NNN>-<ENGINE>.md`) so the renderer can read it directly AND the **request + result are preserved together** (request born with the file; render settings, blind score, observations, and disposition appended). Lifecycle mirrors stills: Created → render → Gemini GVR (blind) → EP → LOCK → winning clip to `14_Selected/`, others kept in `13_Production_History/`. *No motion clip exists without its work-order Dossier.*
 The **Director's Shot List** (`Performance_Segment_001_Shot_List.md`) separates *cinematography* (camera, timed shots) from *emotion* (the Direction), so every renderer receives identical cinematic intent. Format + measurable spine are built; Camera/Performance cells await Sam's Direction.
 
 PVP-001 runs *before* committing hundreds of stills/clips across the ten lifetimes, so every later asset is produced by the measured-best department for its stage. **No EDL-001 timing, story, or anchor changes occur in PVP** — this is pure tool qualification. Sam's **Performance Segment Direction** (the shot-by-shot directing package for 0:00–0:48.84) feeds 2B/2C when motion begins.
