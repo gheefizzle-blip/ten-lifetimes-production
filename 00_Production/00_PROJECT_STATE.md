@@ -8,7 +8,7 @@
 - **🎬 MILESTONE: EDL-001 CANON LOCKED — PLANNING PHASE CLOSED; PRODUCTION BEGINS** (2026-06-28). The master runtime allocation is immutable; the music is the master clock. Four Performance Anchors locked (HERO-01→04). Identity (CCAs) + costumes solved; PRO-017 Performance Anchor methodology validated. **Pre-production is over — the studio is now a production organization.**
 - **Phase:** **PRODUCTION — Phase 2: Performance Validation.** Sole deliverable = **Performance Segment 001** (Opening Movement, HERO-01→04). Planning is frozen (runtime/era/chorus/emotional allocation locked — Director's Standing Order). Every hour now moves pixels, not paragraphs.
 - **Production version:** **PT-1.0** (planning complete; EDL-001 locked 2026-06-28).
-- **Last updated:** 2026-06-28 by Agent B (Production Supervisor) — EDL-001 lock + phase transition; awaiting Sam's Performance Segment Direction.
+- **Last updated:** 2026-06-29 by Agent B (Production Supervisor) — first motion rendered: programmatic Veo bridge live; PS001-VEO standard-tier clip in Review Queue pending Gemini blind GVR; Grok clip not yet delivered.
 - **Public docs repo (system of record for docs/prompts):** `gheefizzle-blip/ten-lifetimes-production` (GitHub, PUBLIC, docs only — **no media**). NAS = private asset vault. Claude Code pushes doc updates.
 
 ---
@@ -24,7 +24,7 @@
 | **Costumes (Egypt: Architect / Scholar)** | ✅ **LOCKED** | 00_Costume_Master |
 | **Performance Anchors HERO-01→04** | ✅ **LOCKED** (Cosmos + Egypt ×3) | 14_Selected/Seq01 |
 | Story / emotional structure | ✅ Locked (CRE-001..006 + EDL-001) | 01_Production_Bible, 40_SEQUENCES |
-| Motion (Performance Segments) | ⬜ In production (Phase 2) | EDL-001 §7 |
+| Motion (Performance Segments) | 🟡 In production — **first Veo clip rendered** (PS001-VEO, pending Gemini GVR) | EDL-001 §7 · `12_Review_Queue/Seq01_PerfSeg001/` |
 | Picture / Color (full cut) | ⬜ Downstream | 21_STYLE_GUIDES |
 
 ---
@@ -85,15 +85,25 @@
 `HERO-01 → Motion → HERO-02 → Motion → HERO-03 → Motion → HERO-04`
 **Objective:** prove the Performance Anchor methodology produces emotionally believable *motion*. This is the **proof-of-concept for the entire Continuum Creative methodology** — no new eras, no Rome, no new Hero Anchors until it proves out.
 - **What we are now testing (editorial disciplines, not image gen):** continuity · pacing · interpolation · emotional timing · camera language · transition philosophy.
-- **Awaiting:** Sam's **Performance Segment Direction** (a shot-by-shot directing package for the first 48 s — NOT a still, NOT CRE-007). The Supervisor then translates it into motion prompts / camera direction / editorial pacing / transition timing and runs the motion engine.
+- **DONE:** Sam's **Performance Segment Direction PSD-001** (HERO-02→HERO-03, ~12.6 s) delivered 2026-06-28, preserved verbatim, and translated into per-engine motion work orders (`12_Review_Queue/Seq01_PerfSeg001/` — Veo + Grok; Sora retired).
+- **DONE (2026-06-29):** **first motion rendered + camera-fix take**, via the **Continuum Render Bridge** (programmatic Veo 3.1, standard tier). **Two standard-tier candidates** now exist, each nailing one half of PSD-001: `PS001-VEO_std.mp4` (face visible, but camera renders a frontal two-shot — WRONG) and `PS001-VEO_cam.mp4` (first-frame-only → **trailing-witness camera CORRECT**, but Gary's face never seen so the "changes first" beat isn't legible). Camera-vs-face tradeoff documented in `PS001-VEO.md`.
+- **THE GATE NOW:** **Gemini blind GVR** on the two Veo takes (in flight 2026-06-29) → **Director (Sam) weighs camera-vs-face** (likely an *editorial multi-shot* answer, his call) → EP. *(Grok is no longer a gate — reclassified Creative Motion Consultant per `RENDER-BRIDGE-DOCTRINE-001`; no Grok clip needed.)*
 - **Foundation already locked:** EDL-001 master clock · CCAs (Gary/Jen) · Egypt costumes · HERO-01→04 anchors · PRO-017 (Anchor → Trajectory → Segment → Finished Sequence).
 - **Parallel, independent:** Gemini's **Performance Preservation Pass** (~1K → 4K fidelity on locked frames) — improves fidelity, does not touch story or timeline.
 
+## Renderer roster (canon — `RENDER-BRIDGE-DOCTRINE-001`, 2026-06-29)
+- **Primary Motion Renderer = Google Veo 3.1** (PRODUCTION QUALIFIED) — rendered by the Production Supervisor via the **Continuum Render Bridge** (programmatic Gemini API; standard `veo-3.1-generate-preview`).
+- **Sora — retired.** **Grok — Creative Motion Consultant** (motion reasoning / prompt / image / critique; **not a renderer** — no production video API).
+- **Phase 2 is now Production Pipeline Validation**, not multi-renderer qualification. Review stays multi-agent (Director / Supervisor / VFX / EP) even with one renderer.
+
 ## Active blockers
-- **B-1 (MOTION) — THE live blocker for Phase 2.** Stills tooling is solved (Nano Banana MCP: multi-image conditioning, 16:9/4K, grounding). **Motion (Veo / Sora / Runway) has no direct MCP bridge yet** — native web + manual download, then Gemini GVR on the clip. Resolving the motion-generation path is the first practical task of Performance Segment 001. *(Sora ≈ 20 s clip ceiling; plan Performance Segments as 4–8 s directed clips.)*
+- **B-1 (MOTION) — LARGELY RESOLVED (2026-06-29).** The **Continuum Render Bridge** renders Veo 3.1 image→video end-to-end (repo anchor → render → download → commit; no manual upload). Remaining: Veo's native clip length is ~8 s, so Performance Segments assemble from multiple directed clips in editorial (2C).
 - **Identity / costume / runtime / anchors — RESOLVED & LOCKED.** (CCAs, Egypt costumes, EDL-001, HERO-01→04.) Former B-2 (master refs) fully superseded by the locked CCA cast.
 
 ## Recent history
+- 2026-06-29 — **📜 `RENDER-BRIDGE-DOCTRINE-001` ACCEPTED (Studio Doctrine, first-class canon).** Framed by Director Sam, formalized by Production Supervisor, EP-authorized. Distinguishes Studio Methodology from Rendering Technology; promotes the renderer-agnostic **Continuum Render Bridge** to permanent studio architecture. Roster resolved: **Veo 3.1 = Primary Motion Renderer (production-qualified)**; **Sora retired**; **Grok = Creative Motion Consultant (not a renderer)**. Phase 2 reframed → Production Pipeline Validation. PVP-001 superseded-in-part; PS001-GROK closed unrendered.
+- 2026-06-29 — **🎬 FIRST MOTION RENDERED — programmatic Veo bridge live.** B-1 motion blocker partially broken: a **Gemini-API Veo bridge** renders image→video end-to-end from the locked anchors (first frame HERO-02, last frame HERO-03) with no manual upload. **PS001-VEO** rendered twice: v1 (`veo-3.1-fast`) drifted identity; **v2 `PS001-VEO_std.mp4` (`veo-3.1-generate-preview`, standard) is PREFERRED** — identity drift resolved, clean/no watermark, reaches the recognition two-shot. **Canon finding: standard Veo 3.1 is the motion setting; Fast caused the drift.** Open objective flag: camera reads frontal→two-shot, not the PSD-001 *trailing witness*. **Grok did NOT deliver a clip** (text confirmation only; self-assessment inadmissible) → 2B A/B benchmark stalled on the Grok side. Veo clip routed for Gemini blind GVR (pending).
+- 2026-06-28 — **PSD-001 (Performance Segment Direction) delivered by Sam** (HERO-02→HERO-03, ~12.6 s; 3 shots Observe→Transition→Reveal; camera = witness; "photographed not generated"; Gary changes first). Preserved verbatim; translated into renderer packages + per-engine motion work orders (`12_Review_Queue/Seq01_PerfSeg001/`). Principal photography of motion begun.
 - 2026-06-28 — **🎬 EDL-001 CANON LOCKED — PLANNING CLOSED, PRODUCTION BEGINS.** Master runtime allocation (329.60 s across 10 lifetimes + framing) ruled and EP-locked: chorus splits B/A/B, Egypt 29.82 s, Bridge interstitial, finale = editorial-after-rough-cut. Music = immutable master clock. **Phase 2 — Performance Validation** opens; deliverable = Performance Segment 001 (HERO-01→04). Studio shifts from planning org → production org.
 - 2026-06-27 — **HERO-04 "The First Smile" LOCKED** (4th anchor) under **PRO-017 — the Performance Anchor Standard** (stills are anchors for motion, not finished moments; Anchor → Trajectory → Segment → Finished Sequence). Director + Gemini GVR-007 (95%) + EP. "Resolution Bridge" renamed **Performance Preservation Pass**.
 - 2026-06-27 — **HERO-02 & HERO-03 LOCKED; identity & costume solved.** Identity drift fixed via **Canonical Character Assets** (CCA-001 Gary / CCA-002 Jen) + **Sheet-Based Conditioning**; **Canonical Costume Assets** (Egypt Architect/Scholar) locked. **Creative Provenance** Dossier system + Director Review Packet + public **GitHub Asset Canon** (full production history public) established.

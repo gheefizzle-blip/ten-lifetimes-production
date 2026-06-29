@@ -1,9 +1,10 @@
 # TEN LIFETIMES — Production Dashboard
 
-> One-glance status. Maintained by the Production Supervisor. Updated 2026-06-28. Canonical detail: `00_PROJECT_STATE.md`.
+> One-glance status. Maintained by the Production Supervisor. Updated 2026-06-29. Canonical detail: `00_PROJECT_STATE.md`.
 
-## 🎬 MILESTONE: EDL-001 CANON LOCKED — PLANNING CLOSED, PRODUCTION BEGINS (2026-06-28)
-## Phase: **PRODUCTION — Phase 2: Performance Validation** · Production version: **PT-1.0**
+## 🎬 MILESTONE: FIRST MOTION RENDERED + 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED (2026-06-29)
+## Phase: **PRODUCTION — Phase 2: Production Pipeline Validation** · Production version: **PT-1.0**
+> **Renderer roster (canon, `RENDER-BRIDGE-DOCTRINE-001`):** Primary Motion Renderer = **Google Veo 3.1** (production-qualified, run via the **Continuum Render Bridge**) · Sora retired · **Grok = Creative Motion Consultant (not a renderer)**. Phase 2 reframed from multi-renderer qualification → pipeline validation.
 
 ## System vs Film
 ```
@@ -11,7 +12,7 @@ Production System    ██████████  100%  (governance · roles 
 Planning / Structure ██████████  100%  (EDL-001 master clock LOCKED — immutable)
 Cast & Costume       ██████████  100%  (CCAs + Egypt costumes LOCKED)
 Performance Anchors  ████░░░░░░   40%  (4 of ~10+ locked: HERO-01→04)
-Motion (the FILM)    ░░░░░░░░░░    0%  (Performance Segment 001 about to begin)
+Motion (the FILM)    █░░░░░░░░░   ~10%  (first Veo clip rendered; pending Gemini GVR + EP)
 ```
 > **Planning is complete. The film is now made in motion.** Every hour moves pixels, not paragraphs.
 
@@ -25,15 +26,17 @@ Later eras (Rome → Future)
 Locked Anchors: **4** (HERO-01 Cosmos · HERO-02/03/04 Egypt) · Generated Motion: **0** · Final Edit: **0**
 > **No new Hero Anchors and no new eras until Performance Segment 001 (HERO-01→04) validates motion.** Director's order.
 
-## Phase 2 — Performance Segment 001 Progress
+## Phase 2 — Performance Segment 001 Progress (HERO-02 → HERO-03, ~12.6 s)
 | Step | Progress | Status |
 |---|---|---|
 | **Performance Anchors** (stills) | ██████████ | ✅ HERO-01→04 LOCKED |
-| **Performance Segment Direction** (Sam) | ░░░░░░░░░░ | **Awaiting** — shot-by-shot directing package for 0:00–0:48.84 |
-| **Motion prompts / camera / pacing** (Claude) | ░░░░░░░░░░ | Pending Sam's direction |
-| **Motion Generation** (Veo/Sora/Runway) | ░░░░░░░░░░ | **Pending — B-1 motion bridge open** |
-| **Gemini review of animated performance** | ░░░░░░░░░░ | Pending first clips |
-| **EP evaluation of the sequence** | ░░░░░░░░░░ | Pending |
+| **Performance Segment Direction** (Sam) | ██████████ | ✅ **PSD-001 delivered** (2026-06-28) → translated to per-engine motion WOs |
+| **Motion prompts / camera / pacing** (Claude) | ██████████ | ✅ Renderer packages + `12_Review_Queue/Seq01_PerfSeg001/` WOs (Veo + Grok) |
+| **Motion Generation** (Veo/Grok) | █████░░░░░ | 🟡 **Veo ✅** `PS001-VEO_std.mp4` (standard tier, clean, identity solved) · **Grok ⛔** no clip delivered (text only) |
+| **Gemini review of animated performance** | ░░░░░░░░░░ | **Pending** — Veo clip routed for blind GVR; not yet scored |
+| **EP evaluation of the sequence** | ░░░░░░░░░░ | Pending Gemini GVR |
+
+> **Open objective flag (Veo, both tiers):** camera reads *frontal approach → static two-shot* instead of the PSD-001 *trailing witness behind Gary*. Next lever: first-frame-only conditioning / stronger camera prompt. Identity + recognition + clean output are solid on the standard tier.
 
 ## Film-wide pipeline
 ```
@@ -42,11 +45,11 @@ Production System            ██████████  100%
 Music Synchronization        ██████████  100%
 Editorial Timeline + Runtime ██████████  100%  (Timeline v1.0 + EDL-001 LOCKED)
 Cast / Costume / Anchors     ████████░░  ~80%  (Egypt fully locked; later eras pending)
-Motion / Edit                ░░░░░░░░░░    0%  (Performance Segment 001 begins)
+Motion / Edit                █░░░░░░░░░   ~10%  (first Veo clip rendered; Performance Segment 001 in review)
 ```
 
 ## Blockers
-- **B-1 (MOTION)** — the live Phase-2 blocker. Stills solved (Nano Banana MCP). **Motion engines (Veo/Sora/Runway) have no direct MCP bridge** → native web + download, then Gemini review. First practical task of Performance Segment 001.
+- **B-1 (MOTION) — LARGELY RESOLVED (2026-06-29).** The **Continuum Render Bridge** (programmatic Veo 3.1 via Gemini API) works end-to-end (repo anchor → render → download → commit; no manual upload). **Canon finding: standard `veo-3.1-generate-preview`, NOT Fast** (Fast caused identity drift). Grok is no longer a render dependency (reclassified Creative Motion Consultant per the doctrine). Remaining: Veo's ~8 s native clip → Performance Segments assemble from multiple directed clips in editorial (2C).
 - **Identity / costume / runtime / anchors** — RESOLVED & LOCKED (CCAs · Egypt costumes · EDL-001 · HERO-01→04).
 
 ## Team (Bible §0b / §0d)

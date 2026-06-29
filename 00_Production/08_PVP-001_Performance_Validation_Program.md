@@ -1,5 +1,7 @@
 # TEN LIFETIMES — PVP-001 · Performance Validation Program
 
+> **⚠️ SUPERSEDED IN PART by `RENDER-BRIDGE-DOCTRINE-001` (ACCEPTED 2026-06-29) — trust the doctrine for current truth; text below retained as provenance of the original multi-renderer plan.** The renderer field has resolved: **Google Veo 3.1 = Primary Motion Renderer (PRODUCTION QUALIFIED)**; **Sora retired**; **Grok = Creative Motion Consultant — NOT a renderer** (xAI exposes no production video API at any tier; confirmed 2026-06-29). **2B is no longer a Veo-vs-Grok contest; Phase 2 is now "Production Pipeline Validation"** — the question is *"can the pipeline consistently produce emotionally correct motion?"*, not *"which renderer wins?"* **Most important reversal:** *"Claude does not generate video"* (Section 3/§5 below) is **SUPERSEDED** — the Production Supervisor now operates the **Continuum Render Bridge** (programmatic Veo 3.1 via the Gemini API) and renders directly; the EP-manual-web path is no longer required for Veo. Grok's 2B Technical qualification is **CLOSED (no production output path)**; its Cultural PASS stands and it serves as Creative Motion Consultant.
+
 > **A laboratory, not a contest.** We do not ask "which AI is best." We ask **"which department (stage) does each engine perform best?"** Every engine receives the *identical* locked input; only the renderer changes. Scoring is **objective** and **blind** (Gemini), against fixed scorecards.
 
 - **Work order:** PVP-001 (Director Sam → EP Gary → Production Supervisor Claude). Issued 2026-06-28. **Phase 2** of production.
