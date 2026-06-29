@@ -50,15 +50,22 @@ Gary = CCA-001, Jen = CCA-002 (no drift) · costumes Architect/Scholar (no drift
 ---
 
 ## THE RESULT  (filled when the clip returns — keeps request+result together)
-- **Returned clip:** `PS001-VEO.mp4` *(pending)*
-- **Render settings actually used (model/version, frames, fps, resolution, seed):** *(pending)*
-- **Blind label at scoring:** *(assigned A/B at GVR)*
-- **Gemini GVR (blind, 2B scorecard):** Emotional /30 · Identity /25 · Camera /15 · Motion Continuity /15 · Prompt Fidelity /10 · Technical /5 → **Total /100** *(pending)*
-- **Objective observations:** *(pending — identity hold, camera fidelity to PSD-001, artifacts, timing)*
-- **Disposition:** *(pending — Selected motion / Production_History)*
+- **Returned clip:** ✅ `PS001-VEO.mp4` (rendered 2026-06-29 via the programmatic Veo bridge — Gemini API, no manual upload; pulled HERO-02/HERO-03 from `14_Selected/`).
+- **Render settings actually used:** model **`veo-3.1-fast-generate-preview`** (Gemini API) · **first frame = HERO-02, last frame = HERO-03** · negative prompt = forbidden list · aspect 16:9 · **1280×720 (720p), 24 fps, 8.0 s (192 frames)** · 1 video · no reference images this pass · enhance_prompt off · seed unset · Veo-generated AAC audio present (to be muted/replaced — music is master). *(Note: 8 s is Veo's native clip length; the full 12.6 s assembles in editorial 2C.)*
+- **Blind label at scoring:** *(assigned at GVR)*
+- **Gemini GVR (blind, 2B scorecard):** **pending** — routed for blind review.
+- **Supervisor objective observations (measurable only — judgment is Gemini's/Director's):**
+  - Start frame faithful to HERO-02 (distant figure, Nile dawn, boatman, birds, indifferent world).
+  - **Identity drift on Gary across the clip:** mid-frame (long-haired, lean — strong CCA-001 match) vs end-frame (older, balding, grayer) — not consistent end-to-end. ⚠️
+  - **Jen (end frame):** Scholar costume correct (lapis collar, braided wig, headband) but silhouette/body reads fuller/different than CCA-002 — possible drift. ⚠️
+  - **Camera deviated from PSD-001:** directed as a *trailing witness behind* Gary; Veo rendered a *frontal approach* → *static two-shot* instead. ⚠️
+  - Held: costumes, **silver pendant visible**, period accuracy, no eyewear (CD-001), indifferent world (workers washing linen), recognition two-shot composition.
+- **Disposition:** Review Queue — pending Gemini blind GVR + EP. *(First clip of the 2B benchmark; needs a Grok clip for the A/B, or score solo as a first data point — EP's call.)*
 
 ## Lifecycle / Review
-- Created: 2026-06-28 (request) · Rendered: pending · Reviewed (Gemini GVR-###): pending · EP: pending · Disposition: pending
-- Three-question review (Q1 Technical / Q2 Creative-vs-PSD-001 / Q3 Institutional): pending
+- Created: 2026-06-28 (request) · **Rendered: 2026-06-29 ✅** · Reviewed (Gemini GVR-###): pending · EP: pending · Disposition: Review Queue
+- Three-question review (Q1 Technical / Q2 Creative-vs-PSD-001 / Q3 Institutional): pending Gemini
+
+> **Pipeline proof:** this is the first asset produced by the programmatic Veo bridge (repo → Veo first+last frame → download → commit). No manual upload; conditioned on the exact locked anchors. The bridge works end-to-end.
 
 > *Provenance rule:* this file is the canonical record of the Veo attempt — request preserved verbatim, result appended; never deleted. Mirrors the still workflow exactly.

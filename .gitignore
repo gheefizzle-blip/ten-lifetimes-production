@@ -96,3 +96,9 @@ desktop.ini
 *.key
 Gemini.key
 gemini.key
+
+# motion clips in stage folders (mirror the still exceptions)
+!13_Production_History/**/*.mp4
+!12_Review_Queue/**/*.mp4
+!14_Selected/**/*.mp4
+!15_Final/**/*.mp4
