@@ -88,4 +88,38 @@ Gary = CCA-001, Jen = CCA-002 (no drift) · costumes Architect/Scholar (no drift
 - **Disposition:** Review Queue — **two standard-tier candidates now exist** (v2 face-forward, v3 trailing-witness). Routed for Gemini blind GVR; EP to weigh the camera/face tradeoff. No further variants rendered pending review (Director's "don't re-roll endlessly" standard).
 - **Lifecycle:** Rendered 2026-06-29 ✅ · Gemini GVR: pending · EP: pending.
 
+## GEMINI GVR (blind, 2B motion scorecard) — first pass 2026-06-29 — ⚠️ SUPERSEDED by the RE-AUDIT below (mapping was cross-talked; corrected via FFmpeg frame extraction)
+**Blind key set by Supervisor:** Clip A = `PS001-VEO_cam.mp4` (v3, trailing-witness camera, Gary's face not seen) · Clip B = `PS001-VEO_std.mp4` (v2, frontal two-shot, face + chest pendant visible).
+
+**Gemini scores as received:**
+- **Clip A — TOTAL 70/100** — Emotional 18/30 ("flatter… reaction to the camera rather than an internal epiphany"), Identity 20/25 (minor tunic-fabric drift), Camera 12/15 (one pan "announced"), Motion Continuity 9/15 (background boat jitter / "mechanical smoothing"), Prompt Fidelity 8/10, Technical 3/5 (shadow compression).
+- **Clip B — TOTAL 93/100** — Emotional 27/30 ("organic and internal… recognition lands"), Identity 24/25 ("pendant perfectly tracked… no facial drift"), Camera 14/15 ("truly *witness* quality… human operator following the characters"), Motion Continuity 14/15, Prompt Fidelity 10/10 ("Gary changes first; Jen's reaction a perfect echo"), Technical 4/5.
+- **Gemini verdict:** "Clip B is the superior candidate… acceptable as-is, no editorial combination required… promote Clip B to the locked registry; archive Clip A." No hard forbidden-list violations in either clip.
+
+**⚠️ SUPERVISOR OBJECTIVE DISCREPANCY (why this is HELD, not locked):** Gemini's review does not match the footage on the dimension that mattered most for this re-render — **the camera.**
+- Under the blind key, **Clip B = `PS001-VEO_std.mp4` is the FRONTAL two-shot** (verified by extracted frames at 0/2/4/6/7.5 s: camera comes in front of Gary, face visible, ends on a frontal two-shot). Gemini scored that clip's camera **14/15 "truly witness quality, operator following the characters"** — the opposite of what the frames show.
+- Conversely **Clip A = `PS001-VEO_cam.mp4` is the genuine trailing-witness-behind** take (verified by frames), which Gemini scored **12/15** and called camera-reactive.
+- Gemini's "Clip B" praise also **blends attributes of two different physical clips**: "operator *following* the characters" (a trailing/CAM trait) with "Gary changes first / Jen echoes / pendant perfectly tracked" (readable faces + a chest pendant = the FRONTAL/STD clip). No single file has both.
+- Gemini also reported **Clip B identity 24/25 "no facial drift,"** but the std end-frames show a **Jen who reads younger/fuller than CCA-002** (objective identity flag the review did not catch).
+
+**Likely causes (to resolve before any promotion):** (a) the A/B→file order Gemini actually reviewed differs from the Supervisor key, and/or (b) Gemini scored from the work-order *text*/URLs without reliably viewing each specific `.mp4`. Either way, the **scores cannot be attached to a specific take with confidence**, so no LOCK is recorded.
+- **Disposition:** **HELD — Review Queue.** Required next: confirm the exact A/B→filename mapping Gemini reviewed and re-run the camera scoring against the actual footage (Supervisor can pre-label the two files and have the EP upload them in that fixed order). The *editorial* question (camera-vs-face → possibly a multi-shot answer) remains Sam's; it is not foreclosed by this review.
+- **Lifecycle:** Rendered 2026-06-29 ✅ · Gemini GVR received 2026-06-29 (⚠️ held — discrepancy) · EP: pending · LOCK: NOT recorded.
+
+## GEMINI GVR RE-AUDIT (corrected mapping, hard-filtered to on-screen pixels) — 2026-06-29 — RESOLVED ✅
+**Mapping confirmed:** Gemini's re-audit identifies `PS001-VEO_cam.mp4` as the trailing-witness take and `PS001-VEO_std.mp4` as the frontal two-shot with late Jen drift — **matching the Supervisor's FFmpeg frame extraction exactly.** The first-pass cross-talk is corrected. Verbatim re-audit (per VFX directive):
+
+> **AUDIT-CLIP-A (`PS001-VEO_cam.mp4` — Trailing Witness):** Emotional 22/30 ("powerful internal restraint… withholding the faces, the physical posture carries the weight"), Identity 19/25 (build + linen weave match HERO-02 from the reverse angle), Camera 13/15 ("truly a trailing witness… never anticipates or forces"), Motion Continuity 11/15 (stable spatial physics), Prompt Fidelity 8/10, Technical 4/5. **TOTAL 77/100.**
+> **AUDIT-CLIP-B (`PS001-VEO_std.mp4` — Frontal Two-Shot):** Emotional 16/30 ("undermined by the incorrect framing"), Identity 14/25 ("Jen's face drifts… reading younger, breaking CCA-002"), Camera **5/15 CRITICAL FAIL** ("forces an unearned frontal studio structure"), Motion Continuity 11/15, Prompt Fidelity 3/10 (fails PSD-001 staging), Technical 4/5. **TOTAL 53/100.**
+> **Three-question:** Q1 — A sound; B disqualified (Jen drift). Q2 — A honors isolation/restraint; B trades the cinematic language for a generic frontal shot. Q3 — reject any generation that drops the observational witness perspective; log AUDIT-CLIP-A's parameters to anchor future reverse-angle shots.
+> **Verdict:** AUDIT-CLIP-A (Trailing Witness) is the definitive winner; approved as-is for the trailing segment. AUDIT-CLIP-B committed a structural violation (broke the observational camera mandate) — rejected.
+
+**Standard established (Director ruling, 2026-06-29 — record the *standard*, not the score):** this take sets the **WITNESS CAMERA STANDARD** — the observational, trailing-from-behind, "operator following the characters" camera is the studio's proven cinematic baseline; future productions begin there. Companion philosophy: **"if one honest take captures the performance, keep it — do not improve it into dishonesty."**
+
+**DISPOSITIONS:**
+- **`PS001-VEO_cam.mp4` (AUDIT-CLIP-A) = WINNER.** VFX-approved; Director-ruled promote. **Routed to Sam (Director) for formal layout integration.** *(Open creative question for Sam: the witness take never shows Gary's face, so the "Gary changes first" facial beat is not literally visible — Sam confirms whether one take stands or the layout needs a second angle. EP LOCK to `14_Selected/` pending.)*
+- **`PS001-VEO_std.mp4` (AUDIT-CLIP-B) = REJECTED** (camera mandate violation + Jen CCA-002 drift). Archived to `13_Production_History/Seq01_Egypt/Camera_Motion/` (kept as provenance, never deleted).
+- **`PS001-VEO.mp4` (v1, Fast tier)** — prior provenance (demonstrates why standard tier is used).
+- **Lifecycle:** Rendered 2026-06-29 ✅ · Gemini GVR re-audit 2026-06-29 ✅ RESOLVED · winner → Sam (layout) · EP LOCK: pending.
+
 > *Provenance rule:* this file is the canonical record of the Veo attempt — request preserved verbatim, result appended; never deleted. Mirrors the still workflow exactly.

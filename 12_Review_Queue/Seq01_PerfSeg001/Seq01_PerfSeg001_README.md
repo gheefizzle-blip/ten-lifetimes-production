@@ -21,5 +21,5 @@
 - First/Start = HERO-02: `.../14_Selected/Seq01/TL-0010_Egypt_TheLongRoad_v3.png`
 - Last/End = HERO-03: `.../14_Selected/Seq01/TL-0070_Egypt_FirstRecognition_v5.png`
 
-## Status (2026-06-29)
-**Veo rendered ✅ via the Continuum Render Bridge** — two standard-tier candidates committed: `PS001-VEO_std.mp4` (face-forward) and `PS001-VEO_cam.mp4` (trailing-witness camera fix); see `PS001-VEO.md` for the camera-vs-face tradeoff. **Routed for Gemini blind GVR** (2B motion scorecard) on the two takes. **Grok: closed unrendered** (no production video path; `PS001-GROK.md`). v1 Fast-tier clip `PS001-VEO.mp4` retained as provenance (showed why standard tier is used).
+## Status (2026-06-29) — BENCHMARK RESOLVED ✅
+**Gemini GVR re-audit complete (mapping corrected via FFmpeg frame extraction).** **Winner = `PS001-VEO_cam.mp4` (AUDIT-CLIP-A, Trailing Witness) — 77/100**, VFX-approved, Director-ruled promote → **routed to Sam (Director) for formal layout integration** (EP LOCK to `14_Selected/` pending; open question: one take vs. a second angle, since the witness take doesn't show Gary's face). **`PS001-VEO_std.mp4` (AUDIT-CLIP-B, Frontal) — 53/100, REJECTED** (camera-mandate violation + Jen CCA-002 drift) → archived to `13_Production_History/Seq01_Egypt/Camera_Motion/`. This take established the **WITNESS CAMERA STANDARD**. **Grok: closed unrendered** (`PS001-GROK.md`). v1 Fast-tier `PS001-VEO.mp4` retained as provenance.

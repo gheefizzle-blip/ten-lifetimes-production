@@ -2,7 +2,7 @@
 
 > One-glance status. Maintained by the Production Supervisor. Updated 2026-06-29. Canonical detail: `00_PROJECT_STATE.md`.
 
-## 🎬 MILESTONE: FIRST MOTION RENDERED + 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED (2026-06-29)
+## 🏆 MILESTONE: PERF SEGMENT 001 BENCHMARK RESOLVED — Witness Camera Standard (2026-06-29) · 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED
 ## Phase: **PRODUCTION — Phase 2: Production Pipeline Validation** · Production version: **PT-1.0**
 > **Renderer roster (canon, `RENDER-BRIDGE-DOCTRINE-001`):** Primary Motion Renderer = **Google Veo 3.1** (production-qualified, run via the **Continuum Render Bridge**) · Sora retired · **Grok = Creative Motion Consultant (not a renderer)**. Phase 2 reframed from multi-renderer qualification → pipeline validation.
 
@@ -32,11 +32,11 @@ Locked Anchors: **4** (HERO-01 Cosmos · HERO-02/03/04 Egypt) · Generated Motio
 | **Performance Anchors** (stills) | ██████████ | ✅ HERO-01→04 LOCKED |
 | **Performance Segment Direction** (Sam) | ██████████ | ✅ **PSD-001 delivered** (2026-06-28) → translated to per-engine motion WOs |
 | **Motion prompts / camera / pacing** (Claude) | ██████████ | ✅ Renderer packages + `12_Review_Queue/Seq01_PerfSeg001/` WOs (Veo + Grok) |
-| **Motion Generation** (Veo/Grok) | █████░░░░░ | 🟡 **Veo ✅** `PS001-VEO_std.mp4` (standard tier, clean, identity solved) · **Grok ⛔** no clip delivered (text only) |
-| **Gemini review of animated performance** | ░░░░░░░░░░ | **Pending** — Veo clip routed for blind GVR; not yet scored |
-| **EP evaluation of the sequence** | ░░░░░░░░░░ | Pending Gemini GVR |
+| **Motion Generation** (Veo) | ██████████ | ✅ **Winner: `PS001-VEO_cam.mp4`** (Trailing Witness, 77/100) · frontal take rejected (53) + archived · Grok = consultant (no clip) |
+| **Gemini review of animated performance** | ██████████ | ✅ **GVR re-audit complete** — Witness take wins; mapping corrected via FFmpeg after a first-pass cross-talk |
+| **Director layout + EP lock** | ███░░░░░░░ | 🟡 Winner routed to **Sam** for layout integration (one-take vs. second angle); then **EP LOCK** → `14_Selected/` |
 
-> **Open objective flag (Veo, both tiers):** camera reads *frontal approach → static two-shot* instead of the PSD-001 *trailing witness behind Gary*. Next lever: first-frame-only conditioning / stronger camera prompt. Identity + recognition + clean output are solid on the standard tier.
+> **🏆 WITNESS CAMERA STANDARD (Director ruling, 2026-06-29):** observational, trailing-from-behind "operator following the characters" is the studio's proven baseline. *"Keep the one honest take; do not improve it into dishonesty."*
 
 ## Film-wide pipeline
 ```
