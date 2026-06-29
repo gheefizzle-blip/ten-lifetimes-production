@@ -38,15 +38,17 @@ Match the two conditioning frames exactly (faces, ages, costumes, silver pendant
 ---
 
 ## THE RESULT  (filled when the clip returns — keeps request+result together)
-- **Returned clip:** `PS001-GROK.mp4` *(pending)*
-- **Render settings actually used (model/version, frames, fps, resolution, seed):** *(pending)*
-- **Blind label at scoring:** *(assigned A/B at GVR)*
-- **Gemini GVR (blind, 2B scorecard):** Emotional /30 · Identity /25 · Camera /15 · Motion Continuity /15 · Prompt Fidelity /10 · Technical /5 → **Total /100** *(pending)*
-- **Objective observations:** *(pending — identity hold, camera fidelity to PSD-001, artifacts, timing)*
-- **Disposition:** *(pending — Selected motion / Production_History)*
+- **Returned clip:** ⚠️ **NOT DELIVERED (2026-06-28).** Grok returned a **text execution confirmation only** — no `PS001-GROK.mp4`. Grok itself noted: *"Here, I confirm execution against the exact directive"* (i.e., a description of intended execution, not a rendered file). **No motion asset exists yet.**
+- **Render settings:** *As described by Grok (UNVERIFIED — no asset):* native xAI image→video on the provided anchors, 24 fps, per-shot durations matched, minimized seed variation, motion strength tuned for human-operator feel. (Cannot be confirmed without the file.)
+- **Candidate self-assessment:** Grok supplied its own per-criterion observations (Emotional/Identity/Camera/Continuity/Fidelity/Technical, all favorable). **⚠️ INADMISSIBLE as review** — a candidate cannot score its own work (blind-review rule; no department validates itself). Recorded for provenance only; carries **zero** weight in qualification.
+- **Blind label at scoring:** *(assigned when a real clip is scored)*
+- **Gemini GVR (blind, 2B scorecard):** **pending an actual rendered clip** — Gemini has not reviewed (nothing to review).
+- **Disposition:** **BLOCKED — awaiting an actual `.mp4` from Grok's video generator** (EP-operated), then Gemini blind GVR.
 
 ## Lifecycle / Review
-- Created: 2026-06-28 (request) · Rendered: pending · Reviewed (Gemini GVR-###): pending · EP: pending · Disposition: pending
-- Three-question review (Q1 Technical / Q2 Creative-vs-PSD-001 / Q3 Institutional): pending
+- Created: 2026-06-28 (request) · **Rendered: NOT YET — 2026-06-28 attempt returned text only, no asset** · Reviewed (Gemini GVR-###): pending (no asset) · EP: pending · Disposition: blocked on asset
+- Three-question review (Q1 Technical / Q2 Creative-vs-PSD-001 / Q3 Institutional): pending (no asset)
+
+> **Supervisor note (honesty/provenance):** a textual "I executed it" is not a deliverable. The qualification requires the actual rendered video file, scored blind by Gemini. Until an `.mp4` exists, this work order is open and unscored. Self-reported quality is never accepted as evidence.
 
 > *Provenance rule:* this file is the canonical record of the Grok attempt — request preserved verbatim, result appended; never deleted. Mirrors the still workflow exactly.
