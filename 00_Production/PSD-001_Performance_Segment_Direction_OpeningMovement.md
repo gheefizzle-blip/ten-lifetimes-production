@@ -60,3 +60,5 @@ The audience should reach the end of this segment thinking: *"I don't know why�
 ---
 
 > **Director's translation order (verbatim):** Translate faithfully into three renderer-specific packages (A-Sora, B-Veo, C-Grok). The only differences should be those required by each renderer's prompt syntax and technical requirements. The emotional direction, camera language, timing, and performance must remain **identical** across all three. Do not optimize the emotion. Do not reinterpret the cinematography.
+
+> **Supervisor note (2026-06-28, post-authorship — Director's words above preserved verbatim):** OpenAI **Sora retired** (product shutdown) after this order was written. Package A (Sora) is **retired/provenance-only**; the active benchmark is **Package B (Veo) + Package C (Grok)**. This is a roster change only — the direction, methodology, and this script are unchanged (renderer-independent).

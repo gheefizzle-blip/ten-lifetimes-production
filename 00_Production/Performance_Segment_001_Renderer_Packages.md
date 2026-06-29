@@ -1,7 +1,9 @@
-# PERFORMANCE SEGMENT 001 — Renderer Packages (Sora · Veo · Grok)
+# PERFORMANCE SEGMENT 001 — Renderer Packages (Veo · Grok)
 ### Translation of PSD-001 · HERO-02 "The Long Road" → HERO-03 "The First Recognition"
 
-> **Faithful translation of `PSD-001` (Director Sam).** Per the Director's order: the emotional direction, camera language, timing, and performance are **identical** across all three packages; only prompt **syntax/format** differs per engine. Nothing optimized, nothing reinterpreted. The blind benchmark (Gemini, PVP-001 2B) depends on this — so **§0 Common Direction is the single source of truth; Packages A/B/C are the same content in each engine's idiom.**
+> **Faithful translation of `PSD-001` (Director Sam).** Per the Director's order: the emotional direction, camera language, timing, and performance are **identical** across the packages; only prompt **syntax/format** differs per engine. Nothing optimized, nothing reinterpreted. The blind benchmark (Gemini, PVP-001 2B) depends on this — so **§0 Common Direction is the single source of truth; the engine packages are the same content in each engine's idiom.**
+>
+> **Roster note (2026-06-28):** **OpenAI Sora retired** (product shutdown) — **Package A (Sora) is RETIRED**; the active benchmark is **Package B (Veo) + Package C (Grok)**. Methodology unchanged (renderer-independent).
 
 ---
 
@@ -31,8 +33,10 @@
 
 ---
 
-## Package A — SORA (cinematic prose)
+## Package A — SORA — ⛔ RETIRED (OpenAI Sora product retirement, 2026)
 
+> **This package is retired and not rendered.** Retained for provenance only. If OpenAI re-enters video and the engine appears in the production environment, it re-qualifies through the standard Cultural + Technical process and this prose package can be reactivated. The cinematic prose below remains a faithful PSD-001 translation should it ever be needed.
+>
 > Condition on the opening frame (HERO-02); target the closing frame (HERO-03). Render as three continuous shots. Style: observational documentary realism, ancient Egypt at dawn, natural light, handheld-subtle. Negatives at the end.
 
 **Shot 1 (0–6.3s) — Observe.** A man in fine pleated Egyptian linen walks a dirt path beside the Nile at early morning. The camera is a quiet witness several paces behind him at eye level, dollying gently forward at exactly his walking pace — no orbit, no push, no flourish. His shoulders are slightly lowered, eyes forward; his face is peaceful but emotionally empty — not sad, simply a man long accustomed to solitude. Around him, morning workers go about their tasks, the river flows, birds move on their own; nothing acknowledges him. The world is indifferent. The mood is pure routine.
@@ -97,9 +101,9 @@ NEVER: push in, whip, or stage a dramatic reveal; no smile; no recognition "mome
 ---
 
 ## Issue & review
-- **Renderer:** EP runs each package on its engine's web interface (no MCP bridge). Same conditioning frames; same three shots; same timing.
+- **Renderer:** EP runs **Package B (Veo)** and **Package C (Grok)** on each engine's web interface (no MCP bridge). Same conditioning frames; same three shots; same timing. *(Package A — Sora — retired.)*
 - **Provenance:** each returned clip + objective notes is committed by the Supervisor with a Dossier (PVP-001 2B); resolution is ≤5% of the score.
-- **Scoring:** **Gemini, blind** (engines labeled A/B/C) — Emotional Performance 30 · Identity 25 · Camera Language 15 · Motion Continuity 15 · Prompt Fidelity 10 · Technical 5.
+- **Scoring:** **Gemini, blind** (engines labeled A/B) — Emotional Performance 30 · Identity 25 · Camera Language 15 · Motion Continuity 15 · Prompt Fidelity 10 · Technical 5.
 - **Then:** EP reviews; the studio assigns motion role(s) by demonstrated strength.
 
-> *Status:* packages translated from PSD-001, identical-except-syntax. **Ready for the EP to render on Sora, Veo, and Grok.**
+> *Status:* packages translated from PSD-001, identical-except-syntax. **Ready for the EP to render on Veo and Grok.**

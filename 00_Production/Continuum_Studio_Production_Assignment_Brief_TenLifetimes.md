@@ -53,7 +53,7 @@
 | Prompt Fidelity | 10% |
 | Technical Quality | 5% |
 
-- **Fellow candidates:** OpenAI Sora, Google Veo. Same standard for all; no special treatment, no penalty.
+- **Fellow candidate:** Google Veo. Same standard for both; no special treatment, no penalty. *(OpenAI Sora was a candidate but was removed following its product retirement, 2026.)*
 
 ---
 

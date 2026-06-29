@@ -33,4 +33,4 @@
 ## How this feeds the benchmark
 Once the Director fills Camera + Performance: the Production Supervisor transcribes them here, then issues **three identical packages** — Package A (Sora), B (Veo), C (Grok) — same Shot List, engine-appropriate syntax only. Each renderer animates start-anchor → end-anchor along these timed shots. **Gemini scores blind** on the motion scorecard (Emotional Performance 30 · Identity 25 · Camera 15 · Motion Continuity 15 · Prompt Fidelity 10 · Technical 5).
 
-> *Status:* ✅ **COMPLETE** — spine + Camera + Performance all filled (PSD-001 transcribed). Feeds `Performance_Segment_001_Renderer_Packages.md` (Sora / Veo / Grok).
+> *Status:* ✅ **COMPLETE** — spine + Camera + Performance all filled (PSD-001 transcribed). Feeds `Performance_Segment_001_Renderer_Packages.md` (**Veo · Grok**; Sora retired 2026).
