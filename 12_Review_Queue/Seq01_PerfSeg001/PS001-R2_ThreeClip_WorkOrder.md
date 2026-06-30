@@ -37,5 +37,21 @@ All five generated via Nano Banana (`nb2`, 16:9, multi-image conditioning on the
 
 > **GATE:** review these stills (identity especially — it was the R1 failure) **before** any Veo render. If C2a's identity reads off, I re-gen it (cheap) before motion. C3 end target remains the locked HERO-03 (`TL-0070_v5`).
 
+## CONTINUITY-ANCHOR finding (2026-06-30) — EP flags (costume back · pendant · shoreline)
+EP flagged three continuity drifts across the keyframes — **all one root cause: any detail not pinned by a canonical reference image drifts, because the model invents it differently each render.**
+1. **Costume back:** C1a/C1b = pleated tunic back; original C3a = invented **deep-V back**. (Costume Master defines only the FRONT.)
+2. **Pendant:** the silver pendant design changes frame to frame. **No canonical pendant reference exists** (not on the costume sheet, none in `18_Motifs`). EP: the costume sheet should specify the pendant.
+3. **Shoreline:** the Nile bank should be a consistent **sandy reed shoreline** throughout — not muddy in one frame. **No canonical environment reference plate exists** (only `Sequence_One_Environment_Direction.md`, a text doc).
+
+**Tooling lesson (important):** `nb2` conditioned-generation will NOT correct a drifting detail via negatives or by adding a reference image — it reproduces the same composition. `nb2` **EDIT mode** can repaint a detail (it fixed the C3a back), but it alters framing. **The durable fix is canonical REFERENCE IMAGES** the keyframes condition on — same principle that fixed identity (CCA sheets).
+
+**THE FIX (proposed — stop re-rolling; lock the anchors, then derive once):** before re-deriving the 5 keyframes, build the missing canonical anchors so every frame inherits identical detail:
+- ✅ `Gary_Costume_Egypt_BACK_ref.png` — created (plain pleated back, round neck, sash). Propose → Costume Master.
+- 🆕 **Canonical Pendant reference** — lock the exact silver-pendant design (shape/material/cord/size); add to Costume Master / `18_Motifs`. The recognition motif ("pendant catches light first") demands a fixed design.
+- 🆕 **Canonical Environment reference** (Opening Movement) — a locked "Nile riverbank at dawn, sandy reed shoreline" plate (first Canonical Environment Asset) so all three clips share one shoreline/lighting.
+- Then re-derive C1a/C1b/C2a/C2b/C3a conditioning on the FULL set (CCA face + costume + back-ref + pendant + environment) → consistent identity, costume, back, pendant, and shoreline.
+
+> Status: paused keyframe re-derivation pending these anchors + EP/Director alignment. `Gary_Costume_Egypt_BACK_ref.png` preserved; C3a back-fix candidate (`edit` mode) retained on NAS/local as provenance of the tooling finding.
+
 ## Status (2026-06-30)
 Created from `PSD-001-R2`; R1 takes archived. **Keyframes generated + committed for review.** **Awaiting Director/EP keyframe approval (or a C2a re-gen) before rendering the three Veo clips.** No Veo render attempted yet.
