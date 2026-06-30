@@ -2,7 +2,7 @@
 
 > One-glance status. Maintained by the Production Supervisor. Updated 2026-06-29. Canonical detail: `00_PROJECT_STATE.md`.
 
-## 🏆 MILESTONE: PERF SEGMENT 001 BENCHMARK RESOLVED — Witness Camera Standard (2026-06-29) · 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED
+## ⛔ PERF SEGMENT 001 — EP REJECTED BOTH TAKES → RE-ENGINEERING (2026-06-29) · 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED
 ## Phase: **PRODUCTION — Phase 2: Production Pipeline Validation** · Production version: **PT-1.0**
 > **Renderer roster (canon, `RENDER-BRIDGE-DOCTRINE-001`):** Primary Motion Renderer = **Google Veo 3.1** (production-qualified, run via the **Continuum Render Bridge**) · Sora retired · **Grok = Creative Motion Consultant (not a renderer)**. Phase 2 reframed from multi-renderer qualification → pipeline validation.
 
@@ -32,11 +32,11 @@ Locked Anchors: **4** (HERO-01 Cosmos · HERO-02/03/04 Egypt) · Generated Motio
 | **Performance Anchors** (stills) | ██████████ | ✅ HERO-01→04 LOCKED |
 | **Performance Segment Direction** (Sam) | ██████████ | ✅ **PSD-001 delivered** (2026-06-28) → translated to per-engine motion WOs |
 | **Motion prompts / camera / pacing** (Claude) | ██████████ | ✅ Renderer packages + `12_Review_Queue/Seq01_PerfSeg001/` WOs (Veo + Grok) |
-| **Motion Generation** (Veo) | ██████████ | ✅ **Winner: `PS001-VEO_cam.mp4`** (Trailing Witness, 77/100) · frontal take rejected (53) + archived · Grok = consultant (no clip) |
-| **Gemini review of animated performance** | ██████████ | ✅ **GVR re-audit complete** — Witness take wins; mapping corrected via FFmpeg after a first-pass cross-talk |
-| **Director layout + EP lock** | ███░░░░░░░ | 🟡 Winner routed to **Sam** for layout integration (one-take vs. second angle); then **EP LOCK** → `14_Selected/` |
+| **Motion Generation** (Veo) | ████░░░░░░ | ⛔ Both takes **EP-REJECTED** + archived (emotion doesn't land; cam carries no faces). Pipeline worked; creative result didn't meet bar. |
+| **Gemini review of animated performance** | ██████████ | ✅ GVR re-audit ran (Witness > Frontal) — but **superseded by EP rejection** (final authority) |
+| **Re-engineer / next path** | ░░░░░░░░░░ | **EP's call:** (a) re-engineer (CCA reference-image conditioning + face-revealing camera + Director on emotion) or (b) stand up a motion MCP |
 
-> **🏆 WITNESS CAMERA STANDARD (Director ruling, 2026-06-29):** observational, trailing-from-behind "operator following the characters" is the studio's proven baseline. *"Keep the one honest take; do not improve it into dishonesty."*
+> **WITNESS CAMERA STANDARD — PROPOSED / under reconciliation** (establishing take EP-rejected; camera concept may survive as direction, not yet a proven standard).
 
 ## Film-wide pipeline
 ```

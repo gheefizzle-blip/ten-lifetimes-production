@@ -122,4 +122,17 @@ Gary = CCA-001, Jen = CCA-002 (no drift) · costumes Architect/Scholar (no drift
 - **`PS001-VEO.mp4` (v1, Fast tier)** — prior provenance (demonstrates why standard tier is used).
 - **Lifecycle:** Rendered 2026-06-29 ✅ · Gemini GVR re-audit 2026-06-29 ✅ RESOLVED · winner → Sam (layout) · EP LOCK: pending.
 
+## EP REVIEW (Gary Spear — final authority) — 2026-06-29 — ⛔ BOTH TAKES REJECTED
+EP reviewed both clips and **rejects both**, overriding the VFX/Director promote (EP holds final lock authority; no asset is locked without it).
+- **Reason 1 — emotion:** neither take conveys the intended emotion (routine → shift → recognition). The performance does not land.
+- **Reason 2 — identity:** `PS001-VEO_cam.mp4` (trailing-witness winner) **does not carry the proper faces** — consistent with its back-to-camera framing (Gary's face never seen) and the Supervisor's earlier flag that frontal identity could not be verified.
+
+**DISPOSITION — Performance Segment 001 returns to RE-ENGINEERING.** Both takes archived to `13_Production_History/Seq01_Egypt/` (kept as provenance, never deleted):
+- `PS001-VEO_std.mp4` → `Camera_Motion/` (frontal camera-mandate violation + Jen CCA-002 drift).
+- `PS001-VEO_cam.mp4` → `Character_Consistency/` (faces not carried; emotion not conveyed).
+
+**WITNESS CAMERA STANDARD — DOWNGRADED to PROPOSED / under reconciliation:** it was adopted from a take the EP has now rejected. The trailing-witness *camera concept* may survive as direction, but it is **not** canonized as a proven standard until an EP-accepted asset demonstrates it. To be reconciled by Director + EP.
+
+**PATH FORWARD (EP's open call — see Supervisor note to EP):** (a) **re-engineer the render** — exercise Veo **reference-image conditioning on the locked CCA face sheets** (the doctrine's not-yet-exercised lever; directly targets identity) + a camera that reveals faces for the recognition beat + Director (Sam) revisits the emotional / shot structure (emotion is the Director's lane); or (b) **stand up a proper motion MCP** (the Continuum Render Bridge as a first-class tool) before further iteration. **Awaiting EP direction.**
+
 > *Provenance rule:* this file is the canonical record of the Veo attempt — request preserved verbatim, result appended; never deleted. Mirrors the still workflow exactly.
