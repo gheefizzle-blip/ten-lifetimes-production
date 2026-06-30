@@ -3,6 +3,9 @@
 
 > **Standard established by the EP (Gary), 2026-06-30; formalized by the Production Supervisor; for Director (Sam) creative sign-off.** Evolves the existing **Canonical Character Asset (CCA)** + **Canonical Costume Asset** standards: a character + costume is specified the way a **video-game / animation character turnaround** is — *"a slowly spinning holographic image that captures every detail,"* so **every render of that character stays consistent.** This is the root-cause fix for the drift seen in Performance Segment 001 (face, costume back, pendant, accessories all drifted because references were partial).
 
+## MANDATORY STUDIO RULE (EP, 2026-06-30)
+**Every character — in this project and every future Continuum Studio production — is built as a full profile + character sheet + costume turnaround at the moment the character is introduced, BEFORE any scene/motion work.** No character is photographed into a scene until its turnaround exists and is locked. This is a permanent studio onboarding step (belongs with the Layer-1 Constitution): it is the single highest-leverage consistency investment — it prevents countless failed-render retries and delivers better character consistency across the board. Cost is a handful of reference stills up front; the payoff compounds over every shot of that character forever.
+
 ## Principle
 Partial references → the model invents the unspecified detail differently each render (verified: costume back, pendant, shoreline all drifted on PS001-R2). **A complete multi-angle reference removes the invention.** Every scene/motion render conditions on the turnaround; nothing is re-discovered per shot.
 
