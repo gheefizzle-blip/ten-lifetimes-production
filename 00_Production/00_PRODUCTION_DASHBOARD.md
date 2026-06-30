@@ -2,7 +2,7 @@
 
 > One-glance status. Maintained by the Production Supervisor. Updated 2026-06-29. Canonical detail: `00_PROJECT_STATE.md`.
 
-## ⛔ PERF SEGMENT 001 — EP REJECTED BOTH TAKES → RE-ENGINEERING (2026-06-29) · 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED
+## 🎬 PERF SEGMENT 001 — REBUILT as 3-CLIP EDIT (PSD-001-R2, 2026-06-29) · next = Performance Keyframes · 📜 RENDER-BRIDGE-DOCTRINE-001 ACCEPTED
 ## Phase: **PRODUCTION — Phase 2: Production Pipeline Validation** · Production version: **PT-1.0**
 > **Renderer roster (canon, `RENDER-BRIDGE-DOCTRINE-001`):** Primary Motion Renderer = **Google Veo 3.1** (production-qualified, run via the **Continuum Render Bridge**) · Sora retired · **Grok = Creative Motion Consultant (not a renderer)**. Phase 2 reframed from multi-renderer qualification → pipeline validation.
 
@@ -34,9 +34,9 @@ Locked Anchors: **4** (HERO-01 Cosmos · HERO-02/03/04 Egypt) · Generated Motio
 | **Motion prompts / camera / pacing** (Claude) | ██████████ | ✅ Renderer packages + `12_Review_Queue/Seq01_PerfSeg001/` WOs (Veo + Grok) |
 | **Motion Generation** (Veo) | ████░░░░░░ | ⛔ Both takes **EP-REJECTED** + archived (emotion doesn't land; cam carries no faces). Pipeline worked; creative result didn't meet bar. |
 | **Gemini review of animated performance** | ██████████ | ✅ GVR re-audit ran (Witness > Frontal) — but **superseded by EP rejection** (final authority) |
-| **Re-engineer / next path** | ░░░░░░░░░░ | **EP decision: HOLD — awaiting Sam's revised direction** (emotion = Director's lane). Then re-engineer w/ CCA reference-image conditioning (identity). MCP deferred. |
+| **PS001-R2 three-clip rebuild** | █░░░░░░░░░ | 🎬 `PSD-001-R2` received → work order built (3 × 4.2 s: OBSERVE/TRIGGER/RECOGNITION). **Next: generate Performance Keyframes** (CCA-conditioned, Nano Banana) for review **before** any Veo render. |
 
-> **WITNESS CAMERA STANDARD — PROPOSED / under reconciliation** (establishing take EP-rejected; camera concept may survive as direction, not yet a proven standard).
+> **WITNESS CAMERA — reclassified to "Opening Movement Candidate Lesson"** (Director directive; removed from accepted-standard status). **Lesson:** the Performance Segment is the story unit; the motion clip is the execution unit.
 
 ## Film-wide pipeline
 ```

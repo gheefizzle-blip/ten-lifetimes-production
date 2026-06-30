@@ -131,7 +131,7 @@ EP reviewed both clips and **rejects both**, overriding the VFX/Director promote
 - `PS001-VEO_std.mp4` → `Camera_Motion/` (frontal camera-mandate violation + Jen CCA-002 drift).
 - `PS001-VEO_cam.mp4` → `Character_Consistency/` (faces not carried; emotion not conveyed).
 
-**WITNESS CAMERA STANDARD — DOWNGRADED to PROPOSED / under reconciliation:** it was adopted from a take the EP has now rejected. The trailing-witness *camera concept* may survive as direction, but it is **not** canonized as a proven standard until an EP-accepted asset demonstrates it. To be reconciled by Director + EP.
+**WITNESS CAMERA — reclassified (Director directive 2026-06-29):** removed from accepted-standard status and recorded as **"Witness Camera — Opening Movement Candidate Lesson"** (it was drawn from an EP-rejected take). It informs the PS001-R2 Clip 1 trailing camera, but is not canon. Superseded approach: PS001 rebuilt as three 4.2 s clips — see `PS001-R2_ThreeClip_WorkOrder.md` + `PSD-001-R2`.
 
 **PATH FORWARD (EP's open call — see Supervisor note to EP):** (a) **re-engineer the render** — exercise Veo **reference-image conditioning on the locked CCA face sheets** (the doctrine's not-yet-exercised lever; directly targets identity) + a camera that reveals faces for the recognition beat + Director (Sam) revisits the emotional / shot structure (emotion is the Director's lane); or (b) **stand up a proper motion MCP** (the Continuum Render Bridge as a first-class tool) before further iteration. **Awaiting EP direction.**
 
