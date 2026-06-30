@@ -34,7 +34,7 @@ Locked Anchors: **4** (HERO-01 Cosmos · HERO-02/03/04 Egypt) · Generated Motio
 | **Motion prompts / camera / pacing** (Claude) | ██████████ | ✅ Renderer packages + `12_Review_Queue/Seq01_PerfSeg001/` WOs (Veo + Grok) |
 | **Motion Generation** (Veo) | ████░░░░░░ | ⛔ Both takes **EP-REJECTED** + archived (emotion doesn't land; cam carries no faces). Pipeline worked; creative result didn't meet bar. |
 | **Gemini review of animated performance** | ██████████ | ✅ GVR re-audit ran (Witness > Frontal) — but **superseded by EP rejection** (final authority) |
-| **Re-engineer / next path** | ░░░░░░░░░░ | **EP's call:** (a) re-engineer (CCA reference-image conditioning + face-revealing camera + Director on emotion) or (b) stand up a motion MCP |
+| **Re-engineer / next path** | ░░░░░░░░░░ | **EP decision: HOLD — awaiting Sam's revised direction** (emotion = Director's lane). Then re-engineer w/ CCA reference-image conditioning (identity). MCP deferred. |
 
 > **WITNESS CAMERA STANDARD — PROPOSED / under reconciliation** (establishing take EP-rejected; camera concept may survive as direction, not yet a proven standard).
 
