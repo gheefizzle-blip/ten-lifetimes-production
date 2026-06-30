@@ -24,5 +24,18 @@ Veo 3.1 standard, 16:9, 24 fps, first+last frame conditioning (or first-frame-on
 `Performance Keyframes (Nano Banana) → Director/EP review of keyframes → Veo render per clip → Gemini GVR per clip → EP → editorial assembly to 12.6 s → EP LOCK`.
 **Current step:** keyframes not yet generated. **Gate before any Veo render = keyframe approval** (identity is the prior failure; review the stills first).
 
-## Status (2026-06-29)
-Created from `PSD-001-R2`. Both R1 takes archived (`13_Production_History/Seq01_Egypt/`). **Next action: generate the Performance Keyframes (Nano Banana, CCA-conditioned), starting with Clip 1, for Director/EP review before any motion render.** Awaiting EP go to generate keyframes.
+## Performance Keyframes — GENERATED 2026-06-30 (pending Director/EP review)
+All five generated via Nano Banana (`nb2`, 16:9, multi-image conditioning on the **locked CCA v2 face sheets + approved costumes + HERO anchors**). In `12_Review_Queue/Seq01_PerfSeg001/Keyframes/` (raw URL base: `raw.githubusercontent.com/gheefizzle-blip/ten-lifetimes-production/main/12_Review_Queue/Seq01_PerfSeg001/Keyframes/`). NAS master: `04_Egypt/Motion/PerfSeg001/Keyframes/`.
+
+| Keyframe | Conditioning | Supervisor objective notes (reviewers decide) |
+|---|---|---|
+| `PK-PS001-C1a.png` | HERO-02 + Gary costume | Elevated wide; lone figure on the reed-lined path, river, birds, boatman, hazy desert hills. Isolation/scale reads. Rear/distant — no face. |
+| `PK-PS001-C1b.png` | HERO-02 + Gary costume | ~2 m behind Gary; back of head, pendant cord at nape, woven tool-belt, river ahead. Rear — no face. |
+| `PK-PS001-C2a.png` | **CCA-001 v2** + Gary costume + HERO-02 | Front/off-axis Gary, routine, looking off; pendant at chest. ⚠️ **beard reads fuller/darker & face rounder than CCA-001** (which has a lean face + grey goatee) — possible identity drift; flag for review. |
+| `PK-PS001-C2b.png` | **CCA-001 v2** + Gary costume + HERO-02 | Front Gary, eyes shifted forward, no smile. **Closer CCA-001 match** (grey-flecked beard, leaner). |
+| `PK-PS001-C3a.png` | **CCA-002 v2** + Jen costume v2 + HERO-03 | Over-Gary-shoulder; Jen entering, costume correct (braided wig, lapis/turquoise collar); eyes-first, no full smile. Face plausibly consistent w/ CCA-002 — verify at full res. |
+
+> **GATE:** review these stills (identity especially — it was the R1 failure) **before** any Veo render. If C2a's identity reads off, I re-gen it (cheap) before motion. C3 end target remains the locked HERO-03 (`TL-0070_v5`).
+
+## Status (2026-06-30)
+Created from `PSD-001-R2`; R1 takes archived. **Keyframes generated + committed for review.** **Awaiting Director/EP keyframe approval (or a C2a re-gen) before rendering the three Veo clips.** No Veo render attempted yet.
