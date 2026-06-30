@@ -13,7 +13,7 @@ Partial references → the model invents the unspecified detail differently each
 
 **B. Detail callouts (close, unambiguous, locked):**
 - Face — neutral + "recognition" expression (already have CCA v2 face sheets)
-- **Pendant** — exact silver-pendant design: shape, material, cord, length, how it sits (the recognition motif; must be identical every lifetime-appropriate appearance)
+- **Pendant — THE SILVER SNAIL (canon, EP 2026-06-30).** Gary's pendant is a **silver snail**, worn in **every lifetime/era** — a fixed motif and a story key. *Meaning (provenance):* Jen calls Gary her "Snail" (after SpongeBob's pet snail, named Gary); the film shows only the snail pendant — no external IP on screen. The **form (silver snail) is constant across eras**; craftsmanship adapts per era (e.g. Egypt = hand-cast silver amulet; Modern = fine silver necklace). Lock one canonical design; it is the recognition motif ("pendant catches light first"). **⚠️ Retrofit needed:** locked Egypt heroes (HERO-03 v5, HERO-04) currently show a generic pendant → require a surgical pendant→snail edit for cross-timeline consistency. **Must propagate to Bible §0c Recognition Rules + Character Bible.**
 - Costume **neckline** (front + back), sleeve, hem
 - Sash / belt + tools (Architect: drafting tube, measuring cord, stylus) / accessories
 - Hair (or wig, for Jen) — front + back
