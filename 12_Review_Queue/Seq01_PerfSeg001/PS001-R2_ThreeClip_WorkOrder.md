@@ -53,5 +53,7 @@ EP flagged three continuity drifts across the keyframes — **all one root cause
 
 > Status: paused keyframe re-derivation pending these anchors + EP/Director alignment. `Gary_Costume_Egypt_BACK_ref.png` preserved; C3a back-fix candidate (`edit` mode) retained on NAS/local as provenance of the tooling finding.
 
-## Status (2026-06-30)
-Created from `PSD-001-R2`; R1 takes archived. **Keyframes generated + committed for review.** **Awaiting Director/EP keyframe approval (or a C2a re-gen) before rendering the three Veo clips.** No Veo render attempted yet.
+## Status (2026-06-30) — KEYFRAMES RE-DERIVED FROM TURNAROUNDS ✅
+All 5 keyframes regenerated conditioned on the locked **character turnarounds** (Gary w/ snail, slimmer Jen) + **HERO-02 as the shared environment anchor**. Result: consistent identity, costume, plain pleated back, **silver snail** (C2b shows the dawn ray catching the snail — the motif beat), **slimmer Jen** (C3a), and **one consistent sandy reed shoreline across all three clips** (the earlier drift — costume back, pendant, muddy shoreline — is resolved). Turnaround-as-conditioning-source validated end to end.
+- C1a elevated isolation · C1b 2 m trailing · C2a front routine · C2b pendant-catches-light + eyes shift (no smile) · C3a Jen enters over-Gary-shoulder (eyes-first, no smile).
+- **NEXT: Veo render the three 4.2 s clips** (C1: C1a→C1b · C2: C2a→C2b · C3: C3a→HERO-03) via the Continuum Render Bridge → Gemini GVR per clip → editorial assembly to 12.6 s → EP lock. **Awaiting EP go to render.**
