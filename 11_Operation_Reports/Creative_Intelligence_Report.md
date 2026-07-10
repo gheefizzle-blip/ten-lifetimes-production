@@ -2,7 +2,7 @@
 
 > **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier across all GitHub stage folders: `12_Review_Queue/`, `12_Dailies/`, `13_Production_History/`, `14_Selected/`, `15_Final/`.
 
-- Generated: 2026-07-03 (instance #3 — motion corpus added; PS001 three-clip rebuild complete)
+- Generated: 2026-07-10 (instance #4 — weekly regen; corpus unchanged from #3; 7 open items carried forward)
 - Corpus: **22 Dossiers** (17 stills + 5 motion), 1 sequence (Sequence One), 2 chapters (Cosmos, Egypt), 1 performance segment (PS001). Sample is growing — read trends as directional, not statistical.
 - Coverage: 4 Selected/LOCKED stills · 3 Dailies stills (GVR pending) · 5 motion dossiers (3 clips cleared/locked for assembly) · 10 Production_History stills (8 archived, 2 superseded).
 
@@ -12,15 +12,15 @@
 
 | Stage | Stills | Motion | Notes |
 |---|---|---|---|
-| **Review Queue** (`12_Review_Queue`) | 0 | 5 | C1 (92/100, cleared for assembly) · C2 (100/100, locked) · C3 (89/100, accepted) · PS001-VEO (EP-rejected, clips archived) · PS001-GROK (qualification closed) |
-| **Dailies** (`12_Dailies`) | 3 | 0 | Gary_hero_v1 · Jen_hero_v2 · Recognition_v3 — Selected per dossier; GVR-001/002/003 pending |
-| **Production History** (`13_Production_History`) | 10 | 0* | 8 archived, 2 superseded |
+| **Review Queue** (`12_Review_Queue`) | 0 | 5 | C1 (92/100, cleared for assembly) · C2 (100/100, locked) · C3 (89/100, accepted) · PS001-VEO (EP-rejected, clips archived within dossier) · PS001-GROK (qualification closed — no video output path) |
+| **Dailies** (`12_Dailies`) | 3 | 0 | Gary_hero_v1 · Jen_hero_v2 · Recognition_v3 — marked Selected in dossiers; GVR-001/002/003 pending |
+| **Production History** (`13_Production_History`) | 10 | 0* | 8 archived (continuity failures), 2 superseded (authorized single-image pickups) |
 | **Selected / LOCKED** (`14_Selected`) | 4 | 0 | HERO-01 v2 · HERO-02 v3 · HERO-03 v5 · HERO-04 v2 |
 | **Final** (`15_Final`) | 0 | 0 | None yet |
 
-*PS001-VEO's two archived clips are recorded within that dossier, not as separate Production_History files.
+*PS001-VEO's two archived clips are recorded within that single dossier, not as separate Production_History files.
 
-Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK. C2 and C3 are locked; C1 is cleared for assembly pending the EP formal gate on the assembled segment.
+Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK. C2 and C3 are locked; C1 is cleared for assembly with a 4.2 s front-window editorial trim. No new dossiers since instance #3 (2026-07-03).
 
 ---
 
@@ -43,12 +43,12 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 
 | Change | From → To | Effect |
 |---|---|---|
-| Veo model: Fast tier → Standard tier (`veo-3.1-fast` → `veo-3.1-generate-preview`) | PS001-VEO v1 → v2 | Identity drift (age/hair jump on Gary) resolved; standard tier is now the production baseline |
+| Veo model: Fast tier → Standard tier (`veo-3.1-fast` → `veo-3.1-generate-preview`) | PS001-VEO v1 → v2 | Identity drift (age/hair jump on Gary) resolved; Standard tier is the production motion baseline |
 | First-frame-only conditioning (drop last frame); explicit trailing-witness camera; frontal/facing added to negatives | PS001-VEO v2 → v3 | Camera deviation resolved (trailing-from-behind achieved); face not visible — camera/face tension documented for editorial |
 | Rebuilt as three 4.2 s clips (Observe/Trigger/Recognition); new keyframes conditioned on locked CCA turnarounds + HERO-02 as shared environment anchor | PS001-VEO EP rejection → PS001R2 three-clip rebuild | Identity carried end-to-end; one storytelling job per clip; pendant/shoreline/costume consistent across all three |
-| First-frame-only + free trailing camera (dropped far end-keyframe for C1); ghost/dissolve/duplicate added to negatives | PS001R2-C1 initial ghost (55/100) → stabilization re-roll | Cross-dissolve ghost eliminated; 92/100 GVR; 4.2 s editorial trim handles faint residual |
-| Extended negatives: `snail/pendant/amulet/medallion on the woman`, `duplicate pendant`; positive clause "ONLY THE MAN wears the snail" | PS001R2-C3 pendant-migration → fix | Snail migration onto Jen eliminated end-to-end |
-| Static OTS anchor (first-frame-only, static camera, OTS keyframe built from turnarounds) replacing camera arc with two far-apart keyframes | PS001R2-C3 arc re-renders (42/100) → stabilization re-roll | Cross-dissolve ghosting eliminated; identity rock-solid (GVR Identity 25/25); EP accepted at 89/100 |
+| First-frame-only + free trailing camera for C1 (dropped far end-keyframe); ghost/dissolve/duplicate added to negatives | PS001R2-C1 initial ghost (55/100) → stabilization re-roll (92/100) | Cross-dissolve ghost eliminated; 4.2 s editorial trim handles faint residual |
+| Extended negatives: `snail/pendant/amulet/medallion/spiral/silver pendant on the woman`, `duplicate pendant`; positive clause "ONLY THE MAN wears the silver snail pendant" | PS001R2-C3 pendant-migration → pendant-migration fix | Snail migration onto Jen eliminated end-to-end |
+| Static OTS anchor (first-frame-only, static camera, OTS keyframe built from turnarounds) replacing camera arc with two far-apart keyframes | PS001R2-C3 arc re-renders (42/100) → stabilization re-roll (89/100) | Cross-dissolve ghosting eliminated; identity rock-solid (GVR Identity 25/25); EP accepted |
 
 ---
 
@@ -58,15 +58,15 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 
 | Category | Count | Severity | Preventable? | Root Cause summary | CD-### |
 |---|---|---|---|---|---|
-| **Composition / Staging** | 3 | Major / Moderate | PARTIALLY | (a) Gaze geometry unstated → side-by-side staging (Recognition v1); (b) subject scale under-specified → two iterations to achieve "world larger than man" (Long Road v1/v2); (c) two far-apart Veo keyframes on a camera arc → cross-dissolve ghost (C3 arc version, 42/100) | n/a — corrective rules in Prompt Package |
-| **Character_Consistency** | 3 | Major | YES | (a/b) Selfie-era face drift (HERO-03 v1/v3 — selfies vs CCAs); (c) Veo Fast tier → identity drift across clip (PS001-VEO v1, age/hair jump) | Sheet-Based Conditioning; CD-001 applied |
+| **Composition / Staging** | 3 | Major / Moderate | PARTIALLY | (a) Gaze geometry unstated → side-by-side staging (Recognition_v1); (b) subject scale under-specified → two iterations to achieve "world larger than man" (Long Road v1/v2); (c) two far-apart Veo keyframes on a camera arc → cross-dissolve ghost (C3 arc version, 42/100) | n/a — corrective rules in Prompt Package |
+| **Character_Consistency** | 3 | Major | YES | (a) Selfie-era face drift (HERO-03 v1 — selfies instead of CCAs); (b) CCA-only, pre-costume/asymmetry intermediate superseded by full CCA×Costume regen (HERO-03 v3); (c) Veo Fast tier → identity drift across clip (PS001-VEO v1, age/hair jump) | Sheet-Based Conditioning; Standard Veo tier |
 | **Historical_Continuity** | 1 | Moderate | YES | Modern eyeglasses carried from reference photos into ancient-Egypt frame; negative prompt did not suppress eyewear | **CD-001** |
 | **Environment** | 1 | Major | YES | Under-constrained environment + "temple scholar" role phrasing → model defaulted to Karnak-scale monumental setting | n/a — environment positive+negative rule |
 | **Rendering_Artifact** | 1 | Minor | YES | "First frame of a film" phrasing without border suppression → rounded-corner border/matte inset instead of full-bleed | n/a — standing border/matte negatives |
 | **Camera_Motion** | 1 | Critical | YES | Frontal first+last frame conditioning → Veo rendered frontal two-shot instead of directed trailing witness; GVR rated camera 5/15 CRITICAL FAIL | First-frame-only for moving cameras; RENDER-BRIDGE-DOCTRINE-001 |
-| **Prop Continuity** | 1 | Major | YES | Pendant negative applied to *the man*'s prompt only; Veo migrated the silver snail onto Jen's collar mid-clip | Extended prop negatives to ALL characters who should not carry the prop |
+| **Prop Continuity** | 1 | Major | YES | Pendant negative applied only to Gary's prompt; Veo migrated the silver snail onto Jen's collar mid-clip | Extend prop negatives to ALL characters who should NOT carry that prop |
 
-> Two stills in `13_Production_History/Superseded/` (HERO-03 v4, HERO-04 v1) were superseded by authorized single-image pickups/edits — not continuity failures but intentional incremental refinements; not counted in the table above.
+> Two stills in `13_Production_History/Superseded/` (HERO-03 v4, HERO-04 v1) were superseded by authorized single-image pickups/edits — intentional incremental refinements, not continuity failures; not counted in the table above.
 
 ---
 
@@ -78,13 +78,13 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 |---|---|---|---|---|
 | **PS001R2-C2 `TRIGGER`** | PS001 Clip 2 | Ordinary world breaks by one tiny detail | **100/100** | Emotional 30/30 · Identity 25/25 · Camera 15/15 · Motion 15/15 · Fidelity 10/10 · Technical 5/5. "The execution of the pendant glint, the most difficult element, was flawless." |
 | **TL-0080_Egypt_FirstSmile_v2 (HERO-04)** | TL-0080 | First emotional release — HOPE, very quiet | **95%** | GVR-007: Identity 99% / Staging 96% / Emotional Potential 98%. "Resists over-polish." Locked as Performance Anchor (PRO-017). |
-| **PS001R2-C1 `OBSERVE`** | PS001 Clip 1 | Isolation & scale — history following him | **92/100** | Emotional 30/30 · Identity 24/25 · Camera 15/15 · Motion 8/15 (faint residual cleared by 4.2 s editorial trim) |
-| **PS001R2-C3 `RECOGNITION`** | PS001 Clip 3 | Mutual but asymmetrical recognition | **89/100** | Emotional 25/30 · Identity 25/25. EP accepted; "slimmer Jen" deferred as separate workstream |
-| **TL-0010_Egypt_TheLongRoad_v3 (HERO-02)** | TL-0010 | Witness persistence; audience walks beside him | Verbal approval (GVR-005) | "Emotional truth aligns with CRE-003; scale shift = accompanying, not observing." No numeric score logged. |
+| **PS001R2-C1 `OBSERVE`** | PS001 Clip 1 | Isolation & scale — history following him | **92/100** | Emotional 30/30 · Identity 24/25 · Camera 15/15 · Motion 8/15 (faint residual cleared by 4.2 s editorial trim). Cleared for PS001 assembly. |
+| **PS001R2-C3 `RECOGNITION`** | PS001 Clip 3 | Mutual but asymmetrical recognition | **89/100** | Emotional 25/30 · Identity 25/25. EP accepted (gate >85 AND identity rock-solid). "Slimmer Jen" deferred as separate turnaround workstream. |
+| **TL-0010_Egypt_TheLongRoad_v3 (HERO-02)** | TL-0010 | Witness persistence; audience walks beside him | Verbal (GVR-005) | "Emotional truth aligns with CRE-003; scale shift = accompanying, not observing." No numeric score logged. |
 | **TL-0001_Cosmos_BeforeTime_v2 (HERO-01)** | TL-0001 | Enter silence; lower the heartbeat | No GVR on record | EP advanced the lock without a logged Gemini GVR (flagged in dossier). Q2 approved by EP/Director. |
 | **TL-0070_Egypt_FirstRecognition_v5 (HERO-03)** | TL-0070 | Recognition before memory | No GVR on record | Director approved + EP locked; Gemini was redirected from creative GVR to the Resolution Bridge engineering task. |
 
-> HERO-01 GVR gap and HERO-03 creative-GVR gap are open items. Dailies stills (GVR-001/002/003 pending) will populate this table further when scored.
+> HERO-01 GVR gap and HERO-03 creative-GVR gap are open items. Dailies stills (GVR-001/002/003 pending) will populate this table when scored.
 
 ---
 
@@ -100,8 +100,8 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 | Selfie photos used as identity refs instead of CCA sheets | Face drift across generations; modern accessories invaded historical frames | TL-0070 v1/v2, PS001-VEO v1/v2 | Sheet-Based Conditioning (CCA sheets only); never selfies or prior scene images (one-direction identity rule) |
 | Veo Fast tier for identity-critical motion | Identity drift (age/hair jump) across the clip | PS001-VEO v1 | Veo Standard (`veo-3.1-generate-preview`) is the production motion baseline; never Fast for identity-sensitive clips |
 | First+last keyframe conditioning with two far-apart frames (large camera move or angle change) | Veo cross-dissolves the gap → translucent ghost/duplicate figures mid-clip | PS001R2-C1 initial (55/100), PS001R2-C3 arc version (42/100) | First-frame-only conditioning whenever camera moves substantially; let Veo generate motion freely, guided by prompt |
-| Pendant negative applied only to the character who should *have* it — not to the character who should *not* | Veo migrated the silver snail from Gary to Jen's collar mid-clip (appear/vanish read) | PS001R2-C3 (pendant-migration version) | Extend prop/motif negatives explicitly to ALL characters who should NOT carry that prop |
-| Camera arc with two far-apart keyframes (rear OTS → side two-shot) for a performance clip | Severe ghosting, costume-change read, prop teleport; GVR 42/100 | PS001R2-C3 (arc re-renders) | Static anchor when performance happens within the frame; arc requires first-frame-only + free motion |
+| Pendant negative applied only to the character who should *have* it — not to characters who should *not* | Veo migrated the silver snail from Gary onto Jen's collar mid-clip (appear/vanish read) | PS001R2-C3 pendant-migration version | Extend prop/motif negatives explicitly to ALL characters who should NOT carry that prop |
+| Camera arc with two far-apart keyframes (rear OTS → side two-shot) for a performance clip | Severe ghosting, costume-change read, prop teleport; GVR 42/100 | PS001R2-C3 arc re-renders | Static anchor when performance happens within the frame; arc requires first-frame-only + free motion |
 
 ---
 
@@ -115,7 +115,7 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 | **Environment positive + negative** for historical chapters (describe the world AND suppress spectacle explicitly) | **Active** | TL-Seq1_Egypt_Jen_hero_v1 lesson | Every historical chapter |
 | **Sheet-Based Conditioning** — CCA sheets only; one-direction identity flow (`CCA → Scene → Scene`, never `Scene → Identity` or selfies) | **Active** | Director order 2026-06-27; first applied TL-0070 v3 | ALL scene generation |
 | **Veo Standard tier** (`veo-3.1-generate-preview`) as production motion baseline | **Active** | PS001-VEO v1/v2 controlled comparison | All Veo motion renders |
-| **First-frame-only conditioning** for clips with significant camera movement | **Active** | PS001R2-C1 stabilization re-roll + PS001R2-C3 static OTS | Any Veo clip where start/end keyframes are far apart in angle or distance |
+| **First-frame-only conditioning** for clips with significant camera movement | **Active** | PS001R2-C1 stabilization re-roll; PS001R2-C3 static OTS | Any Veo clip where start/end keyframes are far apart in angle or distance |
 | **Extend prop negatives to all non-carrying characters** (forbid the prop on everyone who should not have it) | **Active** | PS001R2-C3 pendant-migration fix | Any clip with a character-specific motif or prop |
 | **Performance Anchor standard (PRO-017)** — hero stills are judged on whether animation can naturally arrive at the destination, not on being the climax | Studio Standard = **Accepted** | TL-0080_Egypt_FirstSmile_v2 (GVR-007 95%; EP locked 2026-06-27) | All future hero stills |
 | **Witness Camera — Opening Movement Candidate Lesson** | Informational only (not canon) | PS001-VEO v3 / Director directive 2026-06-29 | Reclassified from "Accepted" after EP rejected the underlying take; informs PS001R2-C1 trailing camera but is NOT a standing studio standard |
@@ -127,7 +127,7 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 ## Knowledge Reused
 
 - **0 formal reuses recorded** — `Knowledge Reused In` is empty across all 22 Dossiers. Egypt and Cosmos are the first chapters produced; no forward application yet.
-- **Within-Seq01 applications** (evidence of knowledge propagating internally — will populate `Knowledge Reused In` as future chapters generate):
+- **Within-Seq01 applications** (evidence of knowledge propagating internally — will populate `Knowledge Reused In` as future chapters are generated):
 
 | Knowledge / Decision | Established in | Applied within Seq01 |
 |---|---|---|
@@ -147,7 +147,7 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 
 *Predictive, grounded only in observed dossier data — no invented creative opinions.*
 
-1. **Modern-accessory preservation in historical chapters.** Has manifested in stills (eyeglasses → CD-001) and recurred in motion (Jen CCA-002 drift in the Veo Standard frontal clip — "reading younger/fuller" documented in PS001-VEO re-audit). Source CCA photos contain modern styling. Eyewear negatives + bare-face refs must travel to every pre-WWII chapter without exception. Rome is the next high-risk chapter.
+1. **Modern-accessory preservation in historical chapters.** Has manifested in stills (eyeglasses → CD-001) and recurred in motion (Jen CCA-002 drift in PS001-VEO Standard frontal clip — "reading younger/fuller" documented in the GVR re-audit). Source CCA photos contain modern styling. Eyewear negatives + bare-face refs must travel to every pre-WWII chapter without exception. Rome is the next high-risk chapter.
 
 2. **Veo cross-dissolve ghosting on large camera moves (over-conditioning).** Re-manifested twice in PS001R2 despite the lesson being established after the first occurrence (C1 initial 55/100 → C3 arc 42/100). Root cause — two far-apart keyframes forcing a gap Veo cannot smoothly interpolate — recurs whenever a clip has a large camera move AND two conditioning frames. Every future motion clip with a significant angle or distance change is at risk until first-frame-only is the team's default reflex.
 
@@ -155,13 +155,13 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 
 4. **Border/matte artifacts on cinematic-frame prompts.** Triggered by "the very first frame of a film" phrasing on HERO-01. Risk recurs on any prompt evoking "cinematic frame," "first frame," or "film still." Standing border negatives are the fix; watch for this in Cosmos chapter and future sequence-opening frames.
 
-5. **HERO-03 (TL-0070 v5) out-of-current-canon as a Veo conditioning anchor.** v5 (the locked HERO-03) was rendered pre-turnaround-conditioning and carries the fuller Jen build, temple/village background, and non-snail pendant. PS001R2-C3 had to retire v5 and derive a **v6 candidate** — but v6 is **not yet formally approved to the locked registry**. Until EP/Director approve v6 and archive v5, any future motion clip conditioning on HERO-03 as a last frame will interpolate to the old canon. High-priority open item.
+5. **HERO-03 (TL-0070 v5) out-of-current-canon as a Veo conditioning anchor.** v5 (the locked HERO-03) was rendered pre-turnaround-conditioning and carries the fuller Jen build, temple/village background, and non-snail pendant. PS001R2-C3 had to retire v5 as its end frame and derive a v6 candidate (`Keyframes/TL-0070_v6_candidate.png`) — but v6 has **not yet received formal EP/Director approval to the locked registry**. Until v6 is approved and v5 archived, any future motion clip conditioning on HERO-03 as a last frame will interpolate to old canon (fuller Jen, temple, non-snail). High-priority open item.
 
-6. **Jen canonical build (slim vs fuller) unresolved.** PS001R2-C3 Stabilization Re-Roll GVR (89/100) noted Jen does not read as canonical slim build and spun off a **"re-slim the Jen turnaround" workstream**. Until the Jen turnaround is re-derived and the CCAs updated, every scene conditioned on current Jen sheets may carry an inconsistent build. Affects identity continuity across all Egypt clips and forward to future chapters.
+6. **Jen canonical build (slim vs fuller) unresolved.** PS001R2-C3 Stabilization Re-Roll GVR (89/100) noted Jen does not read as canonical slim build; the EP spun off a **"re-slim the Jen turnaround" workstream**. Until the Jen turnaround is re-derived and CCAs updated, every scene conditioned on current Jen sheets may carry an inconsistent body build. Affects identity continuity across all Egypt clips and forward to future chapters.
 
-7. **Pendant design not yet canonicalized.** The silver pendant shape has varied frame-to-frame (PS001-R2 continuity-anchor finding: "No canonical pendant reference exists — not on the costume sheet, none in `18_Motifs`"). The pendant is the film's key recurring motif; without a canonical reference plate, every new render may invent it differently. Pendant migration onto Jen (C3) was a downstream consequence of this gap. Unresolved as of corpus date.
+7. **Pendant design not yet canonicalized.** The silver pendant shape has varied frame-to-frame (PS001-R2 continuity-anchor finding: "No canonical pendant reference exists — not on the costume sheet, none in `18_Motifs`"). The pendant is the film's key recurring motif; without a canonical reference plate, every new render may invent a different shape. Pendant migration onto Jen (C3 family) was a downstream consequence of this gap. Unresolved as of corpus date.
 
-8. **"Observational accompaniment" framing will recur in future chapters.** HERO-02 required 3 iterations (v1→v2→v3) to achieve the small/incidental figure in a world-dominant landscape. The lesson is documented, but Rome, Viking, Medieval, and other chapters likely each have analogous isolation or walking beats. Merely specifying "wide + from behind" is insufficient — the iteration lesson (SMALL + OFF-CENTER; drop face refs; specify the environment as dominant) must be applied from the first render.
+8. **"Observational accompaniment" framing will recur in future chapters.** HERO-02 required 3 iterations (v1→v2→v3) to achieve the small/incidental figure in a world-dominant landscape. The lesson is documented, but Rome, Viking, Medieval, and other chapters will each have analogous isolation or walking beats. Merely specifying "wide + from behind" is insufficient — the iteration lesson (SMALL + OFF-CENTER; drop face refs; specify environment as dominant) must be applied from the first render of each chapter.
 
 ---
 
@@ -175,7 +175,7 @@ Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK
 
 - **"Do not play romance. Play relief. Do not play destiny. Play possibility. Hope should enter quietly enough that the audience discovers it inside themselves before they recognize it on screen."** (Director, HERO-04 / CRE-006.) The First Smile is the first crack in the armor, not the climax. Watch this distinction as the still transitions to the motion version.
 
-- **Pendant dominance.** Director glint guardrail (PS001R2-C2, verbatim): *"The pendant reflection is a brief natural glint, not a glow, beam, or supernatural effect. Do not intensify the light beyond the keyframe."* Supervisor observed C2's glint rendered "fairly pronounced" before GVR rated it subtle — the margin is narrow. Watch pendant intensity on every new render; the motif must stay subordinate to the characters.
+- **Pendant dominance.** Director glint guardrail (PS001R2-C2, verbatim): *"The pendant reflection is a brief natural glint, not a glow, beam, or supernatural effect. Do not intensify the light beyond the keyframe. Treat it as sunlight catching polished silver for a fraction of a second."* Supervisor observed C2's glint rendered "fairly pronounced" before Gemini GVR rated it subtle — the margin is narrow. Watch pendant intensity on every new render; the motif must stay subordinate to the characters.
 
 - **"If the audience notices the camera, the shot failed."** (Cinematic philosophy, PSD-001/PSD-001-R2.) Every motion clip should feel photographed, not generated. Camera attention — push-ins, orbit, overly smooth motion — is the primary motion quality risk.
 
