@@ -2,7 +2,7 @@
 
 > **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier across all GitHub stage folders: `12_Review_Queue/`, `12_Dailies/`, `13_Production_History/`, `14_Selected/`, `15_Final/`.
 
-- Generated: 2026-07-10 (instance #4 — weekly regen; corpus unchanged from #3; 7 open items carried forward)
+- Generated: 2026-07-17 (instance #5 — weekly regen; corpus unchanged from #4; 7 open items carried forward)
 - Corpus: **22 Dossiers** (17 stills + 5 motion), 1 sequence (Sequence One), 2 chapters (Cosmos, Egypt), 1 performance segment (PS001). Sample is growing — read trends as directional, not statistical.
 - Coverage: 4 Selected/LOCKED stills · 3 Dailies stills (GVR pending) · 5 motion dossiers (3 clips cleared/locked for assembly) · 10 Production_History stills (8 archived, 2 superseded).
 
@@ -20,7 +20,7 @@
 
 *PS001-VEO's two archived clips are recorded within that single dossier, not as separate Production_History files.
 
-Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK. C2 and C3 are locked; C1 is cleared for assembly with a 4.2 s front-window editorial trim. No new dossiers since instance #3 (2026-07-03).
+Full PS001 segment (12.6 s = C1+C2+C3) is pending editorial assembly → EP LOCK. C2 and C3 are locked; C1 is cleared for assembly with a 4.2 s front-window editorial trim. No new dossiers since instance #4 (2026-07-10).
 
 ---
 
