@@ -2,7 +2,7 @@
 
 > **Auto-generated analytics over the Creative Provenance Dossiers** (not a governance doc; does not trip the Director's Rule). Regenerate on cadence — target **weekly** — by re-reading every `*.md` Dossier across all GitHub stage folders: `12_Review_Queue/`, `12_Dailies/`, `13_Production_History/`, `14_Selected/`, `15_Final/`.
 
-- Generated: 2026-08-07 (instance #8 — weekly regen; corpus unchanged from #7; 7 open items carried forward)
+- Generated: 2026-08-14 (instance #9 — weekly regen; corpus unchanged from #8; 7 open items carried forward)
 - Corpus: **22 Dossiers** (17 stills + 5 motion), 1 sequence (Sequence One), 2 chapters (Cosmos, Egypt), 1 performance segment (PS001). Sample is growing — read trends as directional, not statistical.
 - Coverage: 4 Selected/LOCKED stills · 3 Dailies stills (GVR pending) · 5 motion dossiers (3 clips cleared/locked for assembly) · 10 Production_History stills (8 archived, 2 superseded).
 
